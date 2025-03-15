@@ -28,7 +28,7 @@ jobs:
       - run: export NODE_ENV=ghpages && npm run build
       - run: cd public && ln -s index.html 404.html # symlink for GH pages fallback
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@4.7.3
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
         with:
           BRANCH: gh-pages
           FOLDER: public
