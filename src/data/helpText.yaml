@@ -35,7 +35,7 @@ related_openacrs:
   url: ""
   type: ""
 disabled_chapters:
-  intro: "intro: "Wybierz rozdziały/tabele OpenACR, które chcesz wyłączyć. Można je ponownie włączyć w dowolnym momencie. Pola w tych rozdziałach/tabelach również zostaną wyłączone, z wyjątkiem przypisów. Tabela zostanie również usunięta z raportu i kodu HTML, ale dane będą nadal dostępne w formacie YAML."
+  intro: "Wybierz rozdziały/tabele OpenACR, które chcesz wyłączyć. Można je ponownie włączyć w dowolnym momencie. Pola w tych rozdziałach/tabelach również zostaną wyłączone, z wyjątkiem przypisów. Tabela zostanie również usunięta z raportu i kodu HTML, ale dane będą nadal dostępne w formacie YAML."
   success_criteria_level_a: ""
   success_criteria_level_aa: ""
   success_criteria_level_aaa: ""
