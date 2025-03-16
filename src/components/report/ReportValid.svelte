@@ -77,16 +77,16 @@
 {#if valid.result}
   <div class="usa-alert usa-alert--success">
     <div class="usa-alert__body">
-      <h4 class="usa-alert__heading">Valid Report</h4>
+      <h4 class="usa-alert__heading">Poprawny raport</h4>
       <p class="usa-alert__text">
-        Your report has passed validation
+        Twój raport przeszedł weryfikację
       </p>
     </div>
   </div>
 {:else}
   <div class="usa-alert usa-alert--error" role="alert">
     <div class="usa-alert__body">
-      <h4 class="usa-alert__heading">Error</h4>
+      <h4 class="usa-alert__heading">Błąd</h4>
       <p class="usa-alert__text">
         {@html valid.message}
       </p>

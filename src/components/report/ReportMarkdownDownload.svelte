@@ -17,54 +17,54 @@
   }
 
   mdTemplate = `# ${$evaluation.title}
-Based on ${catalog.title}
+Oparte na ${catalog.title}
 
-## Name of Product/Version
+## Nazwa produktu/Wersja
 ${$evaluation["product"]["name"]} ${$evaluation["product"]["version"]}
 
-## Report Date
+## Data raportu
 ${$evaluation.report_date}`;
 
   if ($evaluation["product"]["description"]) {
     mdTemplate += `
-## Product Description
+## Opis produktu
 ${$evaluation["product"]["description"]}`;
   }
 
   mdTemplate += `
-## Contact Information
-### Author Information
-- Name: ${$evaluation["author"]["name"]}
-- Company: ${$evaluation["author"]["company_name"]}
-- Address: ${$evaluation["author"]["address"]}
-- Email: ${$evaluation["author"]["email"]}
-- Phone: ${$evaluation["author"]["phone"]}
+## Informacje kontaktowe
+### Informacj eo autorze
+- Nazwa: ${$evaluation["author"]["name"]}
+- Firma: ${$evaluation["author"]["company_name"]}
+- Adres: ${$evaluation["author"]["address"]}
+- E-mail: ${$evaluation["author"]["email"]}
+- Telefon: ${$evaluation["author"]["phone"]}
 - Website: ${$evaluation["author"]["website"]}
 
 ### Vendor Information
-- Name: ${$evaluation["vendor"]["name"]}
-- Company: ${$evaluation["vendor"]["company_name"]}
-- Address: ${$evaluation["vendor"]["address"]}
-- Email: ${$evaluation["vendor"]["email"]}
-- Phone: ${$evaluation["vendor"]["phone"]}
-- Website: ${$evaluation["vendor"]["website"]}
+- Nazwa: ${$evaluation["vendor"]["name"]}
+- Firma: ${$evaluation["vendor"]["company_name"]}
+- Adres: ${$evaluation["vendor"]["address"]}
+- E-mail: ${$evaluation["vendor"]["email"]}
+- Telefon: ${$evaluation["vendor"]["phone"]}
+- Witryna: ${$evaluation["vendor"]["website"]}
   `;
 
   if ($evaluation["product"]["notes"]) {
     mdTemplate += `
-## Notes
+## Uwagi
 ${$evaluation["product"]["notes"]}`;
   }
 
   if ($evaluation["product"]["evaluation_methods_used"]) {
     mdTemplate += `
-## Evaluation Methods Used
+## Zastosowana metoda oceny
 ${$evaluation["product"]["evaluation_methods_used"]}`;
   }
 
   mdTemplate += `
 ## Applicable Standards/Guidelines
-This report covers the degree of conformance for the following accessibility standard/guidelines:
+Niniejszy raport obejmuje stopień zgodności z następującymi standardami/wytycznymi dostępności:
 
 | Standard/Guideline | Included In Report |
 | --- | --- |`;
@@ -76,8 +76,8 @@ This report covers the degree of conformance for the following accessibility sta
 
   mdTemplate += `
 
-## Terms
-The terms used in the Conformance Level information are defined as follows:
+## Terminy
+Terminy używane w informacjach o poziomie zgodności są zdefiniowane w następujący sposób:
   `;
 
   catalog.terms.forEach(term => {
@@ -87,19 +87,19 @@ The terms used in the Conformance Level information are defined as follows:
 
   if ($evaluation["legal_disclaimer"]) {
     mdTemplate += `
-## Legal Disclaimer (${$evaluation["vendor"]["company_name"]})
+## Zastrzeżenia prawne (${$evaluation["vendor"]["company_name"]})
 ${$evaluation["legal_disclaimer"]}`;
   }
 
   if ($evaluation["repository"]) {
     mdTemplate += `
-## Repository
+## Repositorium
 ${$evaluation["repository"]}`;
   }
 
   if ($evaluation["feedback"]) {
     mdTemplate += `
-## Feedback
+## Informacje zwrotne
 ${$evaluation["feedback"]}`;
   }
 
@@ -109,7 +109,7 @@ ${$evaluation["feedback"]}`;
 
 [OpenACR](https://github.com/GSA/openacr) is a format maintained by the [GSA](https://gsa.gov/). The content is the responsibility of the author.
 
-This content is licensed under a ${licenseOutput}.`;
+Treść jest licencjonowana na warunkach ${licenseOutput}.`;
 
   onMount(() => {
     mdDownload = `data:text/markdown;charset=utf-8,${encodeURIComponent(mdTemplate)}`;
@@ -118,6 +118,6 @@ This content is licensed under a ${licenseOutput}.`;
 
 {#if valid.result }
   <a href={mdDownload} download="{filename}.markdown" class="button">
-    Download Report (Markdown)
+    Pobierz raport (Markdown)
   </a>
 {/if}

@@ -11,16 +11,11 @@
 {#if chapterId}
   <p class="chapter-help-text">
     {#if chapterId === "about"}
-      Fill out general information about your product or service. Please provide
-      as much detail as possible. By describing your product, the webform will
-      update to show only the sections you need to fill out. If you need to
-      change this later, change your response product information questions.
+      Podaj ogólne informacje o swoim produkcie lub usłudze. Prosimy o podanie  jak najwięcej szczegółów. Opisując swój produkt, formularz internetowy zostanie zaktualizowany, aby wyświetlić tylko te sekcje, które należy wypełnić. Jeśli będziesz potrzebować zmienić później, zmień pytania dotyczące informacji o produkcie.
     {:else if chapterId === "success_criteria_level_a"}
-      Provide information about Level A issues with your website or web
-      application. Currently OpenACR only supports WCAG 2.0. The default is
-      web-based, and there are optional fields for <a
+      Przekazuj informacje o problemach na poziomie A związanych z Twoją witryną lub aplikacją internetową. Obecnie OpenACR obsługuje tylko WCAG 2.0. Domyślnie jest to strona internetowa i istnieją opcjonalne pola dla <a
         href="#1.1.1-electronic-docs-editor"
-        on:click={() => openFirstAccordion()}>Documentation</a
+        on:click={() => openFirstAccordion()}>Dokumentacja</a
       >,
       <a href="#1.1.1-software-editor" on:click={() => openFirstAccordion()}
         >Software</a
@@ -29,13 +24,11 @@
       <a
         href="#1.1.1-authoring-tool-editor"
         on:click={() => openFirstAccordion()}>Authoring</a
-      >. Fill out as appropriate.
+      >. Wypełnij odpowiednio.
     {:else if chapterId === "success_criteria_level_aa"}
-      Provide information about how your website or web application fails to
-      meet Level AA requirements. Currently OpenACR only supports WCAG 2.0. The
-      default is web-based, and there are optional fields for <a
+      Podaj informacje o tym, w jaki sposób Twoja witryna lub aplikacja internetowa nie spełnia wymagań poziomu AA. Obecnie OpenACR obsługuje tylko WCAG 2.0. Domyślnie Domyślnie jest to strona internetowa i istnieją opcjonalne pola dla <a
         href="#1.2.4-electronic-docs-editor"
-        on:click={() => openFirstAccordion()}>Documentation</a
+        on:click={() => openFirstAccordion()}>Dokumentacja</a
       >,
       <a href="#1.2.4-software-editor" on:click={() => openFirstAccordion()}
         >Software</a
@@ -46,33 +39,18 @@
         on:click={() => openFirstAccordion()}>Authoring</a
       >. Fill out as appropriate.
     {:else if chapterId === "success_criteria_level_aaa"}
-      This section is optional. Consider providing information about Level AAA
-      support in your website or web application. WCAG Level AAA reflect
-      accessibility features that exceed the minimum requirements of Section
-      508. It is useful to describe how your product or service exceeds Level AA
-      requirements. Additionally, some end-users and some projects may need
-      specific AAA requirements to be meet.
+      Ta sekcja jest opcjonalna. Rozważ podanie informacji o obsłudze poziomu AAA w swojej witrynie lub aplikacji internetowej. WCAG Poziom AAA odzwierciedla funkcje dostępności, które przekraczają minimalne wymagania sekcji 508. Przydatne jest opisanie, w jaki sposób twój produkt lub usługa przekracza wymagania poziomu AA. Ponadto niektórzy użytkownicy końcowi i niektóre projekty mogą wymagać spełnienia określonych wymagań AAA.
     {:else if chapterId === "functional_performance_criteria"}
-      Describe barriers here if they are not covered in other sections.
-      Highlight the impact on different types of disabilities. Optionally, this
-      section may be used to summarize accessibility features described in more
-      detail elsewhere.
+      Opisz tutaj bariery, jeśli nie zostały one uwzględnione w innych sekcjach. Podkreśl wpływ na różne rodzaje niepełnosprawności. Opcjonalnie, ta sekcja może być wykorzystana do podsumowania cech dostępności opisanych bardziej szczegółowo w innych miejscach.
     {:else if chapterId === "hardware"}
-      If the Information and Communications Technology (ICT) includes hardware,
-      please fill out this section.
+      Jeśli technologia informacyjno-komunikacyjna (ICT) obejmuje sprzęt, należy wypełnić tę sekcję.
     {:else if chapterId === "software"}
-      If your software product is a web application or is rendered through a web
-      browser, do not fill out this section. Fill out <a
+      Jeśli oprogramowanie jest aplikacją internetową lub jest renderowane przez przeglądarkę internetową, nie wypełniaj tej sekcji. Wypełnij <a
         href="success_criteria_level_a"
-        use:link>Tables 1, 2, and 3</a
-      >. Fill out this section if your software product is not web-based.
-      Desktop applications are a common example of software which is not
-      web-based. Software which uses internet communication but is not used via
-      a third-party web browser (e.g., Chrome, Edge, Safari), is not web-based
-      software.
+        use:link>Tabela 1, 2 i 3</a
+      >. Wypełnij tę sekcję, jeśli twoje oprogramowanie nie jest oparte na sieci. Aplikacje desktopowe są powszechnym przykładem oprogramowania, które nie jest oparte na sieci. Oprogramowanie, które wykorzystuje komunikację internetową, ale nie jest używane za pośrednictwem przeglądarki internetowej innej firmy (np. Chrome, Edge, Safari), nie jest oprogramowaniem internetowym.
     {:else if chapterId === "support_documentation_and_services"}
-      If the support documentation for your product is not web-based (e.g., MS
-      Word, OpenOffice or PDF files), fill out this section.
+      Jeśli dokumentacja wsparcia dla produktu nie jest oparta na sieci Web (np. pliki MS Word, OpenOffice lub PDF), wypełnij tę sekcję.
     {/if}
   </p>
 {/if}

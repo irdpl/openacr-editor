@@ -12,5 +12,5 @@
 </script>
 
 {#if licenseOutput}
-This content is licensed under a {@html licenseOutput}.
+Treść jest licencjonowana na warunkach {@html licenseOutput}.
 {/if}

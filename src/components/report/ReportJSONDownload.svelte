@@ -12,6 +12,6 @@
 
 {#if valid.result }
   <a href={jsonDownload} download="{filename}.json" class="button">
-    Download Report (JSON)
+    Pobierz raport (JSON)
   </a>
 {/if}

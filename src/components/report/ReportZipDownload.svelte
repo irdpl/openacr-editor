@@ -26,7 +26,7 @@
 
   onMount(() => {
     htmlDownload = createHTMLDownload(htmlDownloadTemplate, title, "en");
-    zip.file('README.txt', 'If you need to gather feedback from other people in your organization, please send the zipped file (HTML and YAML) to your collaborators. Collaborators can view the report by opening the HTML file with any web browser. If they would like to make changes to the report, they should go to OpenACR Editor and upload the YAML file to make edits to the content of the report. Do not edit the HTML file directly, it is just for viewing the report.\n\nIf your report is final and you\'re ready to submit the report to an agency in response to a Request for Proposal (RFP), please attach the YAML file to your proposal.');
+    zip.file('README.txt', 'Jeśli chcesz zebrać opinie od innych osób w swojej organizacji, wyślij spakowany plik (HTML i YAML) do swoich współpracowników. Współpracownicy mogą wyświetlić raport, otwierając plik HTML w dowolnej przeglądarce internetowej. Jeśli chcą wprowadzić zmiany w raporcie, powinni przejść do OpenACR Editor i przesłać plik YAML, aby wprowadzić zmiany w treści raportu. Nie edytuj bezpośrednio pliku HTML, służy on tylko do przeglądania raportu.\n\nJeśli raport jest gotowy do przesłania do agencji w odpowiedzi na zapytanie ofertowe (RFP), dołącz plik YAML do swojej oferty.');
     zip.file(`${filename}.html`, htmlDownload);
     zip.file(`${filename}.yaml`, yaml.dump(sanitizedEvaluation));
     zip.generateAsync({type:"base64"}).then(function (base64) {
@@ -37,7 +37,7 @@
 
 {#if valid.result }
   <a id="download-zip" href={zipDownload} download="{filename}.zip" class="button" style="text-align: center;">
-    Download Report<br/>(YAML & HTML) .zip
+    Pobierz raport<br/>(YAML & HTML) .zip
   </a>
 {/if}
 
@@ -140,7 +140,7 @@
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="grid-col">
-            <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(opens in a new window or tab)</span></a> is a format maintained by the <a href="https://gsa.gov/" target="_blank">GSA <span class="visuallyhidden">(opens in a new window or tab)</span></a>. The content is the responsibility of the author.
+            <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a> jest formatem utrzymywanym przez <a href="https://gsa.gov/" target="_blank">GSA <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a>. Odpowiedzialność za treść ponosi autor.
           </div>
           <div class="grid-col">
             <ReportLicense />

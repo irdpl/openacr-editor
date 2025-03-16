@@ -33,7 +33,7 @@
 </script>
 
 <svelte:head>
-  <title>{currentChapter.label} | OpenACR Editor | GSA</title>
+  <title>{currentChapter.label} | Edytor OpenACR | GSA</title>
 </svelte:head>
 
 <div class={className}>
@@ -48,7 +48,7 @@
   <ChapterHelpText chapterId={currentChapter.id} />
 
   <div class="field">
-    <label for="evaluation-chapter-notes">Notes</label>
+    <label for="evaluation-chapter-notes">Uwagi</label>
     <textarea
       bind:value={$evaluation['chapters'][chapterId]['notes']}
       id="evaluation-chapter-notes"
@@ -67,7 +67,7 @@
         id="evaluation-disabled-chapter-{chapterId}"
         on:change={() => evaluation.updateCache($evaluation)} />
 
-      Disabled?
+      Wyłączone?
     </label>
     <HelpText type="disabled_chapters" field="{chapterId}" />
   </div>
@@ -80,7 +80,7 @@
 
   <Pager label="Previous/Next Chapter">
     {#if chapterId === "success_criteria_level_a"}
-      <PagerLink to={'/about'} direction="previous">About</PagerLink>
+      <PagerLink to={'/about'} direction="previous">O nas</PagerLink>
     {/if}
     {#if currentChapterKey > 0}
       <PagerLink to={`/chapter/${chapters[currentChapterKey - 1].id}`} direction="previous">
@@ -93,7 +93,7 @@
       </PagerLink>
     {/if}
     {#if currentChapterKey + 1 === chapters.length}
-      <PagerLink to={'/report'} direction="next">View report</PagerLink>
+      <PagerLink to={'/report'} direction="next">Pokaż raport</PagerLink>
     {/if}
   </Pager>
 </div>

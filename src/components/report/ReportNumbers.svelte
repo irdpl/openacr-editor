@@ -9,9 +9,9 @@
 </script>
 
 <p class={className}>
-  Reported on
+  Raportowano w dniu
   <strong>{items.length}</strong>
-  of
+  z
   <strong>{totalCriteria.length}</strong>
-  Total Criteria.
+  kryteriów ogółem.
 </p>

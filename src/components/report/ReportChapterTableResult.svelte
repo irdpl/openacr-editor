@@ -40,7 +40,7 @@
 <tr class="result-row" id="{catalogCriteria.alt_id}{extraId}">
   <td>
     <a href="{standard.url}#{catalogCriteria.alt_id}" target="_blank">
-      {criteria.num} {catalogCriteria.handle} <span class="visuallyhidden">(opens in a new window or tab)</span>
+      {criteria.num} {catalogCriteria.handle} <span class="visuallyhidden">(otwiera nowe okno lub kartę)</span>
     </a>
   </td>
   <td>

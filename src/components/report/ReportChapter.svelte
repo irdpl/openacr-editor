@@ -40,16 +40,16 @@
 <HeaderWithAnchor id={chapterId} level=3 {download}>{chapter.label}</HeaderWithAnchor>
 
 {#if $evaluation['chapters'][chapterId]['notes']}
-  Notes: {@html sanitizeMarkdown($evaluation['chapters'][chapterId]['notes'])}
+  Uwagi: {@html sanitizeMarkdown($evaluation['chapters'][chapterId]['notes'])}
 {/if}
 
 {#if $evaluation['chapters'][chapterId]['criteria'] && !$evaluation['chapters'][chapterId]['disabled'] }
   <table>
     <thead>
     <tr>
-      <th>Criteria</th>
-      <th>Conformance Level</th>
-      <th>Remarks and Explanations</th>
+      <th>Kryteria</th>
+      <th>Poziom zgodności</th>
+      <th>Uwagi i wyjaśnienia</th>
     </tr>
     </thead>
     <tbody>

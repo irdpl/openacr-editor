@@ -28,7 +28,7 @@
 
 {#if valid.result }
   <a href={htmlDownload} download="{filename}.html" class="button">
-    Download Report (HTML)
+    Pobierz raport (HTML)
   </a>
 {/if}
 
