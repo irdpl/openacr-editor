@@ -30,11 +30,6 @@ jobs:
              cd ${{ github.workspace }}
              export NODE_ENV=ghpages && npm run build
              cd public && ln -s index.html 404.html # symlink for GH pages fallback
-
-      - uses: actions/upload-artifact@v4
-        with:
-            name: my-artifact
-            path: ./node_modules/@openacr/openacr/catalog/2.4-edition-wcag-2.0-508-en.yaml
       
       - name: Upload production-ready assets
         uses: actions/upload-pages-artifact@v3
