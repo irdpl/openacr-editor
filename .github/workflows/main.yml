@@ -21,8 +21,7 @@ jobs:
       - name: Prepare site
         run: |
              npm install
-             cp -rfv ./.github/data/ ./node_modules/@openacr/openacr/catalog/
-             cat ./node_modules/@openacr/openacr/catalog/data/wcag-2.0.yaml
+             cp -r ./.github/data/ ./node_modules/@openacr/openacr/catalog/
              npm install --save-dev @types/yargs @types/js-yaml
              cd ./node_modules/@openacr/openacr/
              npx ts-node ./src/librarian.ts -c WCAG21508
