@@ -22,7 +22,6 @@ jobs:
         run: |
              npm install
              cp -r ./.github/data/ ./node_modules/@openacr/openacr/catalog/
-             npm install --save-dev @types/yargs @types/js-yaml
              cd ./node_modules/@openacr/openacr/
              npx ts-node ./src/librarian.ts -c WCAG
              npx ts-node ./src/librarian.ts -c WCAG21508
