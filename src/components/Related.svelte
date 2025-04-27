@@ -71,10 +71,10 @@
           <line x1="10" y1="11" x2="10" y2="17" stroke="#ffffff"/>
           <line x1="14" y1="11" x2="14" y2="17" stroke="#ffffff" />
       </svg>
-      <span class="visuallyhidden">Delete Related OpenACR</span>
+      <span class="visuallyhidden">Usuń powiązane OpenACR</span>
     </button>
     <fieldset>
-      <legend>Related OpenACR {count}</legend>
+      <legend>Powiązane OpenACR {count}</legend>
       <div class="related-input">
         <div class="field">
           <label for="evaluation-related-openacrs-{count}-url">URL</label>
@@ -86,7 +86,7 @@
           <HelpText type="related_openacrs" field="url" />
         </div>
         <div class="field">
-          <label for="evaluation-related-openacrs-{count}-type">Type</label>
+          <label for="evaluation-related-openacrs-{count}-type">Typ</label>
           <select
             id="evaluation-related-openacrs-{count}-type"
             name="evaluation-related-openacrs-{count}-type"
@@ -94,8 +94,8 @@
             on:blur={() => {
               evaluation.updateCache($evaluation);
             }}>
-              <option name="option-evaluation-related-openacrs-type-primary" value="primary">Primary</option>
-              <option name="option-evaluation-related-openacrs-type-secondary" value="secondary">Secondary</option>
+              <option name="option-evaluation-related-openacrs-type-primary" value="primary">Podstawowy</option>
+              <option name="option-evaluation-related-openacrs-type-secondary" value="secondary">Wtórny</option>
           </select>
           <HelpText type="related_openacrs" field="type" />
         </div>

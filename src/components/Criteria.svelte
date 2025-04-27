@@ -35,11 +35,11 @@
     {#if !disabled}
       <span class="observation__meta">
         <Link to={`/report#${alt_id}-editor`}>
-          View in Report
+          Pokaż w raporcie
         </Link>
       </span>
     {/if}
-    <LinkToGuidance href={linkToImplementing}>Implementing {id}: {handle}</LinkToGuidance>
+    <LinkToGuidance href={linkToImplementing}>Implementacja {id}: {handle}</LinkToGuidance>
     {#if components}
       {#each components as c}
         <Component chapterId={chapterId} criteria={id} component={c} />

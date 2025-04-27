@@ -1,85 +1,103 @@
-# OpenACR Editor
+# Edytor OpenACR
 
-With this tool, people can generate Accessibility Conformance Report in the [OpenACR](https://github.com/GSA/openacr) format.
+Za pomocą tego narzędzia można wygenerować raport zgodności z wymogami dostępności w formacie [OpenACR](https://github.com/GSA/openacr).
 
-## W3C Web Accessibility Initiative (WAI) Reporting Tools
+## Narzędzia raportowania inicjatywy dostępności sieci Web (WAI) W3C
 
 This software includes builds on the work from the WAI's [ATAG Report Tool (ART)](https://github.com/w3c/wai-atag-report-tool) and [WCAG-EM Report Tool](https://github.com/w3c/wai-wcag-em-report-tool/). Copyright © 2021 W3C® (MIT, ERCIM, Keio, Beihang).
 
-[W3C Software notice and license](https://www.w3.org/Consortium/Legal/copyright-software).
 
-## Development
+Oprogramowanie to obejmuje kompilacje opracowane na podstawie narzędzi [ATAG Report Tool (ART)](https://github.com/w3c/wai-atag-report-tool) i [WCAG-EM Report Tool](https://github.com/w3c/wai-wcag-em-report-tool/). Prawa autorskie © 2021 W3C® (MIT, ERCIM, Keio, Beihang).
 
-This application is built with [Svelte](https://svelte.dev). To run it locally, you need to clone it this repository, have [Node](https://nodejs.org) installed and then run this in the project's directory:
+
+[Informacje i licencja oprogramowania W3C](https://www.w3.org/Consortium/Legal/copyright-software).
+
+## Tworzenie
+
+Ta aplikacja została zbudowana przy użyciu [Svelte](https://svelte.dev). Aby uruchomić ją lokalnie, musisz sklonować to repozytorium, zainstalować Node , a następnie uruchomić to w katalogu projektu:
 
 ```bash
 npm install
 ```
 
-This may take a while the first time, but it only needs to be done once.
+Za pierwszym razem może to potrwać chwilę, ale wystarczy to zrobić tylko raz.
 
-Then, to build the app with [Rollup](https://rollupjs.org), and serve it on a local dev server, run:
+Następnie, aby zbudować aplikację za pomocą [Rollup](https://rollupjs.org) i udostępnić ją na lokalnym serwerze deweloperskim, uruchom:
 
 ```bash
 export NODE_ENV=development; npm run dev
 ```
 
-Navigate to [localhost:10001](http://localhost:10001). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
+Przejdź do [localhost:10001](http://localhost:10001). Powinieneś zobaczyć swoją aplikację działającą. Edytuj plik komponentu w `src`, zapisz go i przeładuj stronę, aby zobaczyć zmiany.
 
-## Deployment
 
-To create an optimised version of the app:
+Zastosowanie
+Aby utworzyć zoptymalizowaną wersję aplikacji:
+
+
+
+## Wdrożenie
+
+Aby utworzyć zoptymalizowaną wersję aplikacji::
 
 ```bash
 npm run build
 ```
 
-### Release to GitHub pages
+### Wydanie na stronach GitHub
 
-The site serves what's on GitHub pages. To release to GitHub pages, [create a new release](https://github.com/GSA/openacr-editor/releases/new). This should trigger a [deploy action](https://github.com/GSA/openacr-editor/actions?query=workflow%3ADeploy).
+Witryna obsługuje to, co jest na stronach GitHub. Aby udostępnić na stronach GitHub, [utwórz nowe wydanie](https://github.com/GSA/openacr-editor/releases/new). Powinno to wywołać [akcję wdrożenia](https://github.com/GSA/openacr-editor/actions?query=workflow%3ADeploy).
 
-### Environment-specific variables in HTML and JavaScript (.svelte)
+### Zmienne środowiskowe w HTML i JavaScript (.svelte)
 
-In some deployment contexts, things like paths may need to vary. There are two steps to this:
+W niektórych kontekstach wdrażania, rzeczy takie jak ścieżki mogą wymagać zmiany. Są dwa kroki do tego:
 
-1. Add environment specific settings to `config/[environment-name].json`, for example `{ pathPrefix: "/editor" }` or `{ imageDir: "/images" }`
-2. Before running `npm run build` or `npm run dev`, set `export NODE_ENV=[environment-name]`
+1. Dodaj ustawienia specyficzne dla środowiska `config/[environment-name].json`, na przykład `{ pathPrefix: "/editor" }` lub `{ imageDir: "/images" }`
+2. Przed uruchomieniem `npm run build` lub `npm run dev`, ustaw `export NODE_ENV=[environment-name]`
 
-#### Using in HTML
+#### Używanie w HTML
 
-Use variables in HTML, with `{{ variable-name }}`, for instance `{{ pathPrefix }}`. If you need these non-escaped, use triple brackets, for instance `{{{ pathPrefix }}}`.
+Używaj zmiennych w HTML, `{{ variable-name }}` na przykład za pomocą `{{ pathPrefix }}`. . Jeśli potrzebujesz ich bez znaku ucieczki, użyj potrójnych nawiasów, na przykład `{{{ pathPrefix }}}`.
 
-[Mustache](http://mustache.github.io/) replaces the variables in `src/index.html` and places the resulting HTML in `public/index.html`.
+[Mustache](http://mustache.github.io/) zastępuje zmienne w `src/index.html` i umieszcza wynikowy kod HTML w `public/index.html`.
 
-#### Using in JavaScript
+#### Używanie w JavaScript
 
-In JavaScript, `__buildEnv__` is replaced with the name of the build environment using the [replace plugin for rollup](https://github.com/rollup/plugins).
+W JavaScript, `__buildEnv__` jest zastępowane nazwą środowiska kompilacji za pomocą wtyczki [replace for rollup](https://github.com/rollup/plugins).
 
-To use variables, this is how you can import the JSON file that your build environment needs:
+Aby użyć zmiennych, możesz zaimportować plik JSON, którego potrzebuje Twoje środowisko kompilacji, w następujący sposób:
 
 ```js
 import vars from "../../config/__buildEnv__.json";
 ```
 
-The vars are now in the `vars` object, you can reference them with `vars.variableName`, for instance `vars.pathPrefix`.
+Zmienne znajdują się teraz w obiekcie `vars` object, Można się do nich odwoływać za pomocą `vars.variableName`, na przykład za pomocą`vars.pathPrefix`.
 
-## Data structure
+## Struktura danych
 
-The editor uses the OpenACR [schema](https://github.com/GSA/openacr/tree/main/schema) and [catalog](https://github.com/GSA/open-product-accessibility-template/tree/main/catalog) as data structures.
+Edytor wykorzystuje [schemat](https://github.com/GSA/openacr/tree/main/schema) OpenACR  i [katalog](https://github.com/GSA/open-product-accessibility-template/tree/main/catalog) jako struktury danych.
 
-# External Blocks Integration Documentation
+# Dokumentacja integracji bloków zewnętrznych
 
-## Overview
+## Przegląd
 
-The External Blocks feature provided by Section 508 offers functionality to seamlessly integrate the header and footer elements from the Section 508 website into external projects. This documentation outlines the steps required to incorporate Section 508 header and footer elements into your website.
 
-## Integration Steps
 
-To integrate the Section 508 header and footer into your website, follow these steps:
 
-### 1. Include Stylesheet and JavaScript Files
 
-Add the following stylesheet and JavaScript files to your website's HTML code:
+
+
+
+
+Funkcja External Blocks udostępniona przez Section 508 oferuje funkcjonalność płynnej integracji elementów nagłówka i stopki z witryny Section 508 z projektami zewnętrznymi. Ta dokumentacja opisuje kroki wymagane do włączenia elementów nagłówka i stopki Section 508 do witryny.
+
+## Kroki integracji
+
+Aby zintegrować nagłówek i stopkę sekcji 508 ze swoją witryną, wykonaj następujące kroki:
+
+### 1. Dołącz pliki arkuszy stylów i JavaScript
+
+Dodaj następujący arkusz stylów i pliki JavaScript do kodu HTML swojej witryny:
 
 ```html
 <link
@@ -93,9 +111,9 @@ Add the following stylesheet and JavaScript files to your website's HTML code:
 <script defer src="https://www.section508.gov/assets/js/uswds.min.js"></script>
 ```
 
-### Example
+### Przykład
 
-Here's an example of how to integrate the Section 508 header and footer into your HTML code:
+Oto przykład, jak zintegrować nagłówek i stopkę sekcji 508 z kodem HTML:
 
 ```html
 <!DOCTYPE html>
@@ -103,7 +121,7 @@ Here's an example of how to integrate the Section 508 header and footer into you
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
+    <title>Moja witryna</title>
     <!-- Include Section 508 stylesheet and JavaScript after Open ACR-->
     <link
       rel="stylesheet"
@@ -130,6 +148,6 @@ Here's an example of how to integrate the Section 508 header and footer into you
 </html>
 ```
 
-### Notes
+### Uwagi
 
-- Ensure that your website's design accommodates the integration of the Section 508 header and footer appropriately.
+- Upewnij się, że projekt Twojej witryny internetowej uwzględnia odpowiednią integrację nagłówka i stopki sekcji 508.

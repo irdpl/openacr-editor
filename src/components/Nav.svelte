@@ -19,7 +19,7 @@
 	}
 </style>
 
-<nav class="nav" aria-label="Steps">
+<nav class="nav" aria-label="Kroki">
   <ul>
     <slot />
   </ul>

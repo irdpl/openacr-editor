@@ -1,52 +1,52 @@
 <script>
-  import YourReportProgress from "./YourReportProgress.svelte";
-  import ProgressBar from "./ProgressBar.svelte";
-  import ButtonShowHide from "./ButtonShowHide.svelte";
-  import ReportNumbers from "./report/ReportNumbers.svelte";
-  import { navigate } from "svelte-navigator";
-  import { evaluation } from "../stores/evaluation.js";
-  import { currentPage } from "../stores/currentPage.js";
-  import { showYourReport } from "../stores/showYourReport.js";
-  import { importEvaluation } from "../utils/importEvaluation.js";
-  import { getEvaluatedChapterCriteriaComponents, getChapterCriteriaComponents, getProgressPerChapter } from "../utils/getEvaluatedItems.js";
-  import { getCatalog } from "../utils/getCatalogs.js";
-  import vars from "../../config/__buildEnv__.json";
+	import YourReportProgress from "./YourReportProgress.svelte";
+	import ProgressBar from "./ProgressBar.svelte";
+	import ButtonShowHide from "./ButtonShowHide.svelte";
+	import ReportNumbers from "./report/ReportNumbers.svelte";
+	import { navigate } from "svelte-navigator";
+	import { evaluation } from "../stores/evaluation.js";
+	import { currentPage } from "../stores/currentPage.js";
+	import { showYourReport } from "../stores/showYourReport.js";
+	import { importEvaluation } from "../utils/importEvaluation.js";
+	import { getEvaluatedChapterCriteriaComponents, getChapterCriteriaComponents, getProgressPerChapter } from "../utils/getEvaluatedItems.js";
+	import { getCatalog } from "../utils/getCatalogs.js";
+	import vars from "../../config/__buildEnv__.json";
 
-  let fresh, box;
+	let fresh, box;
 
-  function startNew() {
-    navigate(`${vars.pathPrefix}/about`, { replace: false });
-    fresh = false;
-  }
+	function startNew() {
+	navigate(`${vars.pathPrefix}/about`, { replace: false });
+	fresh = false;
+	}
 
-  function toOverview() {
-    navigate(`${vars.pathPrefix}/report`, { replace: false });
-  }
+	function toOverview() {
+	navigate(`${vars.pathPrefix}/report`, { replace: false });
+	}
 
-  function clear() {
-    //window.onbeforeunload = null;
-    if (
-      window.confirm(
-        "This will clear the current OpenACR and start a new one. Are you sure that's what you'd like to do?"
-      )
-    ) {
-      evaluation.clearCache();
-      navigate(`${vars.pathPrefix}/`, { replace: true });
-    }
-  }
+	function clear() {
+	//window.onbeforeunload = null;
+	if (
+	window.confirm(
+	"Spowoduje to wyczyszczenie bieżącego OpenACR i rozpoczęcie nowego. Czy na pewno to jest to, co chcesz zrobić?"
+	)
+	) {
+	evaluation.clearCache();
+	navigate(`${vars.pathPrefix}/`, { replace: true });
+	}
+	}
 
-  function toggleYourReport() {
-    showYourReport.update(v => (v = !v));
-    box.focus();
-  }
+	function toggleYourReport() {
+	showYourReport.update(v => (v = !v));
+	box.focus();
+	}
 
-  evaluation.subscribe(value => {
-    fresh = evaluation.isFresh();
-  });
+	evaluation.subscribe(value => {
+	fresh = evaluation.isFresh();
+	});
 
-  $: fresh = evaluation.isFresh();
-  $: nameProvided =
-    $evaluation["product"] &&
+	$: fresh = evaluation.isFresh();
+	$: nameProvided =
+	$evaluation["product"] &&
     $evaluation["product"]["name"];
   $: progressPerChapter = getProgressPerChapter($evaluation);
   $: evaluatedItems = getEvaluatedChapterCriteriaComponents($evaluation);
@@ -125,15 +125,15 @@
   tabindex="-1"
   aria-live="polite">
   {#if $showYourReport === true}
-    {#if fresh && $currentPage === 'Overview'}
+    {#if fresh && $currentPage === 'Przegląd'}
       <h2 class="your-report__heading">
-        Your report
+        Twój raport
         <ButtonShowHide expanded={true} on:toggle={toggleYourReport}>
-          Hide
+          Ukryj
         </ButtonShowHide>
       </h2>
-      <p>No report started.</p>
-      <button class="button" on:click={startNew}>Start new report</button>
+      <p>Nie rozpoczęto raportu.</p>
+      <button class="button" on:click={startNew}>Rozpocznij nowy raport</button>
       <input
         type="file"
         id="import-evaluation"
@@ -143,16 +143,16 @@
       <label
         for="import-evaluation"
         class="button button-secondary your-report__import-label">
-        Open report
+        Otwórz raport
       </label>
     {:else}
       <h2 class="your-report__heading">
         {#if nameProvided}
           <div>
-            <small class="your-report__heading-pre">Report for</small>
+            <small class="your-report__heading-pre">Raport dla</small>
             {$evaluation['product']['name']}
           </div>
-        {:else}Your Report{/if}
+        {:else}Twój raport{/if}
         <ButtonShowHide expanded={true} on:toggle={toggleYourReport}>
           Hide
         </ButtonShowHide>
@@ -169,16 +169,16 @@
           {/if}
         {/each}
       </ul>
-      <button class="button" on:click={toOverview}>View Report</button>
-      {#if $currentPage === 'Overview'}
+      <button class="button" on:click={toOverview}>Pokaż Raport</button>
+      {#if $currentPage === 'Przegląd'}
         <button type="button" class="button button-secondary" on:click={clear}>
-          New Report
+          Nowy raport
         </button>
       {/if}
     {/if}
   {:else}
     <ButtonShowHide expanded={false} on:toggle={toggleYourReport}>
-      Show "Your Report"
+      Pokaż "Twój raport"
     </ButtonShowHide>
   {/if}
   </div>

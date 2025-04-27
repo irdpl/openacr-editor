@@ -1,7 +1,7 @@
 <style>
-  h1:focus {
-    outline: none; /* Rationale: this element gets focused on route to improve navigation for screen reader users; assuming a focus outline could confuse some users, and that this element is not a "keyboard operable user interface" (as in https://www.w3.org/WAI/WCAG21/quickref/#focus-visible), it requires no visible focus  */
-  }
+	h1:focus {
+	outline: none; /* Uzasadnienie: ten element koncentruje się na trasie, aby poprawić nawigację dla użytkowników czytników ekranu; Zakładając, że kontur fokusu może zmylić niektórych użytkowników i że ten element nie jest "interfejsem użytkownika obsługiwanym za pomocą klawiatury" (jak w  https://www.w3.org/WAI/WCAG21/quickref/#focus-visible), nie wymaga widocznego fokusa  */
+	}
 </style>
 
 <h1>

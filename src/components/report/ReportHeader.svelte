@@ -7,7 +7,7 @@
   import { reportFilename } from "../../utils/reportFilename.js";
   import { getCatalog } from "../../utils/getCatalogs.js";
 
-  $evaluation.title = $evaluation["product"]["name"] + " Raport zgodności z zasadami dostępności";
+  $evaluation.title = $evaluation["product"]["name"] + " Raport zgodności z dostępnością";
 
   export let download = false;
   let catalog = getCatalog($evaluation.catalog);
@@ -38,9 +38,9 @@ Based on {catalog.title}
     {#if $evaluation["author"]["name"]}<li>Nazwa: {$evaluation["author"]["name"]}</li>{/if}
     {#if $evaluation["author"]["company_name"]}<li>Firma: {$evaluation["author"]["company_name"]}</li>{/if}
     {#if $evaluation["author"]["address"]}<li>Adres: {$evaluation["author"]["address"]}</li>{/if}
-    {#if $evaluation["author"]["email"]}<li>E-mail: <a href="mailto:{$evaluation['author']['email']}" target="_blank">{$evaluation["author"]["email"]} <span class="visuallyhidden">(otwiera nowe okno lub kartę)</span></a></li>{/if}
+    {#if $evaluation["author"]["email"]}<li>E-mail: <a href="mailto:{$evaluation['author']['email']}" target="_blank">{$evaluation["author"]["email"]} <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a></li>{/if}
     {#if $evaluation["author"]["phone"]}<li>Telefon: {$evaluation["author"]["phone"]}</li>{/if}
-    {#if $evaluation["author"]["website"]}<li>Witryna: <a href="{$evaluation['author']['website']}" target="_blank">{$evaluation["author"]["website"]} <span class="visuallyhidden">(otwiera nowe okno lub kartę)</span></a></li>{/if}
+    {#if $evaluation["author"]["website"]}<li>Witryna: <a href="{$evaluation['author']['website']}" target="_blank">{$evaluation["author"]["website"]} <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a></li>{/if}
   </ul>
 {/if}
 {#if $evaluation["vendor"]}
@@ -51,7 +51,7 @@ Based on {catalog.title}
     {#if $evaluation["vendor"]["address"]}<li>Adres: {$evaluation["vendor"]["address"]}</li>{/if}
     {#if $evaluation["vendor"]["email"]}<li>E-mail: <a href="mailto:{$evaluation['vendor']['email']}" target="_blank">{$evaluation["vendor"]["email"]} <span class="visuallyhidden">(otwiera nowe okno lub kartę)</span></a></li>{/if}
     {#if $evaluation["vendor"]["phone"]}<li>Telefon: {$evaluation["vendor"]["phone"]}</li>{/if}
-    {#if $evaluation["vendor"]["website"]}<li>Witryna: <a href="{$evaluation['vendor']['website']}" target="_blank">{$evaluation["vendor"]["website"]} <span class="visuallyhidden">(otwiera nowe okno lub kartę)</span></a></li>{/if}
+    {#if $evaluation["vendor"]["website"]}<li>Witryna: <a href="{$evaluation['vendor']['website']}" target="_blank">{$evaluation["vendor"]["website"]} <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a></li>{/if}
   </ul>
 {/if}
 
@@ -61,7 +61,7 @@ Based on {catalog.title}
 {/if}
 
 {#if $evaluation["evaluation_methods_used"]}
-  <HeaderWithAnchor id="evaluation-methods" level=2 {download}>Zastosowana metoda ewaluacji</HeaderWithAnchor>
+  <HeaderWithAnchor id="evaluation-methods" level=2 {download}>Zastosowane metody oceny</HeaderWithAnchor>
   {@html sanitizeMarkdown($evaluation["evaluation_methods_used"])}
 {/if}
 
@@ -78,7 +78,7 @@ Niniejszy raport obejmuje stopień zgodności z następującymi standardami/wyty
   <tbody>
     {#each catalog.standards as standard }
       <tr>
-        <td><a href="{standard.url}" target="_blank">{standard.label} <span class="visuallyhidden">(otwiera nowe okno lub kartę)</span></a></td>
+        <td><a href="{standard.url}" target="_blank">{standard.label} <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a></td>
         <td>{@html standardsIncluded($evaluation.catalog, standard.chapters)}</td>
       </tr>
     {/each}

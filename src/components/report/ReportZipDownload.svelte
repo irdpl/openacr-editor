@@ -37,7 +37,7 @@
 
 {#if valid.result }
   <a id="download-zip" href={zipDownload} download="{filename}.zip" class="button" style="text-align: center;">
-    Pobierz raport<br/>(YAML & HTML) .zip
+    Pobierz raport<br/>(YAML i HTML) .zip
   </a>
 {/if}
 
@@ -133,7 +133,7 @@
   <footer class="usa-footer usa-footer usa-footer--slim">
     <div class="usa-footer__return-to-top">
       <div class="grid-container">
-        <a href={"#"}>Return to top</a>
+        <a href={"#"}>Wróć na początek</a>
       </div>
     </div>
     <div class="usa-footer__secondary-section">

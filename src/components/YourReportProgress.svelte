@@ -38,7 +38,7 @@
     <a href={`${vars.pathPrefix}/chapter/${chapter.id}`} class="principle__name">
       <span>{chapter.short_label}</span>
     </a>
-    <span class="progress__part">{done} of {total}</span>
+    <span class="progress__part">{done} z {total}</span>
   </div>
   <ProgressBar {percentage} />
 </li>
