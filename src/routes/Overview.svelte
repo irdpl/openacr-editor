@@ -15,7 +15,7 @@
   let catalog = getCatalog($evaluation.catalog);
 
   onMount(() => {
-    currentPage.update((currentPage) => "Overview");
+    currentPage.update((currentPage) => "Przegląd");
 
     honourFragmentIdLinks($location);
   });
