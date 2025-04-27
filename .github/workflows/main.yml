@@ -23,7 +23,7 @@ jobs:
              npm install
              cp -rfv ./.github/data/ ./node_modules/@openacr/openacr/catalog/
              cat ./node_modules/@openacr/openacr/catalog/data/components.yaml
-             npx ts-node src/librarian.ts -c WCAG21508
+             npx ts-node ./node_modules/@openacr/openacr/src/librarian.ts -c WCAG21508
              export NODE_ENV=ghpages && npm run build
              cd public && ln -s index.html 404.html # symlink for GH pages fallback
       
