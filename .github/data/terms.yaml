@@ -1,0 +1,19 @@
+title: Termimy
+lang: pl
+terms:
+  - id: supports
+    label: Obs³uguje
+    description: Funkcjonalnoœæ produktu posiada co najmniej jedn¹ metodê, która spe³nia kryterium bez znanych wad lub spe³nia z równowa¿nym u³atwieniem.
+  - id: "partially-supports"
+    label: Czêœciowo obs³uguje
+    description: Niektóre funkcjonalnoœci produktu nie spe³niaj¹ tego kryterium.
+  - id: "does-not-support"
+    label: Nie obs³uguje
+    description: Wiêkszoœæ funkcjonalnoœci produktu nie spe³nia tego kryterium.
+  - id: "not-applicable"
+    label: Nie dotyczy
+    description: Kryterium to nie ma znaczenia dla produktu.
+  - id: "not-evaluated"
+    label: Nie oceniono
+    description: Produkt nie zosta³ oceniony pod k¹tem tego kryterium. Mo¿e to byæ u¿ywane tylko w WCAG 2.x Poziom AAA.
+

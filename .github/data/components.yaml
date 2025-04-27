@@ -1,0 +1,13 @@
+title: Komponenty
+lang: pl
+components:
+  - id: web
+    label: Strony internetowe
+  - id: "electronic-docs"
+    label: Dokumenty elektroniczne
+  - id: software
+    label: Oprogramowanie
+  - id: "authoring-tool"
+    label: Narzêdzia autorskie
+  - id: none
+    label: ""
