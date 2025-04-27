@@ -22,7 +22,7 @@ jobs:
         run: |
              npm install
              cp -rfv ./.github/data/ ./node_modules/@openacr/openacr/catalog/
-             cat ./node_modules/@openacr/openacr/catalog/data/components.yaml
+             cat ./node_modules/@openacr/openacr/catalog/data/wcag-2.0.yaml
              npm install --save-dev @types/yargs @types/js-yaml
              npx ts-node ./node_modules/@openacr/openacr/src/librarian.ts -c WCAG21508
              export NODE_ENV=ghpages && npm run build
