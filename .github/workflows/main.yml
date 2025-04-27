@@ -24,7 +24,9 @@ jobs:
              cp -rfv ./.github/data/ ./node_modules/@openacr/openacr/catalog/
              cat ./node_modules/@openacr/openacr/catalog/data/wcag-2.0.yaml
              npm install --save-dev @types/yargs @types/js-yaml
-             npx ts-node ./node_modules/@openacr/openacr/src/librarian.ts -c WCAG21508
+             cd ./node_modules/@openacr/openacr/
+             npx ts-node ./src/librarian.ts -c WCAG21508
+             cd ${{ github.workspace }}
              export NODE_ENV=ghpages && npm run build
              cd public && ln -s index.html 404.html # symlink for GH pages fallback
       
