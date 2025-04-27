@@ -26,14 +26,14 @@
   $: currentStandard = standards.find( ({ chapters }) => chapters.includes(chapterId));
 
   onMount(() => {
-    currentPage.update(currentPage => "Evaluation");
+    currentPage.update(currentPage => "Ocena");
 
     honourFragmentIdLinks($location);
   });
 </script>
 
 <svelte:head>
-  <title>{currentChapter.label} | Edytor OpenACR | GSA</title>
+  <title>{currentChapter.label} | Edytor OpenACR | LepszyWeb.pl</title>
 </svelte:head>
 
 <div class={className}>
@@ -67,7 +67,7 @@
         id="evaluation-disabled-chapter-{chapterId}"
         on:change={() => evaluation.updateCache($evaluation)} />
 
-      WyÅ‚Ä…czone?
+      Wy³¹czone?
     </label>
     <HelpText type="disabled_chapters" field="{chapterId}" />
   </div>
@@ -78,9 +78,9 @@
     <Criteria chapterId={chapterId} chapterLink={currentStandard.url} {...criteria} />
   {/each}
 
-  <Pager label="Previous/Next Chapter">
+  <Pager label="Poprzedni/Nastêpny rozdzia³">
     {#if chapterId === "success_criteria_level_a"}
-      <PagerLink to={'/about'} direction="previous">O nas</PagerLink>
+      <PagerLink to={'/about'} direction="previous">O edytorze</PagerLink>
     {/if}
     {#if currentChapterKey > 0}
       <PagerLink to={`/chapter/${chapters[currentChapterKey - 1].id}`} direction="previous">
@@ -93,7 +93,7 @@
       </PagerLink>
     {/if}
     {#if currentChapterKey + 1 === chapters.length}
-      <PagerLink to={'/report'} direction="next">PokaÅ¼ raport</PagerLink>
+      <PagerLink to={'/report'} direction="next">Poka¿ raport</PagerLink>
     {/if}
   </Pager>
 </div>

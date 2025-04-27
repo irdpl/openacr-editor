@@ -20,11 +20,11 @@ export function getListOfCatalogs() {
   return [
     {
       catalog: wcag20508catalogName,
-      title: "VPAT® 2.4 508: Revised Section 508 Edition (WCAG 2.0)",
+      title: "VPAT® 2.4 508: Poprawione wydanie Section 508 (WCAG 2.0)",
     },
     {
       catalog: wcag21508catalogName,
-      title: "VPAT® 2.4 508 + WCAG: Revised Section 508 Edition (WCAG 2.1)",
+      title: "VPAT® 2.4 508 + WCAG: Poprawione wydanie Section 508 (WCAG 2.1)",
     },
     {
       catalog: wcag21catalogName,

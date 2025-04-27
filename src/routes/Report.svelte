@@ -18,19 +18,19 @@
   let catalog = getCatalog($evaluation.catalog);
 
   onMount(() => {
-    currentPage.update(currentPage => "Report");
+    currentPage.update(currentPage => "Raport");
 
     honourFragmentIdLinks($location);
   });
 </script>
 
 <svelte:head>
-  <title>Report | OpenACR Editor | GSA</title>
+  <title>Raport | Edytor OpenACR | LepszyWeb.pl</title>
 </svelte:head>
 
 <ReportValid />
 
-<HeaderWithAnchor id="download" level=2>Download</HeaderWithAnchor>
+<HeaderWithAnchor id="download" level=2>Pobierz</HeaderWithAnchor>
 
 <p>
   <ReportZipDownload />
@@ -39,16 +39,18 @@
 
 <details>
   <summary>
-    <HeaderWithAnchor id="download-help" level=3>Have trouble downloading .zip files?</HeaderWithAnchor>
+    <HeaderWithAnchor id="download-help" level=3>Masz problemy z pobieraniem plików .zip?</HeaderWithAnchor>
   </summary>
 
-  <p>Some agencies and corporations have a policy prohibiting the the download .of zip files. <strong>If you cannot download the .zip file</strong> you can download the YAML file by clicking the link above and save the HTML file convenient viewing by:</p>
+  <p>
+	  Niektóre organizacje i korporacje mają politykę zakazującą pobierania plików .zip. <strong>Jeśli nie możesz pobrać pliku .zip</strong> , możesz pobrać plik YAML, klikając powyższy link i zapisać plik HTML do wygodnego przeglądania:
+  </p>
 
   <ol>
-    <li>Right click anywhere on this page and select Save As.</li>
-    <li>Choose a location where you want to save your HTML file.</li>
-    <li>Share the HTML file or folder and the YAML file you previously downloaded with your collaborators.</li>
-    <li>Let your collaborators know that they can view the HTML version of the file and can make edits by going to the OpenACR editor and uploading the YAML file. When they have completed their edits, they must to send you the YAML file. The HTML file is optional.</li>
+    <li>Kliknij prawym przyciskiem myszy w dowolnym miejscu tej strony i wybierz opcję Zapisz jako.</li>
+    <li>Wybierz lokalizację, w której chcesz zapisać plik HTML.</li>
+    <li>Udostępnij współpracownikom pobrany wcześniej plik lub folder HTML oraz plik YAML..</li>
+    <li>Poinformuj swoich współpracowników, że mogą przeglądać wersję HTML pliku i wprowadzać zmiany, przechodząc do edytora OpenACR i przesyłając plik YAML. Po zakończeniu edycji muszą wysłać Ci plik YAML. Plik HTML jest opcjonalny.</li>
   </ol>
 </details>
 
@@ -58,6 +60,6 @@
 {/each}
 <ReportSummary />
 {#if $evaluation.license }
-  <HeaderWithAnchor id="license" level=2>License</HeaderWithAnchor>
+  <HeaderWithAnchor id="license" level=2>Licencja</HeaderWithAnchor>
   <ReportLicense />
 {/if}

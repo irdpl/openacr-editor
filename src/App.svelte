@@ -17,7 +17,7 @@
   import vars from "../config/__buildEnv__.json";
   export let url = "";
 
-  const pagesWithYourReport = ["Overview", "About", "Evaluation"];
+  const pagesWithYourReport = ["Przegląd", "O edytorze", "Ocena"];
 
   function needsYourReport(pageName) {
     return pagesWithYourReport.indexOf(pageName) > -1;
@@ -35,7 +35,7 @@
   }
 
   function closeEditorWarning() {
-    return 'Are you sure?';
+    return 'Czy na pewno chcesz?';
   }
   $: catalog = getCatalog($evaluation.catalog);
 </script>
@@ -57,23 +57,23 @@
 
 <Router {url} basepath={vars.pathPrefix}>
   <Nav>
-    <NavItem to="/">Overview</NavItem>
-    <NavItem to="/about">About</NavItem>
+    <NavItem to="/">Przegląd</NavItem>
+    <NavItem to="/about">O edytorze</NavItem>
     {#each catalog.chapters as chapter}
       <NavItem to="chapter/{chapter.id}">
         {chapter.short_label}
         <span class="visuallyhidden">: {chapter.label}</span>
       </NavItem>
     {/each}
-    <NavItem to="/report">Report</NavItem>
-    <NavItem to="/glossary">Glossary</NavItem>
-    <NavItem to="/acknowledgements">Acknowledgements</NavItem>
+    <NavItem to="/report">Raport</NavItem>
+    <NavItem to="/glossary">Słownik</NavItem>
+    <NavItem to="/acknowledgements">Podziękowania</NavItem>
   </Nav>
   <section
     id="content"
     class="app-content"
     class:app-content--wide={!needsYourReport($currentPage) || !$showYourReport}
-    aria-label="Main content">
+    aria-label="Treść główna">
     <Route path="/">
       <Overview />
     </Route>

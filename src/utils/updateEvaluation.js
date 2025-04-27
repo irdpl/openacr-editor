@@ -34,10 +34,10 @@ export function updateEvaluation(catalogName, converted) {
   if (valid.result) {
     evaluation.update((evaluation) => converted);
     evaluation.updateCache(converted, true);
-    alert("OpenACR passed validation when switching catalog.");
+    alert("przeszedł walidację podczas przełączania katalogu.");
   } else {
     alert(
-      "OpenACR failed validation when trying to switch catalog. Message: " +
+      "Walidacja OpenACR nie powiodła się podczas próby przełączenia katalogu. Komunikat: " +
         valid.message
     );
   }

@@ -23,7 +23,7 @@ export function importEvaluation(event) {
         fileType = "empty";
       }
       alert(
-        `The uploaded file ${file.name} has type ${fileType} which is invalid. Please use one of these types: 'application/x-yaml', 'application/yaml', 'text/yaml'.`
+        `Załądowany plik ${file.name} jest typu ${fileType}, który nie jest poprawny. Użyj jednego z następujących typów: 'application/x-yaml', 'application/yaml', 'text/yaml'.`
       );
       return;
     }
@@ -76,13 +76,13 @@ export function importEvaluation(event) {
           if (converted.product.name) {
             alert(`OpenACR "${converted.product.name}" loaded`);
           } else {
-            alert("OpenACR loaded");
+            alert("Załądowano OpenACR");
           }
         } else {
-          alert("Import OpenACR is invalid. Message: " + valid.message);
+          alert("Zaimportowany OpenACR jest niepoprawny. Komunikat: " + valid.message);
         }
       } catch (e) {
-        alert("No data found or invalid import. Message: " + e.message);
+        alert("NIe znaleziono danych lub niepoprawny import. Komunikat: " + e.message);
       }
     };
 

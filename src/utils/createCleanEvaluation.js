@@ -72,7 +72,7 @@ export function createCleanEvaluation() {
 
   const valid = validate(cleanEvaluation);
   console.log(
-    "New evaluation is valid? Answer: " +
+    "Czy nowa ocena jest poprawna? Odpowiedź: " +
       valid.result +
       ", message: " +
       valid.message

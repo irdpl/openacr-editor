@@ -22,37 +22,34 @@
 </script>
 
 <svelte:head>
-  <title>Overview | OpenACR Editor | GSA</title>
+  <title>Przegląd | Edytor OpenACR | LepszyWeb.pl</title>
 </svelte:head>
 
-<Header>Overview</Header>
+<Header>Przegląd</Header>
 
 <p>
-  This web editor helps evaluators build Accessibility Conformance Reports in the <a href="https://github.com/gsa/openacr" target="_blank">OpenACR format <span class="visuallyhidden">(opens in a new window or tab)</span></a>.
-  It is designed to help accessibility subject matter experts create machine-readable OpenACR documents. Authors will be guided in creating an
-  accessible report for the digital product or service that they are documenting. Conformance for each requirement can be documented as required
-  to generate a Section 508 report.
+	Ten edytor internetowy pomaga oceniającym tworzyć raporty zgodności zdostępnością w <a href="https://github.com/gsa/openacr" target="_blank">
+		formacie OpenACR <span class="visuallyhidden">(otwiera się w nowym oknie lub karcie)</span></a>.
+	Został zaprojektowany, aby pomóc ekspertom dostępności w tworzeniu dokumentów OpenACR nadających się do odczytu maszynowego. Autorzy zostaną poinstruowani podczas tworzenia dostępnego raportu dla produktu lub usługi cyfrowej, którą dokumentują. Zgodność z każdym wymaganiem można udokumentować zgodnie z wymaganiami w celu wygenerowania raportu z sekcji 508.
 </p>
 
-<p>Tips for using this tool:</p>
+<p>Wskazówki dotyczące korzystania z tego narzędzia:</p>
 
 <ul>
   <li>
-    This editor saves the information you enter locally in your browser (not on our servers). To save or share your OpenACR report, you will
-    need to save it to your computer. You will need the YAML file to submit your OpenACR and to edit this report in the future.
+	  Ten edytor zapisuje informacje, które wprowadzasz lokalnie w przeglądarce (nie na naszych serwerach). Aby zapisać lub udostępnić raport OpenACR, musisz zapisać go na swoim komputerze. Plik YAML będzie potrzebny do przesłania OpenACR i edytowania tego raportu w przyszłości.
   </li>
   <li>
-    As you use the editor, the
-    <Link to="report">Report</Link>
-    page lists the success criteria that you have checked and not checked.
+	  Podczas korzystania z edytora na stronie
+	  <Link to="report">Raport</Link>
+	  znajduje się lista kryteriów sukcesu, które zostały sprawdzone i niesprawdzone.
   </li>
   <li>
-    You can export your report as YAML (structured data) but also as HTML (web page). Note: You will not be able
-    to edit the report the future without the YAML file.
+	   Raport możesz wyeksportować jako YAML (uporządkowane dane), ale także jako HTML (strona internetowa). Uwaga: Nie będzie można edytować raportu w przyszłości bez pliku YAML.
   </li>
   <li>
-    You can add limited formatting to your report with <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown <span class="visuallyhidden">(opens in a new window or tab)</span></a>. This allows you to add
-    lists, links and code examples.
+	  Możesz dodać ograniczone formatowanie do raportu za pomocą języka <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown <span class="visuallyhidden">(otwiera się w nowym oknie lub karcie)</span></a>. Pozwala to na dodawanie list, linków i przykładów kodu.
+
   </li>
 </ul>
 
@@ -60,57 +57,55 @@
 
 <details>
   <summary>
-    <HeaderWithAnchor id="about-openacr" level=2>About OpenACR</HeaderWithAnchor>
+    <HeaderWithAnchor id="about-openacr" level=2>O OpenACR</HeaderWithAnchor>
   </summary>
   <p>
-    OpenACR is a digital native Accessibility Conformance Report (ACR). The initial development is based on Section 508 requirements.
-    There are many advantages in moving to a machine-readable format, but one of the biggest is that it allows accessibility claims of
-    digital products and services to be compared. Moving to a highligh structured, self-validated document format will make this much simpler.
+	  OpenACR to cyfrowy natywny raport zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span> ). Początkowy tworzenie opiera się na wymaganiach sekcji 508. Przejście na format nadający się do odczytu maszynowego ma wiele zalet, ale jedną z największych jest to, że umożliwia porównywanie twierdzeń dotyczących dostępności produktów i usług cyfrowych. Przejście na format dokumentu o wysokiej strukturze, z samodzielną walidacją znacznie to ułatwi.
+  </p>
+
+	<p>
+		
+		
+
+	</p>
+  <p>
+	  Wiele organizacji boryka się z wyzwaniami związanymi z dostarczaniem dostępnych usług dla osób z niepełnosprawnościami. Dostawcy oprogramowania obecnie przesyłają rekordy ACR dla swoich ofert. Te ACR dokumentują zgodność tych produktów i usług. Twierdzenia te są zazwyczaj dostarczane w formacie PDF, który jest często niedostępny, niespójnie ustrukturyzowany i trudny do wyszukania. Nowoczesna usługa ACR zostanie zweryfikowana, aby sprawdzić, czy jest zgodna z formatem punktu odniesienia.
   </p>
   <p>
-    Many organizations face challenges in delivering accessible services to people with disabilities. Software vendors currently submit
-    ACRs for their offerings. These ACRs document conformance of these products and services. These claims are generally provided in a PDF
-    format which is often inaccessible, not consistently structured, and difficult to search. A modern ACR will be validated to see it
-    matches a baseline format.
+	  Odpowiedzialne organizacje zarówno weryfikują oświadczenia dostawców dotyczące zgodności, jak i przeprowadzają niezależne testy. Dokumentowanie tych ustaleń w spójnym formacie ułatwi przekazywanie informacji zwrotnych dostawcom. Porównania ułatwią aktualizowanie raportów.
   </p>
   <p>
-    Responsible organizations both review vendor conformance claims and do independent testing. Documenting these findings in a consistent format
-    will make it easier to provide feedback to vendors. Comparisons will make it easier to update reports.
-  </p>
-  <p>
-    For more information, see <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(opens in a new window or tab)</span></a>.
+	  Aby uzyskać więcej informacji, zobacz <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(otwiera się w nowym oknie lub karcie)</span></a>.
   </p>
 </details>
 
 <details>
   <summary>
-    <HeaderWithAnchor id="structure-of-this-tool" level=2>Structure of this tool</HeaderWithAnchor>
+    <HeaderWithAnchor id="structure-of-this-tool" level=2>Struktura tego narzędzia</HeaderWithAnchor>
   </summary>
   <p>
-    Following the structure of OpenACR, this tool takes you through 7
-    <strong>tables/chapters</strong>. Each table/chapter has a number of
-    <strong>criteria</strong>, which are further divided into
-    <strong>components</strong>. For each, you can select
-    a level and type in a note about conformance.
+	  Zgodnie ze strukturą OpenACR, to narzędzie przeprowadza Cię przez 7
+	  <strong>tabel/rozdziałów</strong>. Każda tabela/rozdział ma szereg
+	  <strong>kryteriów</strong>, które są dalej podzielone na
+	  <strong>komponenty</strong>. Dla każdego z nich można wybrać poziom i wpisać notatkę na temat zgodności.
   </p>
   <p>
-    A, AA, AAA are for the <strong>WCAG 2</strong> guidelines.
+	  A, AA, AAA są zgodne z  wytycznymi <strong>WCAG 2</strong>.
   </p>
   <p>
-    FPC, Hardware, Software, Docs is the <strong>Section 508</strong> standards.
+	  FPC, Sprzęt, Oprogramowanie, Dokumentacja to  standardy <strong>Section 508</strong>.
   </p>
   <p>
-    Links in this editor will open a new window that lead you to the relevant sections of the guidelines.
+	  Łąćza w tym edytorze otworzą nowe okno, które przeniesie Cię do odpowiednich sekcji wytycznych.
   </p>
 </details>
 
 <details>
   <summary>
-    <HeaderWithAnchor id="terms" level=2>Terms</HeaderWithAnchor>
+    <HeaderWithAnchor id="terms" level=2>Terminy</HeaderWithAnchor>
   </summary>
   <p>
-    As you go through and enter conformance for your software, you will select a "term" for
-    each component. Here is the legend of what those selections mean:
+	  Przechodząc przez oprogramowanie i wprowadzając jego zgodność, wybierzesz <q>termin</q> dla każdego komponentu. Oto legenda o tym, co oznaczają te wybory:
   </p>
   <dl>
     {#each catalog.terms as term}
@@ -120,6 +115,6 @@
   </dl>
 </details>
 
-<Pager label="Previous/Next Principle">
-  <PagerLink to="/about" direction="next">About</PagerLink>
+<Pager label="Poprzednia/Następna wytyczna">
+  <PagerLink to="/about" direction="next">O OpenACR</PagerLink>
 </Pager>

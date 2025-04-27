@@ -76,7 +76,7 @@
   }
 
   function handleRelatedDelete(e) {
-    if (window.confirm("Are you sure you would like to delete this related OpenACR?")) {
+    if (window.confirm("Czy na pewno chcesz usunąć ten powiązany OpenACR?")) {
       const newValue = $evaluation['related_openacrs'];
       newValue.splice(e.detail, 1);
       $evaluation['related_openacrs'] = newValue;
@@ -91,7 +91,7 @@
   function confirmCatalogChange(e) {
     if (
       window.confirm(
-        "Switching catalogs may remove entered data and notes from your ACR that are not part of the newly selected catalog.\n\nPlease download your report before switching catalogs to avoid losing information. Select Cancel to save before switching."
+        "Przełączanie katalogów może spowodować usunięcie wprowadzonych danych i notatek z raportu ACR, które nie są częścią nowo wybranego katalogu.\n\nPrzed przełączeniem katalogów należy pobrać raport, aby uniknąć utraty informacji. Wybierz Anuluj, aby zapisać przed przełączeniem."
       )
     ) {
       $evaluation['catalog'] = selectedCatalog;
@@ -118,10 +118,10 @@
 </style>
 
 <svelte:head>
-  <title>About | OpenACR Editor | GSA</title>
+  <title>O edytorze | Edytor OpenACR | LepszyWeb.pl</title>
 </svelte:head>
 
-<Header>About</Header>
+<Header>O edytorze</Header>
 
 <ChapterHelpText
   chapterId="about"
@@ -131,7 +131,7 @@
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="select-catalog" level=2>Select report type and catalog</HeaderWithAnchor>
+    <HeaderWithAnchor id="select-catalog" level=2>Wybierz typ raportu i katalog</HeaderWithAnchor>
   </summary>
   <p>{helpText["catalog"]["intro"]}</p>
   {#each catalogChoices as catalogChoice}
@@ -151,19 +151,19 @@
   {/each}
 
   {#if $evaluation['catalog'] !== selectedCatalog }
-    <p><em>Select Switch Catalogs to save your new selection.</em></p>
+    <p><em>Wybierz Przełącz katalogi, aby zapisać nowy wybór.</em></p>
   {/if}
-  <button class="button" on:click={confirmCatalogChange} disabled={$evaluation['catalog'] === selectedCatalog} style="text-align: center; line-height: 1; padding: 10px;">Switch Catalogs</button>
-  <button class="button" on:click={resetCatalogChange} disabled={$evaluation['catalog'] === selectedCatalog} style="text-align: center; line-height: 1; padding: 10px;">Reset</button>
+  <button class="button" on:click={confirmCatalogChange} disabled={$evaluation['catalog'] === selectedCatalog} style="text-align: center; line-height: 1; padding: 10px;">Przełącz katalogi</button>
+  <button class="button" on:click={resetCatalogChange} disabled={$evaluation['catalog'] === selectedCatalog} style="text-align: center; line-height: 1; padding: 10px;">Resetuj</button>
 </details>
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="product" level=2>Product</HeaderWithAnchor>
+    <HeaderWithAnchor id="product" level=2>Produky</HeaderWithAnchor>
   </summary>
 
   <div class="field">
-    <label for="evaluation-product-name">Name</label>
+    <label for="evaluation-product-name">Nazwa</label>
     <input
       type="text"
       bind:value={$evaluation['product']['name']}
@@ -173,7 +173,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-product-version">Version</label>
+    <label for="evaluation-product-version">Wersja</label>
     <input
       type="text"
       bind:value={$evaluation['product']['version']}
@@ -183,7 +183,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-product-description">Description</label>
+    <label for="evaluation-product-description">Opis</label>
     <textarea
       bind:value={$evaluation['product']['description']}
       id="evaluation-product-description"
@@ -194,11 +194,11 @@
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="author" level=2>Author</HeaderWithAnchor>
+    <HeaderWithAnchor id="author" level=2>Autor</HeaderWithAnchor>
   </summary>
 
   <div class="field">
-    <label for="evaluation-author-name">Name</label>
+    <label for="evaluation-author-name">Nazwa</label>
     <input
       type="text"
       bind:value={$evaluation['author']['name']}
@@ -208,7 +208,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-author-company">Company Name</label>
+    <label for="evaluation-author-company">Nazwa firmy</label>
     <input
       type="text"
       bind:value={$evaluation['author']['company_name']}
@@ -218,7 +218,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-author-address">Address</label>
+    <label for="evaluation-author-address">Adres</label>
     <input
       type="text"
       bind:value={$evaluation['author']['address']}
@@ -228,7 +228,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-author-email">Email</label>
+    <label for="evaluation-author-email">E-mail</label>
     <input
       type="email"
       bind:value={$evaluation['author']['email']}
@@ -238,7 +238,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-author-phone">Phone</label>
+    <label for="evaluation-author-phone">Telefon</label>
     <input
       type="tel"
       bind:value={$evaluation['author']['phone']}
@@ -248,7 +248,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-author-website">Website (URL)</label>
+    <label for="evaluation-author-website">Witryna (URL)</label>
     <input
       type="url"
       bind:value={$evaluation['author']['website']}
@@ -260,11 +260,11 @@
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="vendor" level=2>Vendor</HeaderWithAnchor>
+    <HeaderWithAnchor id="vendor" level=2>Sprzedawca</HeaderWithAnchor>
   </summary>
 
   <div class="field">
-    <label for="evaluation-vendor-name">Name</label>
+    <label for="evaluation-vendor-name">Nazwa</label>
     <input
       type="text"
       bind:value={$evaluation['vendor']['name']}
@@ -274,7 +274,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-vendor-company">Company Name</label>
+    <label for="evaluation-vendor-company">Nazwa firmy</label>
     <input
       type="text"
       bind:value={$evaluation['vendor']['company_name']}
@@ -284,7 +284,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-vendor-address">Address</label>
+    <label for="evaluation-vendor-address">Adres</label>
     <input
       type="text"
       bind:value={$evaluation['vendor']['address']}
@@ -294,7 +294,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-vendor-email">Email</label>
+    <label for="evaluation-vendor-email">E-mail</label>
     <input
       type="email"
       bind:value={$evaluation['vendor']['email']}
@@ -304,7 +304,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-vendor-phone">Phone</label>
+    <label for="evaluation-vendor-phone">Telefon</label>
     <input
       type="tel"
       bind:value={$evaluation['vendor']['phone']}
@@ -314,7 +314,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-vendor-website">Website (URL)</label>
+    <label for="evaluation-vendor-website">Witryna (URL)</label>
     <input
       type="url"
       bind:value={$evaluation['vendor']['website']}
@@ -326,12 +326,12 @@
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="acr-report-details" level=2>ACR Report Details</HeaderWithAnchor>
+    <HeaderWithAnchor id="acr-report-details" level=2>Szczegóły raportu ACR</HeaderWithAnchor>
   </summary>
 
   <div class="field">
     <label for="evaluation-report-date">
-      Report Date
+      Data raportu
     </label>
     <input
       type="text"
@@ -343,7 +343,7 @@
 
   <div class="field">
     <label for="evaluation-last-modified-date">
-      Last Modified Date
+      Data ostatniej modyfikacji
     </label>
     <input
       type="text"
@@ -355,7 +355,7 @@
 
   <div class="field">
     <label for="evaluation-version">
-      Version
+      Wersja
     </label>
     <span class="version-prefix">{versionPrefix}-</span>
     <input
@@ -367,7 +367,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-notes">Notes</label>
+    <label for="evaluation-notes">Uwagi</label>
     <textarea
       bind:value={$evaluation['notes']}
       id="evaluation-notes"
@@ -376,7 +376,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-evaluation-methods-used">Evaluation Methods Used</label>
+    <label for="evaluation-evaluation-methods-used">Użyte metody oceny</label>
     <textarea
       bind:value={$evaluation['evaluation_methods_used']}
       id="evaluation-evaluation-methods-used"
@@ -385,7 +385,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-legal-disclaimer">Legal Disclaimer</label>
+    <label for="evaluation-legal-disclaimer">Zastrzeżenia prawne</label>
     <textarea
       bind:value={$evaluation['legal_disclaimer']}
       id="evaluation-legal-disclaimer"
@@ -394,7 +394,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-repository">Repository (URL)</label>
+    <label for="evaluation-repository">Repozytorium (URL)</label>
     <input
       type="url"
       bind:value={$evaluation['repository']}
@@ -404,7 +404,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-feedback">Feedback (URL)</label>
+    <label for="evaluation-feedback">Informacje zwrotne (URL)</label>
     <input
       type="url"
       bind:value={$evaluation['feedback']}
@@ -414,7 +414,7 @@
   </div>
 
   <div class="field">
-    <label for="evaluation-license">License</label>
+    <label for="evaluation-license">Licencja</label>
     <Select id="evaluation-license" inputStyles="border: 1px solid var(--grey);" items={spdxLicenses} value={$evaluation['license']} on:select={handleLicenseSelect} on:clear={handleLicenseClear} />
     <HelpText type="report" field="license" />
   </div>
@@ -422,7 +422,7 @@
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="related-openacrs" level=2>Related OpenACRs</HeaderWithAnchor>
+    <HeaderWithAnchor id="related-openacrs" level=2>Powiązane OpenACR-y</HeaderWithAnchor>
   </summary>
 
   <p>{helpText["related_openacrs"]["intro"]}</p>
@@ -431,12 +431,12 @@
     <Related id={index} count={index + 1} on:DELETE="{handleRelatedDelete}" />
   {/each}
 
-  <AddOther label="Add related OpenACR" on:ADD="{handleRelatedAdd}" style="text-align: center; line-height: 1; padding: 5px;"></AddOther>
+  <AddOther label="Dodaj powiązane OpenACR" on:ADD="{handleRelatedAdd}" style="text-align: center; line-height: 1; padding: 5px;"></AddOther>
 </details>
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="disabled-chapters" level=2>Disabled Chapters/Tables</HeaderWithAnchor>
+    <HeaderWithAnchor id="disabled-chapters" level=2>Wyłączone rozdziały/tabele</HeaderWithAnchor>
   </summary>
 
   <p>{helpText["disabled_chapters"]["intro"]}</p>
@@ -458,7 +458,7 @@
   {/each}
 </details>
 
-<Pager label="Previous/Next Principle">
-  <PagerLink to="/" direction="previous">Overview</PagerLink>
+<Pager label="Poprzednia/Następna">
+  <PagerLink to="/" direction="previous">Przegląd</PagerLink>
   <PagerLink to="/chapter/success_criteria_level_a" direction="next">A</PagerLink>
 </Pager>
