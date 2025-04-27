@@ -63,6 +63,6 @@
         <use href={`${vars.pathPrefix}/images/icons.svg#link`} />
       </svg>
     </span>
-    <span class="visuallyhidden">Anchor link</span>
+    <span class="visuallyhidden">Łącze kotwicy</span>
   </a>
 </dt>

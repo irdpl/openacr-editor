@@ -8,6 +8,6 @@ components:
   - id: software
     label: Oprogramowanie
   - id: "authoring-tool"
-    label: Narzêdzia autorskie
+    label: NarzÄ™dzia autorskie
   - id: none
     label: ""

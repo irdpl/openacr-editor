@@ -67,7 +67,7 @@
         id="evaluation-disabled-chapter-{chapterId}"
         on:change={() => evaluation.updateCache($evaluation)} />
 
-      Wy³¹czone?
+      WyÅ‚Ä…czone?
     </label>
     <HelpText type="disabled_chapters" field="{chapterId}" />
   </div>
@@ -78,7 +78,7 @@
     <Criteria chapterId={chapterId} chapterLink={currentStandard.url} {...criteria} />
   {/each}
 
-  <Pager label="Poprzedni/Nastêpny rozdzia³">
+  <Pager label="Poprzedni/NastÄ™pny rozdziaÅ‚">
     {#if chapterId === "success_criteria_level_a"}
       <PagerLink to={'/about'} direction="previous">O edytorze</PagerLink>
     {/if}
@@ -93,7 +93,7 @@
       </PagerLink>
     {/if}
     {#if currentChapterKey + 1 === chapters.length}
-      <PagerLink to={'/report'} direction="next">Poka¿ raport</PagerLink>
+      <PagerLink to={'/report'} direction="next">PokaÅ¼ raport</PagerLink>
     {/if}
   </Pager>
 </div>

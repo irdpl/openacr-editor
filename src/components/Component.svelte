@@ -22,9 +22,9 @@
   function showNotesMessage(e) {
     const messageBox = document.getElementById(`evaluation-${criteria}-${component}-notes-message`);
     if (notesCharCount > 50) {
-      messageBox.innerHTML = "<span class='notes-good'>Good&nbsp;</span>";
+      messageBox.innerHTML = "<span class='notes-good'>Dobrze&nbsp;</span>";
     } else if (notesCharCount > 1) {
-      messageBox.innerHTML = "<span class='notes-need-more'>Longer description may be helpful&nbsp;</span>";
+      messageBox.innerHTML = "<span class='notes-need-more'>Dłuższy opis może być pomocny.&nbsp;</span>";
     } else {
       messageBox.innerHTML = "";
     }
@@ -79,7 +79,7 @@
         }}
         {disabled}
         >
-        <option name="option-evaluation-{criteria}-{component}-level-none" value="">- Select -</option>
+        <option name="option-evaluation-{criteria}-{component}-level-none" value="">- Wybierz -</option>
         {#each terms as term}
           <option name="option-evaluation-{criteria}-{component}-level-{term.id}" value={term.id}>{term.label}</option>
         {/each}
@@ -88,7 +88,7 @@
     </div>
 
     <div class="field">
-      <label for="evaluation-{criteria}-{component}-notes">Remarks and Explanations</label>
+      <label for="evaluation-{criteria}-{component}-notes">Uwagi i objaśnienia</label>
       <div id="evaluation-{criteria}-{component}-notes-message" class="notes-message" aria-live="polite"></div>
       <textarea
         bind:value={$evaluation['chapters'][chapterId]['criteria'][currentEvaluationCriteriaIndex]['components'][currentEvaluationComponentIndex]['adherence']['notes']}
@@ -99,8 +99,8 @@
       <HelpText type="components" field="notes" />
     </div>
   {:else}
-    <p>Could not find component '{component}' for critera '{criteria}' in '{chapterId}'.</p>
+    <p>Nie można odnaleźć komponentu '{component}' dla kryteriów '{criteria}' w '{chapterId}'.</p>
   {/if}
 {:else}
-  <p>Could not find component '{component}' for critera '{criteria}' in '{chapterId}'.</p>
+  <p>Nie można odnaleźć komponentu '{component}' dla kryteriów '{criteria}' w '{chapterId}'.</p>
 {/if}

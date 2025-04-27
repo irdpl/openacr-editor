@@ -2,7 +2,7 @@ title: WCAG 2.1
 lang: pl
 standard:
   - id: wcag-2.1
-    label: "Wytyczne dla dostêpnoœci treœci internetowych 2.1"
+    label: "Wytyczne dla dostÄ™pnoÅ›ci treÅ›ci internetowych 2.1"
     report_heading: "Raport WCAG 2.1"
     url: https://www.w3.org/Translations/WCAG21-pl/
     chapters:
@@ -18,7 +18,7 @@ chapters:
     order: 1
     criteria:
       - id: 1.1.1
-        handle: Treœæ nietekstowa
+        handle: TreÅ›Ä‡ nietekstowa
         alt_id: non-text-content
         components:
           - web
@@ -42,7 +42,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.2.3
-        handle: Audiodeskrypcja lub alternatywa tekstowa dla mediów (nagranie)
+        handle: Audiodeskrypcja lub alternatywa tekstowa dla mediÃ³w (nagranie)
         alt_id: audio-description-or-media-alternative-prerecorded
         components:
           - web
@@ -58,7 +58,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.3.2
-        handle: Zrozumia³a kolejnoœæ
+        handle: ZrozumiaÅ‚a kolejnoÅ›Ä‡
         alt_id: meaningful-sequence
         components:
           - web
@@ -66,7 +66,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.3.3
-        handle: W³aœciwoœci zmys³owe
+        handle: WÅ‚aÅ›ciwoÅ›ci zmysÅ‚owe
         alt_id: sensory-characteristics
         components:
           - web
@@ -74,7 +74,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.1
-        handle: U¿ycie koloru
+        handle: UÅ¼ycie koloru
         alt_id: use-of-color
         components:
           - web
@@ -82,7 +82,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.2
-        handle: Kontrola odtwarzania dŸwiêku
+        handle: Kontrola odtwarzania dÅºwiÄ™ku
         alt_id: audio-control
         components:
           - web
@@ -98,7 +98,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.1.2
-        handle: Bez pu³apki na klawiaturê
+        handle: Bez puÅ‚apki na klawiaturÄ™
         alt_id: no-keyboard-trap
         components:
           - web
@@ -106,7 +106,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.1.4
-        handle: Jednoznakowe skróty klawiaturowe
+        handle: Jednoznakowe skrÃ³ty klawiaturowe
         alt_id: character-key-shortcuts
         components:
           - web
@@ -130,7 +130,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.3.1
-        handle: Trzy b³yski lub wartoœci poni¿ej progu
+        handle: Trzy bÅ‚yski lub wartoÅ›ci poniÅ¼ej progu
         alt_id: three-flashes-or-below-threshold
         components:
           - web
@@ -138,7 +138,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.1
-        handle: Mo¿liwoœæ pominiêcia bloków
+        handle: MoÅ¼liwoÅ›Ä‡ pominiÄ™cia blokÃ³w
         alt_id: bypass-blocks
         components:
           - web
@@ -146,7 +146,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.2
-        handle: Tytu³y stron
+        handle: TytuÅ‚y stron
         alt_id: page-titled
         components:
           - web
@@ -154,7 +154,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.3
-        handle: Kolejnoœæ fokusu
+        handle: KolejnoÅ›Ä‡ fokusu
         alt_id: focus-order
         components:
           - web
@@ -162,7 +162,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.4
-        handle: Cel ³¹cza (w kontekœcie)
+        handle: Cel Å‚Ä…cza (w kontekÅ›cie)
         alt_id: link-purpose-in-context
         components:
           - web
@@ -170,7 +170,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.5.1
-        handle: Gesty wskaŸnika
+        handle: Gesty wskaÅºnika
         alt_id: pointer-gestures
         components:
           - web
@@ -202,7 +202,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.1.1
-        handle: Jêzyk strony
+        handle: JÄ™zyk strony
         alt_id: language-of-page
         components:
           - web
@@ -226,7 +226,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.3.1
-        handle: Identyfikacja b³êdu
+        handle: Identyfikacja bÅ‚Ä™du
         alt_id: error-identification
         components:
           - web
@@ -242,7 +242,7 @@ chapters:
           - software
           - authoring-tool
       - id: 4.1.1
-        handle: Poprawnoœæ kodu (Przestarza³e i usuniête)
+        handle: PoprawnoÅ›Ä‡ kodu (PrzestarzaÅ‚e i usuniÄ™te)
         alt_id: parsing
         components:
           - web
@@ -250,7 +250,7 @@ chapters:
           - software
           - authoring-tool
       - id: 4.1.2
-        handle: Nazwa, rola, wartoœæ
+        handle: Nazwa, rola, wartoÅ›Ä‡
         alt_id: name-role-value
         components:
           - web
@@ -263,7 +263,7 @@ chapters:
     order: 2
     criteria:
       - id: 1.2.4
-        handle: Napisy rozszerzone (na ¿ywo)
+        handle: Napisy rozszerzone (na Å¼ywo)
         alt_id: captions-live
         components:
           - web
@@ -287,7 +287,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.3.5
-        handle: Okreœlenie po¿¹danej wartoœci
+        handle: OkreÅ›lenie poÅ¼Ä…danej wartoÅ›ci
         alt_id: identify-input-purpose
         components:
           - web
@@ -327,7 +327,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.11
-        handle: Kontrast elementów nietekstowych
+        handle: Kontrast elementÃ³w nietekstowych
         alt_id: non-text-contrast
         components:
           - web
@@ -335,7 +335,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.12
-        handle: Odstêpy w tekœcie
+        handle: OdstÄ™py w tekÅ›cie
         alt_id: text-spacing
         components:
           - web
@@ -343,7 +343,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.13
-        handle: Treœæ spod kursora lub fokusu
+        handle: TreÅ›Ä‡ spod kursora lub fokusu
         alt_id: content-on-hover-or-focus
         components:
           - web
@@ -351,7 +351,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.5
-        handle: Wiele dróg
+        handle: Wiele drÃ³g
         alt_id: multiple-ways
         components:
           - web
@@ -359,7 +359,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.6
-        handle: Nag³ówki i etykiety
+        handle: NagÅ‚Ã³wki i etykiety
         alt_id: headings-and-labels
         components:
           - web
@@ -367,7 +367,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.7
-        handle: Nag³ówki i etykiety
+        handle: NagÅ‚Ã³wki i etykiety
         alt_id: focus-visible
         components:
           - web
@@ -375,7 +375,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.1.2
-        handle: Jêzyk czêœci
+        handle: JÄ™zyk czÄ™Å›ci
         alt_id: language-of-parts
         components:
           - web
@@ -383,7 +383,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.2.3
-        handle: Spójna nawigacja
+        handle: SpÃ³jna nawigacja
         alt_id: consistent-navigation
         components:
           - web
@@ -391,7 +391,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.2.4
-        handle: Spójna identyfikacja
+        handle: SpÃ³jna identyfikacja
         alt_id: consistent-identification
         components:
           - web
@@ -399,7 +399,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.3.3
-        handle: Sugestie korekty b³êdów
+        handle: Sugestie korekty bÅ‚Ä™dÃ³w
         alt_id: error-suggestion
         components:
           - web
@@ -407,7 +407,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.3.4
-        handle: Zapobieganie b³êdom (prawnym, finansowym, w danych)
+        handle: Zapobieganie bÅ‚Ä™dom (prawnym, finansowym, w danych)
         alt_id: error-prevention-legal-financial-data
         components:
           - web
@@ -428,7 +428,7 @@ chapters:
     order: 3
     criteria:
       - id: 1.2.6
-        handle: Jêzyk migowy (nagranie)
+        handle: JÄ™zyk migowy (nagranie)
         alt_id: sign-language-prerecorded
         components:
           - web
@@ -444,7 +444,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.2.8
-        handle: Alternatywa dla mediów (nagranie)
+        handle: Alternatywa dla mediÃ³w (nagranie)
         alt_id: media-alternative-prerecorded
         components:
           - web
@@ -452,7 +452,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.2.9
-        handle: Tylko audio (na ¿ywo)
+        handle: Tylko audio (na Å¼ywo)
         alt_id: audio-only-live
         components:
           - web
@@ -460,7 +460,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.3.6
-        handle: Okreœlenie przeznaczenia
+        handle: OkreÅ›lenie przeznaczenia
         alt_id: identify-purpose
         components:
           - web
@@ -476,7 +476,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.7
-        handle: Niska g³oœnoœæ lub bez dŸwiêków w tle
+        handle: Niska gÅ‚oÅ›noÅ›Ä‡ lub bez dÅºwiÄ™kÃ³w w tle
         alt_id: low-or-no-background-audio
         components:
           - web
@@ -492,7 +492,7 @@ chapters:
           - software
           - authoring-tool
       - id: 1.4.9
-        handle: Obrazy tekstu (bez wyj¹tków)
+        handle: Obrazy tekstu (bez wyjÄ…tkÃ³w)
         alt_id: images-of-text-no-exception
         components:
           - web
@@ -500,7 +500,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.1.3
-        handle: Klawiatura (bez wyj¹tków)
+        handle: Klawiatura (bez wyjÄ…tkÃ³w)
         alt_id: keyboard-no-exception
         components:
           - web
@@ -508,7 +508,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.2.3
-        handle: Bez ograniczeñ czasowych
+        handle: Bez ograniczeÅ„ czasowych
         alt_id: no-timing
         components:
           - web
@@ -532,7 +532,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.2.6
-        handle: Ostrze¿enie o limicie czasu
+        handle: OstrzeÅ¼enie o limicie czasu
         alt_id: timeouts
         components:
           - web
@@ -540,7 +540,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.3.2
-        handle: Trzy b³yski
+        handle: Trzy bÅ‚yski
         alt_id: three-flashes
         components:
           - web
@@ -564,7 +564,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.9
-        handle: Cel ³¹cza (z samego ³¹cza)
+        handle: Cel Å‚Ä…cza (z samego Å‚Ä…cza)
         alt_id: link-purpose-link-only
         components:
           - web
@@ -572,7 +572,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.10
-        handle: Nag³ówki sekcji
+        handle: NagÅ‚Ã³wki sekcji
         alt_id: section-headings
         components:
           - web
@@ -588,7 +588,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.5.6
-        handle: Równoleg³y mechanizm wprowadzania danych
+        handle: RÃ³wnolegÅ‚y mechanizm wprowadzania danych
         alt_id: concurrent-input-mechanisms
         components:
           - web
@@ -596,7 +596,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.1.3
-        handle: Nietypowe s³owa
+        handle: Nietypowe sÅ‚owa
         alt_id: unusual-words
         components:
           - web
@@ -604,7 +604,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.1.4
-        handle: Skróty
+        handle: SkrÃ³ty
         alt_id: abbreviations
         components:
           - web
@@ -612,7 +612,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.1.5
-        handle: Poziom umiejêtnoœci czytania
+        handle: Poziom umiejÄ™tnoÅ›ci czytania
         alt_id: reading-level
         components:
           - web
@@ -628,7 +628,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.2.5
-        handle: Zmiana na ¿¹danie
+        handle: Zmiana na Å¼Ä…danie
         alt_id: change-on-request
         components:
           - web
@@ -644,7 +644,7 @@ chapters:
           - software
           - authoring-tool
       - id: 3.3.6
-        handle: Zapobieganie b³êdom (wszystkim)
+        handle: Zapobieganie bÅ‚Ä™dom (wszystkim)
         alt_id: error-prevention-all
         components:
           - web

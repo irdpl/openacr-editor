@@ -35,7 +35,7 @@
 <script>
   import { onMount, createEventDispatcher } from 'svelte';
 
-  export let label = 'Add';
+  export let label = 'Dodaj';
 
   const dispatch = createEventDispatcher();
 

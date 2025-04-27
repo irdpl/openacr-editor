@@ -11,14 +11,14 @@
 {#if chapterId}
   <p class="chapter-help-text">
     {#if chapterId === "about"}
-      Podaj ogólne informacje o swoim produkcie lub usłudze. Prosimy o podanie  jak najwięcej szczegółów. Opisując swój produkt, formularz internetowy zostanie zaktualizowany, aby wyświetlić tylko te sekcje, które należy wypełnić. Jeśli będziesz potrzebować zmienić później, zmień pytania dotyczące informacji o produkcie.
+      Podaj ogólne informacje o swoim produkcie lub usłudze. Prosimy o podanie  jak najwięcej szczegółów. Gdy opiszesz swój produkt, formularz internetowy zostanie zaktualizowany, aby wyświetlić tylko te sekcje, które należy wypełnić. Jeśli będziesz potrzebować zmienić później, zmień pytania dotyczące informacji o produkcie.
     {:else if chapterId === "success_criteria_level_a"}
       Przekazuj informacje o problemach na poziomie A związanych z Twoją witryną lub aplikacją internetową. Obecnie OpenACR obsługuje tylko WCAG 2.0. Domyślnie jest to strona internetowa i istnieją opcjonalne pola dla <a
         href="#1.1.1-electronic-docs-editor"
         on:click={() => openFirstAccordion()}>Dokumentacja</a
       >,
       <a href="#1.1.1-software-editor" on:click={() => openFirstAccordion()}
-        >Software</a
+        >Oprogramowanie</a
       >
       and
       <a

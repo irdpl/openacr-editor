@@ -43,12 +43,12 @@
     class="expand button button-secondary button-small"
     disabled={!someCollapsed}
     on:click={expandAll} style="text-align: center; line-height: 1; padding: 5px;">
-    + Expand All Sections
+    + Rozwiń wszystkie sekcje
   </button>
   <button
     class="collapse button button-secondary button-small"
     disabled={!someExpanded}
     on:click={collapseAll} style="text-align: center; line-height: 1; padding: 5px;">
-    − Collapse All Sections
+	  − Zwiń wszystkie sekcje
   </button>
 </div>
