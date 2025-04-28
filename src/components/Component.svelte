@@ -67,8 +67,8 @@
   {#if currentEvaluationComponent }
     <div class="field">
       <label for="evaluation-{criteria}-{component}-level">
-        Level
-        <span class="visuallyhidden">for {criteria} {component}</span>
+       Poziom
+        <span class="visuallyhidden">dla {criteria} {component}</span>
       </label>
       <select
         id="evaluation-{criteria}-{component}-level"

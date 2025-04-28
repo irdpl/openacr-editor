@@ -15,7 +15,7 @@
 
 <Header>{$evaluation.title}</Header>
 
-Based on {catalog.title}
+Oparty na {catalog.title}
 <HeaderWithAnchor id="name-of-product-version" level=2 {download}>Nazwa produktu/Wersja</HeaderWithAnchor>
 {$evaluation["product"]["name"]} {#if $evaluation["product"]["version"]} {$evaluation["product"]["version"]}{/if}
 
@@ -66,7 +66,7 @@ Based on {catalog.title}
 {/if}
 
 <HeaderWithAnchor id="applicable-standards-guidelines" level=2 {download}>Zastosowany standard/wytyczne</HeaderWithAnchor>
-Niniejszy raport obejmuje stopień zgodności z następującymi standardami/wytycznymi dostępności:
+Ten raport obejmuje stopień zgodności z następującymi standardami/wytycznymi dostępności:
 
 <table>
   <thead>

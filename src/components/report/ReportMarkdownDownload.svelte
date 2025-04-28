@@ -33,7 +33,7 @@
 
 	mdTemplate += `
 	## Informacje kontaktowe
-	### Informacj eo autorze
+	### Informacje o autorze
 	- Nazwa: ${$evaluation["author"]["name"]}
 	- Firma: ${$evaluation["author"]["company_name"]}
 	- Adres: ${$evaluation["author"]["address"]}

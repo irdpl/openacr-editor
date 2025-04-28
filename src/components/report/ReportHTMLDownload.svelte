@@ -124,14 +124,14 @@
   <footer class="usa-footer usa-footer usa-footer--slim">
     <div class="usa-footer__return-to-top">
       <div class="grid-container">
-        <a href={"#"}>Return to top</a>
+        <a href={"#"}>Wróć na początek</a>
       </div>
     </div>
     <div class="usa-footer__secondary-section">
       <div class="grid-container">
         <div class="grid-row grid-gap">
           <div class="grid-col">
-            <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a> is a format maintained by the <a href="https://gsa.gov/" target="_blank">GSA <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a>. Za kontakt odpowiada autor.
+            <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a> jest formatem utrzymywanym przez <a href="https://gsa.gov/" target="_blank">GSA <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a>. Za treść odpowiada autor.
           </div>
           <div class="grid-col">
             <ReportLicense />

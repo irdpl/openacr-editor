@@ -56,5 +56,5 @@ export function levelLabel(catalogName, level) {
     }
   }
   // If a level is provided but has no matching terms, provide a default.
-  return "Not Applicable";
+    return "Nie dotyczy";
 }

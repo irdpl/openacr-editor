@@ -23,7 +23,7 @@ export function importEvaluation(event) {
         fileType = "empty";
       }
       alert(
-        `Załądowany plik ${file.name} jest typu ${fileType}, który nie jest poprawny. Użyj jednego z następujących typów: 'application/x-yaml', 'application/yaml', 'text/yaml'.`
+        `Załadowany plik ${file.name} jest typu ${fileType}, który nie jest poprawny. Użyj jednego z następujących typów: 'application/x-yaml', 'application/yaml', 'text/yaml'.`
       );
       return;
     }
@@ -82,7 +82,7 @@ export function importEvaluation(event) {
           alert("Zaimportowany OpenACR jest niepoprawny. Komunikat: " + valid.message);
         }
       } catch (e) {
-        alert("NIe znaleziono danych lub niepoprawny import. Komunikat: " + e.message);
+        alert("Nie znaleziono danych lub niepoprawny import. Komunikat: " + e.message);
       }
     };
 

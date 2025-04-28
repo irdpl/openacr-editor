@@ -31,7 +31,7 @@
         on:click={() => openFirstAccordion()}>Dokumentacja</a
       >,
       <a href="#1.2.4-software-editor" on:click={() => openFirstAccordion()}
-        >Software</a
+        >Oprogramowanie</a
       >
       and
       <a

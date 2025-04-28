@@ -25,7 +25,7 @@
   let zip = new JSZip();
 
   onMount(() => {
-    htmlDownload = createHTMLDownload(htmlDownloadTemplate, title, "en");
+    htmlDownload = createHTMLDownload(htmlDownloadTemplate, title, "pl");
     zip.file('README.txt', 'Jeśli chcesz zebrać opinie od innych osób w swojej organizacji, wyślij spakowany plik (HTML i YAML) do swoich współpracowników. Współpracownicy mogą wyświetlić raport, otwierając plik HTML w dowolnej przeglądarce internetowej. Jeśli chcą wprowadzić zmiany w raporcie, powinni przejść do OpenACR Editor i przesłać plik YAML, aby wprowadzić zmiany w treści raportu. Nie edytuj bezpośrednio pliku HTML, służy on tylko do przeglądania raportu.\n\nJeśli raport jest gotowy do przesłania do agencji w odpowiedzi na zapytanie ofertowe (RFP), dołącz plik YAML do swojej oferty.');
     zip.file(`${filename}.html`, htmlDownload);
     zip.file(`${filename}.yaml`, yaml.dump(sanitizedEvaluation));

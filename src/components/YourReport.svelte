@@ -154,7 +154,7 @@
           </div>
         {:else}Twój raport{/if}
         <ButtonShowHide expanded={true} on:toggle={toggleYourReport}>
-          Hide
+          Ukryj
         </ButtonShowHide>
       </h2>
       <ReportNumbers className="your-report__description" />
