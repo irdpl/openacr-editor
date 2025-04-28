@@ -27,7 +27,7 @@ chapters:
         alt_id: "302.2"
         components: [none]
       - id: "302.3"
-        handle: Bez rozróżniania kolorów
+        handle: Bez postrzegania kolorów
         alt_id: "302.3"
         components: [none]
       - id: "302.4"
@@ -39,7 +39,7 @@ chapters:
         alt_id: "302.5"
         components: [none]
       - id: "302.6"
-        handle: Z ograniczeniami mowy
+        handle: Bez mówienia
         alt_id: "302.6"
         components: [none]
       - id: "302.7"
@@ -51,7 +51,7 @@ chapters:
         alt_id: "302.8"
         components: [none]
       - id: "302.9"
-        handle: Z ograniczonymi zdolnościami językowymi, poznawczymi i uczenia się
+        handle: Z ograniczeniami językowymi, poznawczymi i uczenia się
         alt_id: "302.9"
         components: [none]
   - id: hardware
@@ -68,7 +68,7 @@ chapters:
         alt_id: "402.2.2"
         components: [none]
       - id: "402.2.3"
-        handle: Typ i koordynacja mowy
+        handle: Typ i koordynacja dostarczania mowy
         alt_id: "402.2.3"
         components: [none]
       - id: "402.2.4"
@@ -80,59 +80,59 @@ chapters:
         alt_id: "402.2.5"
         components: [none]
       - id: "402.3.1"
-        handle: Prywatny odsłuch
+        handle: Prywatne słuchanie
         alt_id: "402.3.1"
         components: [none]
       - id: "402.3.2"
-        handle: Odsłuch nieprywatny
+        handle: Słuchanie nieprywatne
         alt_id: "402.3.2"
         components: [none]
       - id: "402.4"
-        handle: Znaki na ekranach wyświetlaczy
+        handle: Znaki na ekranach wyświetlacza
         alt_id: "402.4"
         components: [none]
       - id: "402.5"
-        handle: Characters on Variable Message Signs
+        handle: Znaki na wyświetlaczach o zmiennej treści
         alt_id: "402.5"
         components: [none]
       - id: "403.1"
-        handle: Ogólne (Biometryczne)
+        handle: Biometria - ogólne
         alt_id: "403.1"
         components: [none]
       - id: "404.1"
-        handle: Ogólne (Przechowywanie informacji udostępnionych w celu zapewnienia dostępności)
+        handle: Zachowanie informacji udostępnionych w celu zapewnienia dostępności - ogólne
         alt_id: "404.1"
         components: [none]
       - id: "405.1"
-        handle: Ogólne (Prywatność)
+        handle: Prywatność - ogólne
         alt_id: "405.1"
         components: [none]
       - id: "406.1"
-        handle: Ogólne (Połączenia standardowe)
+        handle: Połączenia standardowe - ogólne
         alt_id: "406.1"
         components: [none]
       - id: "407.2"
-        handle: Kontrast (Części operacyjne)
+        handle: Części operacyjne - Kontrast
         alt_id: "407.2"
         components: [none]
       - id: "407.3.1"
-        handle: Rozpoznawalne dotykiem
+        handle: Wyczuwalne dotykiem
         alt_id: "407.3.1"
         components: [none]
       - id: "407.3.2"
-        handle: Klawiatura alfabetyczna
+        handle: Klawisze alfabetyczne
         alt_id: "407.3.2"
         components: [none]
       - id: "407.3.3"
-        handle: Klawiatura numeryczna
+        handle: Klawisze numeryczne
         alt_id: "407.3.3"
         components: [none]
       - id: "407.4"
-        handle: Powtarzanie klawiszy
+        handle: Powtórzenie klawisza
         alt_id: "407.4"
         components: [none]
       - id: "407.5"
-        handle: Reakcja czasowa
+        handle: Odpowiedź ograniczona czasem
         alt_id: "407.5"
         components: [none]
       - id: "407.6"
@@ -140,19 +140,19 @@ chapters:
         alt_id: "407.6"
         components: [none]
       - id: "407.7"
-        handle: Bilety, karty taryfowe i karty magnetyczne
+        handle: Bilety, karty wstępu i karty dostępu
         alt_id: "407.7"
         components: [none]
       - id: "407.8.1"
-        handle: Vertical Reference Plane
+        handle: Pionowa płaszczyzna odniesienia
         alt_id: "407.8.1"
         components: [none]
       - id: "407.8.1.1"
-        handle: Pionowa płaszczyzna odniesienia
+        handle: Płaszczyzna pionowa dla zasięgu bocznego
         alt_id: "407.8.1.1"
         components: [none]
       - id: "407.8.1.2"
-        handle: Płaszczyzna pionowa dla zasięgu do przodu
+        handle: Płaszczyzna pionowa dla sięgania do przodu
         alt_id: "407.8.1.2"
         components: [none]
       - id: "407.8.2"
@@ -160,7 +160,7 @@ chapters:
         alt_id: "407.8.2"
         components: [none]
       - id: "407.8.2.1"
-        handle: Niezakłócony zasięg boczny
+        handle: Nieograniczony zasięg boczny
         alt_id: "407.8.2.1"
         components: [none]
       - id: "407.8.2.2"
@@ -172,7 +172,7 @@ chapters:
         alt_id: "407.8.3"
         components: [none]
       - id: "407.8.3.1"
-        handle: Niezakłócony zasięg do przodu
+        handle: Nieograniczony zasięg do przodu
         alt_id: "407.8.3.1"
         components: [none]
       - id: "407.8.3.2"
@@ -180,15 +180,15 @@ chapters:
         alt_id: "407.8.3.2"
         components: [none]
       - id: "407.8.3.2.1"
-        handle: Wysokość robocza części dla TIK z utrudnionym zasięgiem do przodu
+        handle: Wysokość części roboczej dla TIK z utrudnionym zasięgiem do przodu
         alt_id: "407.8.3.2.1"
         components: [none]
       - id: "407.8.3.2.2"
-        handle: Przestrzeń między kolanami i palcami w TIK z utrudnionym zasięgiem do przodu
+        handle: Przestrzeń między kolanami i palcami u stóp w TIK z utrudnionym zasięgiem do przodu
         alt_id: "407.8.3.2.2"
         components: [none]
       - id: "408.2"
-        handle: Widoczność
+        handle: Ekrany wyświetlacza - widoczność 
         alt_id: "408.2"
         components: [none]
       - id: "408.3"
@@ -196,31 +196,31 @@ chapters:
         alt_id: "408.3"
         components: [none]
       - id: "409.1"
-        handle: Ogólne (wskaźniki stanu)
+        handle: Wskaźniki stanu - ogólne
         alt_id: "409.1"
         components: [none]
       - id: "410.1"
-        handle: Ogólne (kodowanie kolorami)
+        handle: Kodowanie kolorami - ogólne
         alt_id: "410.1"
         components: [none]
       - id: "411.1"
-        handle: Ogólne (sygnały dźwiękowe)
+        handle: Sygnały dźwiękowe - ogólne
         alt_id: "411.1"
         components: [none]
       - id: "412.2.1"
-        handle: Wzmocnienie głośności w telefonach przewodowych
+        handle: Wzmocnienie głośności dla telefonów przewodowych
         alt_id: "412.2.1"
         components: [none]
       - id: "412.2.2"
-        handle: Przyrost wolumenu dla nieprzewodowych TIK
+        handle: Wzmocnienie głośności dla nieprzewodowych TIK
         alt_id: "412.2.2"
         components: [none]
       - id: "412.3.1"
-        handle: Słuchawki bezprzewodowe
+        handle: Telefony komórkowe bezprzewodowe
         alt_id: "412.3.1"
         components: [none]
       - id: "412.3.2"
-        handle: Słuchawki przewodowe
+        handle: Telefony przewodowe
         alt_id: "412.3.2"
         components: [none]
       - id: "412.4"
@@ -228,11 +228,11 @@ chapters:
         alt_id: "412.4"
         components: [none]
       - id: "412.5"
-        handle: Funkcja tekstowa w czasie rzeczywistym
+        handle: Funkcjonalność tekstowa w czasie rzeczywistym
         alt_id: "412.5"
         components: [none]
       - id: "412.6"
-        handle: ID dzwoniącego
+        handle: Identyfikacja dzwoniącego
         alt_id: "412.6"
         components: [none]
       - id: "412.7"
@@ -252,7 +252,7 @@ chapters:
         alt_id: "412.8.3"
         components: [none]
       - id: "412.8.4"
-        handle: Poczta głosowa i inne systemy przesyłania wiadomości
+        handle: Poczta głosowa i inne systemy przesyłąnych wiadomości
         alt_id: "412.8.4"
         components: [none]
       - id: "413.1.1"
@@ -268,15 +268,15 @@ chapters:
         alt_id: "414.1.1"
         components: [none]
       - id: "414.1.2"
-        handle: Inne TIK
+        handle: Inne technologie informacyjno-komunikacyjne
         alt_id: "414.1.2"
         components: [none]
       - id: "415.1.1"
-        handle: Elementy sterujące napisami
+        handle: Sterowanie napisami
         alt_id: "415.1.1"
         components: [none]
       - id: "415.1.2"
-        handle: Elementy sterujące audiodeskrypcją
+        handle: Sterowanie opisem audio
         alt_id: "415.1.2"
         components: [none]
   - id: software
@@ -289,7 +289,7 @@ chapters:
         alt_id: "502.2.1"
         components: [none]
       - id: "502.2.2"
-        handle: Brak zakłóceń w funkcjonowaniu cech dostępności
+        handle: Bez zakłóceń funkcji dostępności
         alt_id: "502.2.2"
         components: [none]
       - id: "502.3.1"
@@ -333,15 +333,15 @@ chapters:
         alt_id: "502.3.10"
         components: [none]
       - id: "502.3.11"
-        handle: Operacje na obiektach
+        handle: Działania na obiektach
         alt_id: "502.3.11"
         components: [none]
       - id: "502.3.12"
-        handle: Wskaźnik fokusu
+        handle: Kursor fokusu
         alt_id: "502.3.12"
         components: [none]
       - id: "502.3.13"
-        handle: Modyfikacja wskaźnika fokusu
+        handle: Modyfikacja kursora fokusu
         alt_id: "502.3.13"
         components: [none]
       - id: "502.3.14"
@@ -361,19 +361,19 @@ chapters:
         alt_id: "503.3"
         components: [none]
       - id: "503.4.1"
-        handle: Elementy sterujące napisami
+        handle: Sterowanie napisami
         alt_id: "503.4.1"
         components: [none]
       - id: "503.4.2"
-        handle: Elementy sterujące audiodeskrypcją
+        handle: Sterowanie opisem audio
         alt_id: "503.4.2"
         components: [none]
       - id: "504.2"
-        handle: Tworzenie lub edytowanie treści
+        handle: Tworzenie lub edycja treści
         alt_id: "504.2"
         components: [none]
       - id: "504.2.1"
-        handle: Zachowanie informacji dostarczonych w celu zapewnienia dostępności w konwertownym formacie
+        handle: Zachowanie informacji dostarczonych w celu zapewnienia dostępności podczas konwersji formatu
         alt_id: "504.2.1"
         components: [none]
       - id: "504.2.2"
@@ -381,7 +381,7 @@ chapters:
         alt_id: "504.2.2"
         components: [none]
       - id: "504.3"
-        handle: Prompty
+        handle: Monity
         alt_id: "504.3"
         components: [none]
       - id: "504.4"
@@ -394,19 +394,19 @@ chapters:
     order: 6
     criteria:
       - id: "602.2"
-        handle: Cechy dostępności i zgodności
+        handle: Funkcje dostępności i zgodności
         alt_id: "602.2"
         components: [none]
       - id: "602.3"
-        handle: Elektroniczna dokumentacja pomocy technicznej
+        handle: Dokumentacja pomocy w formacie elektronicznym
         alt_id: "602.3"
         components: [none]
       - id: "602.4"
-        handle: Alternatywne formaty nieelektronicznej dokumentacji pomocy technicznej
+        handle: Alternatywne formaty dokumentacji pomocy technicznej w formie innej niż elektroniczna
         alt_id: "602.4"
         components: [none]
       - id: "603.2"
-        handle: Informacje o cechach dostępności i zgodności
+        handle: Informacje o funkcjach dostępności i zgodności
         alt_id: "603.2"
         components: [none]
       - id: "603.3"
