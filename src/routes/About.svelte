@@ -26,7 +26,7 @@
   let selectedCatalog = $evaluation.catalog;
 
   onMount(() => {
-    currentPage.update(currentPage => "About");
+    currentPage.update(currentPage => "O edytorze");
 
     honourFragmentIdLinks($location);
   });
@@ -159,7 +159,7 @@
 
 <details open>
   <summary>
-    <HeaderWithAnchor id="product" level=2>Produky</HeaderWithAnchor>
+    <HeaderWithAnchor id="product" level=2>Produkty</HeaderWithAnchor>
   </summary>
 
   <div class="field">
