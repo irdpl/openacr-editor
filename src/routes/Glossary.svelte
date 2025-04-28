@@ -100,15 +100,8 @@
 	<dd>Oprogramowanie lub zbiór komponentów oprogramowania, z którego autorzy mogą korzystać, indywidualnie lub grupowo, w celu tworzenia lub modyfikowania treści przeznaczonych do użytku innych osób, w tym innych autorów.</dd>
 
 
-	<DTWithAnchor id="narzedzia-programowe">Narzędzia programowe</DTWithAnchor>
-	<dd>Oprogramowanie, którego="" podstawową="" funkcją="" jest="" rozwój="" innego="" oprogramowania.="" Narzędzia="" programowe="" zwykle="" występują="" w="" formie="" zintegrowanego="" środowiska="" programistycznego="" (IDE="") i="" są="" zestawem="" powiązanych="" produktów="" i="" narzędzi.="" Przykłady="" IDE="" obejmują="" Microsoft®="" Visual="" Studio®="", Apple®="" Xcode®="" i="" Eclipse="" Foundation="" Eclipse®.=""</dd>
-
-	
-	
-	
-	
-
-
+	<DTWithAnchor id="narzedzia-programistyczne-ide">Narzędzia programistyczne (IDE)</DTWithAnchor>
+	<dd>Oprogramowanie, którego podstawową funkcją jest rozwój innego oprogramowania. Narzędzia programowe zwykle występują w formie zintegrowanego środowiska programistycznego (IDE) i są zestawem powiązanych produktów i narzędzi. Przykłady IDE obejmują Microsoft® Visual Studio®, Apple® Xcode® i Eclipse Foundation Eclipse®.</dd>
 
 
 	<DTWithAnchor id="niepelnosprawnosc">Niepełnosprawność</DTWithAnchor>
