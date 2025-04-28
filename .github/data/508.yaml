@@ -1,9 +1,9 @@
-title: VPAT® 2.4 Revised Section 508 Edition
+title: VPAT® 2.4 Poprawione wydanie Section 508
 lang: pl
 standard:
   - id: "508"
-    label: "Revised Section 508 standards published January 18, 2017 and corrected January 22, 2018"
-    report_heading: "Revised Section 508 Report"
+    label: "Poprawione standardy Section 508 opublikowane 18 stycznia 2017 r. i poprawione 22 stycznia 2018 r"
+    report_heading: "Raport na podstawie Popawionych Section 508"
     url: https://www.access-board.gov/ict/
     chapters:
       [
@@ -14,81 +14,81 @@ standard:
       ]
 chapters:
   - id: functional_performance_criteria
-    label: "Chapter 3: Functional Performance Criteria (FPC)"
+    label: "Rozdział 3: Kryteria wydajności funkcjonalnej (FPC)"
     short_label: FPC
     order: 3
     criteria:
       - id: "302.1"
-        handle: Without Vision
+        handle: Bez wzroku
         alt_id: "302.1"
         components: [none]
       - id: "302.2"
-        handle: With Limited Vision
+        handle: Z ograniczeniami wzroku
         alt_id: "302.2"
         components: [none]
       - id: "302.3"
-        handle: Without Perception of Color
+        handle: Bez rozróżniania kolorów
         alt_id: "302.3"
         components: [none]
       - id: "302.4"
-        handle: Without Hearing
+        handle: Bez słuchu
         alt_id: "302.4"
         components: [none]
       - id: "302.5"
-        handle: With Limited Hearing
+        handle: Z ograniczeniami słuchu
         alt_id: "302.5"
         components: [none]
       - id: "302.6"
-        handle: Without Speech
+        handle: Z ograniczeniami mowy
         alt_id: "302.6"
         components: [none]
       - id: "302.7"
-        handle: With Limited Manipulation
+        handle: Z ograniczeniami manipulacji
         alt_id: "302.7"
         components: [none]
       - id: "302.8"
-        handle: With Limited Reach and Strength
+        handle: Z ograniczeniami zasięgu i siły
         alt_id: "302.8"
         components: [none]
       - id: "302.9"
-        handle: With Limited Language, Cognitive, and Learning Abilities
+        handle: Z ograniczonymi zdolnościami językowymi, poznawczymi i uczenia się
         alt_id: "302.9"
         components: [none]
   - id: hardware
-    label: "Chapter 4: Hardware"
-    short_label: Hardware
+    label: "Rozdział 4: Sprzęt"
+    short_label: Sprzęt
     order: 4
     criteria:
       - id: "402.2.1"
-        handle: Information Displayed On-Screen
+        handle: Informacje wyświetlane na ekranie
         alt_id: "402.2.1"
         components: [none]
       - id: "402.2.2"
-        handle: Transactional Outputs
+        handle: Wyjścia transakcyjne
         alt_id: "402.2.2"
         components: [none]
       - id: "402.2.3"
-        handle: Speech Delivery Type and Coordination
+        handle: Typ i koordynacja mowy
         alt_id: "402.2.3"
         components: [none]
       - id: "402.2.4"
-        handle: User Control
+        handle: Kontrola użytkownika
         alt_id: "402.2.4"
         components: [none]
       - id: "402.2.5"
-        handle: Braille Instructions
+        handle: Instrukcje w alfabecie Braille'a
         alt_id: "402.2.5"
         components: [none]
       - id: "402.3.1"
-        handle: Private Listening
+        handle: Prywatny odsłuch
         alt_id: "402.3.1"
         components: [none]
       - id: "402.3.2"
-        handle: Non-private Listening
+        handle: Odsłuch nieprywatny
         alt_id: "402.3.2"
         components: [none]
       - id: "402.4"
-        handle: Characters on Display Screens
+        handle: Znaki na ekranach wyświetlaczy
         alt_id: "402.4"
         components: [none]
       - id: "402.5"
@@ -96,51 +96,51 @@ chapters:
         alt_id: "402.5"
         components: [none]
       - id: "403.1"
-        handle: General (Biometrics)
+        handle: Ogólne (Biometryczne)
         alt_id: "403.1"
         components: [none]
       - id: "404.1"
-        handle: General (Preservation of Information Provided for Accessibility)
+        handle: Ogólne (Przechowywanie informacji udostępnionych w celu zapewnienia dostępności)
         alt_id: "404.1"
         components: [none]
       - id: "405.1"
-        handle: General (Privacy)
+        handle: Ogólne (Prywatność)
         alt_id: "405.1"
         components: [none]
       - id: "406.1"
-        handle: General (Standard Connections)
+        handle: Ogólne (Połączenia standardowe)
         alt_id: "406.1"
         components: [none]
       - id: "407.2"
-        handle: Contrast (Operable Parts)
+        handle: Kontrast (Części operacyjne)
         alt_id: "407.2"
         components: [none]
       - id: "407.3.1"
-        handle: Tactilely Discernible
+        handle: Rozpoznawalne dotykiem
         alt_id: "407.3.1"
         components: [none]
       - id: "407.3.2"
-        handle: Alphabetic Keys
+        handle: Klawiatura alfabetyczna
         alt_id: "407.3.2"
         components: [none]
       - id: "407.3.3"
-        handle: Numeric Keys
+        handle: Klawiatura numeryczna
         alt_id: "407.3.3"
         components: [none]
       - id: "407.4"
-        handle: Key Repeat
+        handle: Powtarzanie klawiszy
         alt_id: "407.4"
         components: [none]
       - id: "407.5"
-        handle: Timed Response
+        handle: Reakcja czasowa
         alt_id: "407.5"
         components: [none]
       - id: "407.6"
-        handle: Operation
+        handle: Operacje
         alt_id: "407.6"
         components: [none]
       - id: "407.7"
-        handle: Tickets, Fare Cards, and Keycards
+        handle: Bilety, karty taryfowe i karty magnetyczne
         alt_id: "407.7"
         components: [none]
       - id: "407.8.1"
@@ -148,268 +148,268 @@ chapters:
         alt_id: "407.8.1"
         components: [none]
       - id: "407.8.1.1"
-        handle: Vertical Plane for Side Reach
+        handle: Pionowa płaszczyzna odniesienia
         alt_id: "407.8.1.1"
         components: [none]
       - id: "407.8.1.2"
-        handle: Vertical Plane for Forward Reach
+        handle: Płaszczyzna pionowa dla zasięgu do przodu
         alt_id: "407.8.1.2"
         components: [none]
       - id: "407.8.2"
-        handle: Side Reach
+        handle: Zasięg boczny
         alt_id: "407.8.2"
         components: [none]
       - id: "407.8.2.1"
-        handle: Unobstructed Side Reach
+        handle: Niezakłócony zasięg boczny
         alt_id: "407.8.2.1"
         components: [none]
       - id: "407.8.2.2"
-        handle: Obstructed Side Reach
+        handle: Utrudniony zasięg boczny
         alt_id: "407.8.2.2"
         components: [none]
       - id: "407.8.3"
-        handle: Forward Reach
+        handle: Zasięg do przodu
         alt_id: "407.8.3"
         components: [none]
       - id: "407.8.3.1"
-        handle: Unobstructed Forward Reach
+        handle: Niezakłócony zasięg do przodu
         alt_id: "407.8.3.1"
         components: [none]
       - id: "407.8.3.2"
-        handle: Obstructed Forward Reach
+        handle: Utrudniony zasięg do przodu
         alt_id: "407.8.3.2"
         components: [none]
       - id: "407.8.3.2.1"
-        handle: Operable Part Height for ICT with Obstructed Forward Reach
+        handle: Wysokość robocza części dla TIK z utrudnionym zasięgiem do przodu
         alt_id: "407.8.3.2.1"
         components: [none]
       - id: "407.8.3.2.2"
-        handle: Knee and Toe Space under ICT with Obstructed Forward Reach
+        handle: Przestrzeń między kolanami i palcami w TIK z utrudnionym zasięgiem do przodu
         alt_id: "407.8.3.2.2"
         components: [none]
       - id: "408.2"
-        handle: Visibility
+        handle: Widoczność
         alt_id: "408.2"
         components: [none]
       - id: "408.3"
-        handle: Flashing
+        handle: Miganie
         alt_id: "408.3"
         components: [none]
       - id: "409.1"
-        handle: General (Status Indicators)
+        handle: Ogólne (wskaźniki stanu)
         alt_id: "409.1"
         components: [none]
       - id: "410.1"
-        handle: General (Color Coding)
+        handle: Ogólne (kodowanie kolorami)
         alt_id: "410.1"
         components: [none]
       - id: "411.1"
-        handle: General (Audible Signals)
+        handle: Ogólne (sygnały dźwiękowe)
         alt_id: "411.1"
         components: [none]
       - id: "412.2.1"
-        handle: Volume Gain for Wireline Telephones
+        handle: Wzmocnienie głośności w telefonach przewodowych
         alt_id: "412.2.1"
         components: [none]
       - id: "412.2.2"
-        handle: Volume Gain for Non-Wireline ICT
+        handle: Przyrost wolumenu dla nieprzewodowych TIK
         alt_id: "412.2.2"
         components: [none]
       - id: "412.3.1"
-        handle: Wireless Handsets
+        handle: Słuchawki bezprzewodowe
         alt_id: "412.3.1"
         components: [none]
       - id: "412.3.2"
-        handle: Wireline Handsets
+        handle: Słuchawki przewodowe
         alt_id: "412.3.2"
         components: [none]
       - id: "412.4"
-        handle: Digital Encoding of Speech
+        handle: Cyfrowe kodowanie mowy
         alt_id: "412.4"
         components: [none]
       - id: "412.5"
-        handle: Real-Time Text Functionality
+        handle: Funkcja tekstowa w czasie rzeczywistym
         alt_id: "412.5"
         components: [none]
       - id: "412.6"
-        handle: Caller ID
+        handle: ID dzwoniącego
         alt_id: "412.6"
         components: [none]
       - id: "412.7"
-        handle: Video Communication
+        handle: Komunikacja wideo
         alt_id: "412.7"
         components: [none]
       - id: "412.8.1"
-        handle: TTY Connectability
+        handle: Możliwość podłączenia TTY
         alt_id: "412.8.1"
         components: [none]
       - id: "412.8.2"
-        handle: Voice and Hearing Carry Over
+        handle: Przenoszenie głosu i słuchu
         alt_id: "412.8.2"
         components: [none]
       - id: "412.8.3"
-        handle: Signal Compatibility
+        handle: Kompatybilność sygnału
         alt_id: "412.8.3"
         components: [none]
       - id: "412.8.4"
-        handle: Voice Mail and Other Messaging Systems
+        handle: Poczta głosowa i inne systemy przesyłania wiadomości
         alt_id: "412.8.4"
         components: [none]
       - id: "413.1.1"
-        handle: Decoding and Display of Closed Captions
+        handle: Dekodowanie i wyświetlanie napisów kodowanych
         alt_id: "413.1.1"
         components: [none]
       - id: "413.1.2"
-        handle: Pass-Through of Closed Caption Data
+        handle: Przekazywanie danych napisów kodowanych
         alt_id: "413.1.2"
         components: [none]
       - id: "414.1.1"
-        handle: Digital Television Tuners
+        handle: Tunery telewizji cyfrowej
         alt_id: "414.1.1"
         components: [none]
       - id: "414.1.2"
-        handle: Other ICT
+        handle: Inne TIK
         alt_id: "414.1.2"
         components: [none]
       - id: "415.1.1"
-        handle: Caption Controls
+        handle: Elementy sterujące napisami
         alt_id: "415.1.1"
         components: [none]
       - id: "415.1.2"
-        handle: Audio Description Controls
+        handle: Elementy sterujące audiodeskrypcją
         alt_id: "415.1.2"
         components: [none]
   - id: software
-    label: "Chapter 5: Software"
-    short_label: Software
+    label: "Rozdział 5: Oprogramowanie"
+    short_label: Oprogramowanie
     order: 5
     criteria:
       - id: "502.2.1"
-        handle: User Control of Accessibility Features
+        handle: Kontrola użytkownika nad cechami dostępności
         alt_id: "502.2.1"
         components: [none]
       - id: "502.2.2"
-        handle: No Disruption of Accessibility Features
+        handle: Brak zakłóceń w funkcjonowaniu cech dostępności
         alt_id: "502.2.2"
         components: [none]
       - id: "502.3.1"
-        handle: Object Information
+        handle: Informacje o obiekcie
         alt_id: "502.3.1"
         components: [none]
       - id: "502.3.2"
-        handle: Modification of Object Information
+        handle: Modyfikacja informacji o obiekcie
         alt_id: "502.3.2"
         components: [none]
       - id: "502.3.3"
-        handle: Row, Column, and Headers
+        handle: Wiersze, kolumny i nagłówki
         alt_id: "502.3.3"
         components: [none]
       - id: "502.3.4"
-        handle: Values
+        handle: Wartości
         alt_id: "502.3.4"
         components: [none]
       - id: "502.3.5"
-        handle: Modification of Values
+        handle: Modyfikacja wartości
         alt_id: "502.3.5"
         components: [none]
       - id: "502.3.6"
-        handle: Label Relationships
+        handle: Relacje etykiet
         alt_id: "502.3.6"
         components: [none]
       - id: "502.3.7"
-        handle: Hierarchical Relationships
+        handle: Relacje hierarchiczne
         alt_id: "502.3.7"
         components: [none]
       - id: "502.3.8"
-        handle: Text
+        handle: Tekst
         alt_id: "502.3.8"
         components: [none]
       - id: "502.3.9"
-        handle: Modification of Text
+        handle: Modyfikacja tekstu
         alt_id: "502.3.9"
         components: [none]
       - id: "502.3.10"
-        handle: List of Actions
+        handle: Lista działań
         alt_id: "502.3.10"
         components: [none]
       - id: "502.3.11"
-        handle: Actions on Objects
+        handle: Operacje na obiektach
         alt_id: "502.3.11"
         components: [none]
       - id: "502.3.12"
-        handle: Focus Cursor
+        handle: Wskaźnik fokusu
         alt_id: "502.3.12"
         components: [none]
       - id: "502.3.13"
-        handle: Modification of Focus Cursor
+        handle: Modyfikacja wskaźnika fokusu
         alt_id: "502.3.13"
         components: [none]
       - id: "502.3.14"
-        handle: Event Notification
+        handle: Powiadomienie o zdarzeniu
         alt_id: "502.3.14"
         components: [none]
       - id: "502.4"
-        handle: Platform Accessibility Features
+        handle: Funkcje dostępności platformy
         alt_id: "502.4"
         components: [none]
       - id: "503.2"
-        handle: User Preferences
+        handle: Preferencje użytkownika
         alt_id: "503.2"
         components: [none]
       - id: "503.3"
-        handle: Alternative User Interfaces
+        handle: Alternatywne interfejsy użytkownika
         alt_id: "503.3"
         components: [none]
       - id: "503.4.1"
-        handle: Caption Controls
+        handle: Elementy sterujące napisami
         alt_id: "503.4.1"
         components: [none]
       - id: "503.4.2"
-        handle: Audio Description Controls
+        handle: Elementy sterujące audiodeskrypcją
         alt_id: "503.4.2"
         components: [none]
       - id: "504.2"
-        handle: Content Creation or Editing
+        handle: Tworzenie lub edytowanie treści
         alt_id: "504.2"
         components: [none]
       - id: "504.2.1"
-        handle: Preservation of Information Provided for Accessibility in Format Conversion
+        handle: Zachowanie informacji dostarczonych w celu zapewnienia dostępności w konwertownym formacie
         alt_id: "504.2.1"
         components: [none]
       - id: "504.2.2"
-        handle: PDF Export
+        handle: Eksportowanie PDF
         alt_id: "504.2.2"
         components: [none]
       - id: "504.3"
-        handle: Prompts
+        handle: Prompty
         alt_id: "504.3"
         components: [none]
       - id: "504.4"
-        handle: Templates
+        handle: Szablony
         alt_id: "504.4"
         components: [none]
   - id: support_documentation_and_services
-    label: "Chapter 6: Support Documentation and Services"
-    short_label: Documentation
+    label: "Rozdział 6: Dokumentacja i usługi wsparcia technicznego"
+    short_label: Dokumentacja
     order: 6
     criteria:
       - id: "602.2"
-        handle: Accessibility and Compatibility Features
+        handle: Cechy dostępności i zgodności
         alt_id: "602.2"
         components: [none]
       - id: "602.3"
-        handle: Electronic Support Documentation
+        handle: Elektroniczna dokumentacja pomocy technicznej
         alt_id: "602.3"
         components: [none]
       - id: "602.4"
-        handle: Alternate Formats for Non-Electronic Support Documentation
+        handle: Alternatywne formaty nieelektronicznej dokumentacji pomocy technicznej
         alt_id: "602.4"
         components: [none]
       - id: "603.2"
-        handle: Information on Accessibility and Compatibility Features
+        handle: Informacje o cechach dostępności i zgodności
         alt_id: "603.2"
         components: [none]
       - id: "603.3"
-        handle: Accommodation of Communication Needs
+        handle: Dostosowanie do potrzeb komunikacyjnych
         alt_id: "603.3"
         components: [none]
