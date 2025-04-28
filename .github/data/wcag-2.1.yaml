@@ -367,7 +367,7 @@ chapters:
           - software
           - authoring-tool
       - id: 2.4.7
-        handle: Nagłówki i etykiety
+        handle: Widoczny fokus
         alt_id: focus-visible
         components:
           - web

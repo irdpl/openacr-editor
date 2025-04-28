@@ -2,7 +2,7 @@ title: WCAG 2.0
 lang: pl
 standard:
   - id: wcag-2.0
-    label: "Web Content Accessibility Guidelines 2.0"
+    label: "Wytyczne dla dostêpnoœci treœci internetowych 2.0"
     report_heading: "WCAG 2.0 Report"
     url: https://www.w3.org/TR/WCAG20/
     chapters:
@@ -13,261 +13,261 @@ standard:
       ]
 chapters:
   - id: success_criteria_level_a
-    label: "Table 1: Success Criteria, Level A"
+    label: "Tabela 1: Kryteria sukcesu, Poziom A"
     short_label: "A"
     order: 1
     criteria:
       - id: 1.1.1
-        handle: Non-text Content
+        handle: Treœæ nietekstowa
         alt_id: text-equiv-all
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.1
-        handle: Audio-only and Video-only (Prerecorded)
+        handle: Tylko audio i tylko wideo (nagranie)
         alt_id: media-equiv-av-only-alt
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.2
-        handle: Captions (Prerecorded)
+        handle: Napisy rozszerzone (nagranie)
         alt_id: media-equiv-captions
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.3
-        handle: Audio Description or Media Alternative (Prerecorded)
+        handle: Audiodeskrypcja lub alternatywa tekstowa dla mediów (nagranie)
         alt_id: media-equiv-audio-desc
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.3.1
-        handle: Info and Relationships
+        handle: Informacje i relacje
         alt_id: content-structure-separation-programmatic
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.3.2
-        handle: Meaningful Sequence
+        handle: Zrozumia³a kolejnoœæ
         alt_id: content-structure-separation-sequence
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.3.3
-        handle: Sensory Characteristics
+        handle: W³aœciwoœci zmys³owe
         alt_id: content-structure-separation-understanding
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.1
-        handle: Use of Color
+        handle: U¿ycie koloru
         alt_id: visual-audio-contrast-without-color
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.2
-        handle: Audio Control
+        handle: Kontrola odtwarzania dŸwiêku
         alt_id: visual-audio-contrast-dis-audio
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.1.1
-        handle: Keyboard
+        handle: Klawiatura
         alt_id: keyboard-operation-keyboard-operable
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.1.2
-        handle: No Keyboard Trap
+        handle: Bez pu³apki na klawiaturê
         alt_id: keyboard-operation-trapping
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.2.1
-        handle: Pause, Stop, Hide
-        alt_id: time-limits-required-behaviors
-        components: [web, "electronic-docs", software, "authoring-tool"]
-      - id: 2.2.2
-        handle: Timing Adjustable
+        handle: Dostosowanie czasu
         alt_id: time-limits-pause
         components: [web, "electronic-docs", software, "authoring-tool"]
+      - id: 2.2.2
+        handle: Pauza, zatrzymanie, ukrycie
+        alt_id: time-limits-required-behaviors
+        components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.3.1
-        handle: Three Flashes or Below Threshold
+        handle: Trzy b³yski lub wartoœci poni¿ej progu
         alt_id: seizure-does-not-violate
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.1
-        handle: Bypass Blocks
+        handle: Mo¿liwoœæ pominiêcia bloków
         alt_id: navigation-mechanisms-skip
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.2
-        handle: Page Titled
+        handle: Tytu³y stron
         alt_id: navigation-mechanisms-title
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.3
-        handle: Focus Order
+        handle: Kolejnoœæ fokusu
         alt_id: navigation-mechanisms-focus-order
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.4
-        handle: Link Purpose (In Context)
+        handle: Cel ³¹cza (w kontekœcie)
         alt_id: navigation-mechanisms-refs
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.1.1
-        handle: Language of Page
+        handle: Jêzyk strony
         alt_id: meaning-doc-lang-id
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.2.1
-        handle: On Focus
+        handle: Po otrzymaniu fokusu
         alt_id: consistent-behavior-receive-focus
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.2.2
-        handle: On Input
+        handle: Podczas wprowadzania danych
         alt_id: consistent-behavior-unpredictable-change
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.3.1
-        handle: Error Identification
+        handle: Identyfikacja b³êdu
         alt_id: minimize-error-identified
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.3.2
-        handle: Labels or Instructions
+        handle: Etykiety lub instrukcje
         alt_id: minimize-error-cues
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 4.1.1
-        handle: Parsing
+        handle: Poprawnoœæ kodu (Przestarza³e i usuniête)
         alt_id: ensure-compat-parses
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 4.1.2
-        handle: Name, Role, Value
+        handle: Nazwa, rola, wartoœæ
         alt_id: ensure-compat-rsv
         components: [web, "electronic-docs", software, "authoring-tool"]
   - id: success_criteria_level_aa
-    label: "Table 2: Success Criteria, Level AA"
+    label: "Tabela 2: Kryteria sukcesu, Poziom AA"
     short_label: "AA"
     order: 2
     criteria:
       - id: 1.2.4
-        handle: Captions (Live)
+        handle: Napisy rozszerzone (na ¿ywo)
         alt_id: media-equiv-real-time-captions
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.5
-        handle: Audio Description (Prerecorded)
+        handle: Audiodeskrypcja (nagranie)
         alt_id: media-equiv-audio-desc-only
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.3
-        handle: Contrast (Minimum)
+        handle: Kontrast (minimum)
         alt_id: visual-audio-contrast-contrast
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.4
-        handle: Resize text
+        handle: Zmiana rozmiaru tekstu
         alt_id: visual-audio-contrast-scale
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.5
-        handle: Images of Text
+        handle: Obrazy tekstu
         alt_id: visual-audio-contrast-text-presentation
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.5
-        handle: Multiple Ways
+        handle: Wiele dróg
         alt_id: navigation-mechanisms-mult-loc
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.6
-        handle: Headings and Labels
+        handle: Nag³ówki i etykiety
         alt_id: navigation-mechanisms-descriptive
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.7
-        handle: Focus Visible
+        handle: Widoczny fokus
         alt_id: navigation-mechanisms-focus-visible
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.1.2
-        handle: Language of Parts
+        handle: Jêzyk czêœci
         alt_id: meaning-other-lang-id
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.2.3
-        handle: Consistent Navigation
+        handle: Spójna nawigacja
         alt_id: consistent-behavior-consistent-locations
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.2.4
-        handle: Consistent Identification
+        handle: Spójna identyfikacja
         alt_id: consistent-behavior-consistent-functionality
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.3.3
-        handle: Error Suggestion
+        handle: Sugestie korekty b³êdów
         alt_id: minimize-error-suggestions
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.3.4
-        handle: Error Prevention (Legal, Financial, Data)
+        handle: Zapobieganie b³êdom (prawnym, finansowym, w danych)
         alt_id: minimize-error-reversible
         components: [web, "electronic-docs", software, "authoring-tool"]
   - id: success_criteria_level_aaa
-    label: "Table 3: Success Criteria, Level AAA"
+    label: "Tabela 3: Kryteria sukcesu, Poziom AAA"
     short_label: "AAA"
     order: 3
     criteria:
       - id: 1.2.6
-        handle: Sign Language (Prerecorded)
+        handle: Jêzyk migowy (nagranie)
         alt_id: media-equiv-sign
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.7
-        handle: Extended Audio Description (Prerecorded)
+        handle: Audiodeskrypcja rozszerzona (nagranie)
         alt_id: media-equiv-extended-ad
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.8
-        handle: Media Alternative (Prerecorded)
+        handle: Alternatywa dla mediów (nagranie)
         alt_id: media-equiv-text-doc
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.2.9
-        handle: Audio-only (Live)
+        handle: Tylko audio (na ¿ywo)
         alt_id: media-equiv-live-audio-only
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.6
-        handle: Contrast (Enhanced)
+        handle: Kontrast (wzmocniony)
         alt_id: visual-audio-contrast7
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.7
-        handle: Low or No Background Audio
+        handle: Niska g³oœnoœæ lub bez dŸwiêków w tle
         alt_id: visual-audio-contrast-noaudio
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.8
-        handle: Visual Presentation
+        handle: Prezentacja wizualna
         alt_id: visual-audio-contrast-visual-presentation
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 1.4.9
-        handle: Images of Text (No Exception)
+        handle: Obrazy tekstu (bez wyj¹tków)
         alt_id: visual-audio-contrast-text-images
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.1.3
-        handle: Keyboard (No Exception)
+        handle: Klawiatura (bez wyj¹tków)
         alt_id: keyboard-operation-all-funcs
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.2.3
-        handle: No Timing
+        handle: Bez ograniczeñ czasowych
         alt_id: time-limits-no-exceptions
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.2.4
-        handle: Interruptions
+        handle: Przerywanie
         alt_id: time-limits-postponed
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.2.5
-        handle: Re-authenticating
+        handle: Ponowne uwierzytelnienie
         alt_id: time-limits-server-timeout
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.3.2
-        handle: Three Flashes
+        handle: Trzy b³yski
         alt_id: seizure-three-times
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.8
-        handle: Location
+        handle: Lokalizacja
         alt_id: navigation-mechanisms-location
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.9
-        handle: Link Purpose (Link Only)
+        handle: Cel ³¹cza (z samego ³¹cza)
         alt_id: navigation-mechanisms-link
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 2.4.10
-        handle: Section Headings
+        handle: Nag³ówki sekcji
         alt_id: navigation-mechanisms-headings
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.1.3
-        handle: Unusual Words
+        handle: Nietypowe s³owa
         alt_id: meaning-idioms
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.1.4
-        handle: Abbreviations
+        handle: Skróty
         alt_id: meaning-located
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.1.5
-        handle: Reading Level
+        handle: Poziom umiejêtnoœci czytania
         alt_id: meaning-supplements
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.1.6
-        handle: Pronunciation
+        handle: Wymowa
         alt_id: meaning-pronunciation
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.2.5
-        handle: Change on Request
+        handle: Zmiana na ¿¹danie
         alt_id: consistent-behavior-no-extreme-changes-context
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.3.5
-        handle: Help
+        handle: Pomoc
         alt_id: minimize-error-context-help
         components: [web, "electronic-docs", software, "authoring-tool"]
       - id: 3.3.6
-        handle: Error Prevention (All)
+        handle: Zapobieganie b³êdom (wszystkim)
         alt_id: minimize-error-reversible-all
         components: [web, "electronic-docs", software, "authoring-tool"]
