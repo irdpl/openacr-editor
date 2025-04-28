@@ -459,6 +459,6 @@
 </details>
 
 <Pager label="Poprzednia/Następna">
-  <PagerLink to="/" direction="previous">Przegląd</PagerLink>
-  <PagerLink to="/chapter/success_criteria_level_a" direction="next">A</PagerLink>
+  <PagerLink to="/" direction="Poprzednia">Przegląd</PagerLink>
+  <PagerLink to="/chapter/success_criteria_level_a" direction="Następna">A</PagerLink>
 </Pager>

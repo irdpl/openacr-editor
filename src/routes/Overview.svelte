@@ -116,5 +116,5 @@
 </details>
 
 <Pager label="Poprzednia/Następna wytyczna">
-  <PagerLink to="/about" direction="next">O OpenACR</PagerLink>
+  <PagerLink to="/about" direction="następna">O OpenACR</PagerLink>
 </Pager>
