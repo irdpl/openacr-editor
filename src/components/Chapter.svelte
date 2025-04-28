@@ -80,20 +80,20 @@
 
   <Pager label="Poprzedni/Następny rozdział">
     {#if chapterId === "success_criteria_level_a"}
-      <PagerLink to={'/about'} direction="previous">O edytorze</PagerLink>
+      <PagerLink to={'/about'} direction="poprzednia">O edytorze</PagerLink>
     {/if}
     {#if currentChapterKey > 0}
-      <PagerLink to={`/chapter/${chapters[currentChapterKey - 1].id}`} direction="previous">
+      <PagerLink to={`/chapter/${chapters[currentChapterKey - 1].id}`} direction="poprzednia">
         {chapters[currentChapterKey - 1].short_label}
       </PagerLink>
     {/if}
     {#if currentChapterKey + 1 < chapters.length}
-      <PagerLink to={`/chapter/${chapters[currentChapterKey + 1].id}`} direction="next">
+      <PagerLink to={`/chapter/${chapters[currentChapterKey + 1].id}`} direction="następna">
         {chapters[currentChapterKey + 1].short_label}
       </PagerLink>
     {/if}
     {#if currentChapterKey + 1 === chapters.length}
-      <PagerLink to={'/report'} direction="next">Pokaż raport</PagerLink>
+      <PagerLink to={'/report'} direction="następna">Pokaż raport</PagerLink>
     {/if}
   </Pager>
 </div>
