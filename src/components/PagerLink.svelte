@@ -14,14 +14,14 @@
 
 <li class={`pager--item ${direction}`}>
   <Link {to}>
-    {#if direction === 'poprzedni'}
+    {#if direction === 'previous'}
       <svg
         focusable="false"
         aria-hidden="true"
         class="icon-arrow-right pager--item-icon">
         <use href={`${vars.pathPrefix}/images/icons.svg#icon-arrow-left`} />
       </svg>
-    {:else if direction === 'następny'}
+    {:else if direction === 'next'}
       <svg
         focusable="false"
         aria-hidden="true"
