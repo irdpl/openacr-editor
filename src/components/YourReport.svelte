@@ -118,7 +118,8 @@
   }
 </style>
 
-<div
+<aside
+	label="Twój raport"
   class="your-report"
   class:your-report--expanded={$showYourReport === true}
   bind:this={box}
@@ -181,4 +182,4 @@
       Pokaż "Twój raport"
     </ButtonShowHide>
   {/if}
-  </div>
+  </aside>
