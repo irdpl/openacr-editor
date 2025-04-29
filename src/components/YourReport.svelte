@@ -119,7 +119,7 @@
 </style>
 
 <aside
-	label="Twój raport"
+	aria-labelledby="your-report"
   class="your-report"
   class:your-report--expanded={$showYourReport === true}
   bind:this={box}
@@ -127,7 +127,7 @@
   aria-live="polite">
   {#if $showYourReport === true}
     {#if fresh && $currentPage === 'Przegląd'}
-      <h2 class="your-report__heading">
+      <h2 class="your-report__heading" id="your-report-lbl">
         Twój raport
         <ButtonShowHide expanded={true} on:toggle={toggleYourReport}>
           Ukryj

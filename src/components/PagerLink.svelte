@@ -31,16 +31,8 @@
     {/if}
     <span class="pager--item-text">
       <span class="pager--item-text-direction">
- <!--       {`${direction.toLowerCase()}:`} -->
-
-		  {#if direction === 'poprzednia'}
-		  previous
-		  {:else if direction === 'następna'}
-		  next
-		  {/if}:
-
-
-	  </span>
+        {`${direction.toLowerCase()}:`}
+      </span>
       <span class="pager--item-text-target">
         <slot />
       </span>
