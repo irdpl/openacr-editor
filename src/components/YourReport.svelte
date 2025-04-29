@@ -119,7 +119,7 @@
 </style>
 
 <aside
-	aria-labelledby="your-report"
+	aria-labelledby="your-report-lbl"
   class="your-report"
   class:your-report--expanded={$showYourReport === true}
   bind:this={box}
