@@ -28,18 +28,18 @@
 <Header>Przegląd</Header>
 
 <p>
-	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank"></a>. Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
+	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank"></a>. Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i&nbsp;generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
 </p>
 
 <p>Jak korzystać   z OpenACR:</p>
 
 <ul>
 	<li>
-		Edytor działa lokalnie w Twojej przeglądarce internetowej. Informacje przechowuje w pamięci podręcznej przeglądarki (nie na naszych serwerach). Edytor generuje dokumenty wynikowe <q>w locie</q> w dwóch formatach: <strong>YAML</strong> (uporządkowane dane) oraz <strong>HTML</strong> (strona internetowa). Aby w przyszłości edytować opracowany lub niedokończony raport, niezbędny będzie plik YAML.
+		Edytor działa lokalnie w Twojej przeglądarce internetowej. Informacje przechowuje w&nbsp;pamięci podręcznej przeglądarki (nie na naszych serwerach). Edytor generuje dokumenty wynikowe <q>w locie</q> w&nbsp;dwóch formatach: <strong>YAML</strong> (uporządkowane dane) oraz <strong>HTML</strong> (strona internetowa). Aby w&nbsp;przyszłości edytować opracowany lub niedokończony raport, niezbędny będzie plik YAML.
 	</li>
 	<li>
-		Aby stworzyć nowy raport, wybierz z bocznego paska <Link to="about#your-report-lbl"><q>Twój raport</q>
-		</Link>  przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>. Aby edytować istniejący raport, wybierz przycisk <q>Otwórz</q>.
+		Aby stworzyć nowy raport, wybierz w sekcji <Link to="about#your-report-lbl"><q>Twój raport</q>
+		</Link>  przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>. Aby edytować istniejący raport, wybierz <q>Otwórz</q>.
 
 	</li>
 
@@ -49,7 +49,7 @@
 	</li>
 
 	<li>
-		Efekt pracy możesz znajdziesz w każdym momencie na stronie <Link to="report">Raport</Link>. Możesz tutaj pobrać dokumenty wynikowe. Możesz przeglądać listy kryteriów sukcesu, które zostały sprawdzone i niesprawdzone, z odnotowanymi wynikami oceny w przypadku kryteriów sprawdzonych.
+		Efekt pracy możesz znajdziesz w każdym momencie na stronie <Link to="report">Raport</Link>. Możesz tutaj pobrać dokumenty wynikowe. Możesz przeglądać listy  sprawdzonych i niesprawdzonych kryteriów sukcesu, z&nbsp;odnotowanymi wynikami oceny w&nbsp;przypadku kryteriów sprawdzonych.
 	</li>
 
 
@@ -68,15 +68,15 @@
 	</p>
 
 	<p>
-		Aby tym wyzwaniom sprostać, zamawiający oczekują od oferentów wykazania i udokumentowania, że ich produkty i usługi cyfrowe spełniają wymogi dostępności. A renomowani dostawcy oprogramowania dołączają do swoich produktów i usług oparte na <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">dobrowolnym szablonie dostępności produktu</a> (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>), raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>).
+		Aby tym wyzwaniom sprostać, zamawiający oczekują od oferentów wykazania i udokumentowania, że ich produkty i usługi cyfrowe spełniają wymogi dostępności. A&nbsp;renomowani dostawcy oprogramowania dołączają do swoich produktów i usług  raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>) oparte na <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">dobrowolnym szablonie dostępności produktu</a> (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>).
 	</p>
 
 	<p>
-		VPAT™ i ACR są zazwyczaj dostarczane albo w formatach dokumentów źródłowych Word (DOCX) czy Writer (ODT), albo w&nbsp;formacie PDF, które często są niedostępne, niespójnie ustrukturyzowane, trudne do przeszukiwania, do automatycznego porównywania wersji czy też porównywania podobnych produktów.
+		VPAT™ i ACR są zwykle dostarczane w formatach źródłowych Word (DOCX) czy Writer (ODT) albo w&nbsp;formacie PDF, które często są niedostępne, niespójnie ustrukturyzowane, trudne do przeszukiwania, do automatycznego porównywania wersji czy też porównywania podobnych produktów.
 	</p>
 
 	<p>
-		OpenACR narodził się z potrzeby rozwiązania tych problemów przez dostarczenie techniki tworzenia raportów nadających się do odczytu maszynowego, która z kolei umożliwi łatwą aktualizację raportów, uzyskiwanie raportów w dostępnym formacie  HTML, automatyczne porównywania wersji, porównywanie podobnych produktów i twierdzeń dotyczących ich dostępności. Projekt OpenACR zamierza dostarczyć minimalny produkt gotowy do użycia z&nbsp;możliwością jego rozbudowy i&nbsp;udoskonalenia w miarę upływu czasu.
+		OpenACR narodził się z potrzeby rozwiązania tych problemów. Zapewnia metodę tworzenia raportów nadających się do odczytu maszynowego, która z kolei umożliwia łatwą aktualizację raportów w dowolnym momencie, uzyskiwanie raportów w dostępnym formacie  HTML, automatyczne porównywania wersji, porównywanie podobnych produktów i twierdzeń dotyczących ich dostępności.
 
 	</p>
 
@@ -107,7 +107,7 @@
 	  FPC, Sprzęt, Oprogramowanie, Dokumentacja to  standardy <strong>Section 508</strong>.
   </p>
   <p>
-	  Łąćza w tym edytorze otworzą nowe okno, które przeniesie Cię do odpowiednich sekcji wytycznych.
+	  Łącza w tym edytorze otworzą nowe okno, które przeniesie Cię do odpowiednich sekcji wytycznych.
   </p>
 </details>
 
@@ -116,7 +116,7 @@
     <HeaderWithAnchor id="terms" level=2>Terminy</HeaderWithAnchor>
   </summary>
   <p>
-	  Przechodząc przez oprogramowanie i wprowadzając jego zgodność, wybierzesz <q>termin</q> dla każdego komponentu. Oto legenda o tym, co oznaczają te wybory:
+	  Opisując produkt, wybierasz dla każdego komponentu  <q>termin</q>, który określa jego zgodność. Oto legenda objaśniająca, co oznaczają te wybory:
   </p>
   <dl>
     {#each catalog.terms as term}
