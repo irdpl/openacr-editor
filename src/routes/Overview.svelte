@@ -38,7 +38,8 @@
 		Edytor działa lokalnie w Twojej przeglądarce internetowej. Informacje przechowuje w pamięci podręcznej przeglądarki (nie na naszych serwerach). Edytor generuje dokumenty wynikowe <q>w locie</q> w dwóch formatach: <strong>YAML</strong> (uporządkowane dane) oraz <strong>HTML</strong> (strona internetowa). Aby w przyszłości edytować opracowany lub niedokończony raport, niezbędny będzie plik YAML.
 	</li>
 	<li>
-		Aby stworzyć nowy raport, wybierz z bocznego paska <Link to="about#your-report-lbl"><q>Twój raport</q></a>  przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>. Aby edytować istniejący raport, wybierz przycisk <q>Otwórz</q>.
+		Aby stworzyć nowy raport, wybierz z bocznego paska <Link to="about#your-report-lbl"><q>Twój raport</q>
+		</Link>  przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>. Aby edytować istniejący raport, wybierz przycisk <q>Otwórz</q>.
 
 	</li>
 
