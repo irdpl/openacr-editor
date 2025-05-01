@@ -64,46 +64,22 @@
 	</summary>
 
 	<p>
-		Wiele organizacji <strong>chce</strong> albo <strong>ma prawny obowiązek</strong> zapewnić dostępność swoich produktów i&nbsp;usług cyfrowych (technologii informacyjno-komunikacyjnych) oraz informować odbiorców o&nbsp;poziomie obsługi standardów dostępności, w&nbsp;tym o&nbsp;barierach i&nbsp;możliwościach ich obejścia, jeśli istnieją.
+		Wiele organizacji <strong>chce</strong> albo <strong>ma prawny obowiązek</strong> zapewnić dostępność swoich produktów i&nbsp;usług cyfrowych oraz informować odbiorców o&nbsp;poziomie obsługi standardów dostępności, w&nbsp;tym o&nbsp;barierach i&nbsp;możliwościach ich obejścia, jeśli istnieją.
 	</p>
 
 	<p>
-		Renomowani dostawcy oprogramowania dołączają obecnie do swoich ofert raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>) oparte na dobrowolnym szablonie dostępności produktu (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>), opracowanym i utrzymywanym przez <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">Information  Technology Industry Council</a>.
-	</p>
-	<p>
-		VPAT™ i ACR to statyczne dokumenty, które dokumentują zgodność produktów i usług ze standardami, opisują, w jaki sposób oprogramowanie, sprzęt, treść elektroniczna (cyfrowa) i&nbsp;dokumentacja pomocnicza spełniają wymagania dotyczące dostępności. W wielu krajach dokumenty VPAT™ lub ACR są wymagane w zamówieniach publicznych, aby pomóc kupującym zrozumieć, jak dostępny może być produkt i pomóc w odkryciu niedociągnięć.
-	</p>
-
-
-	<p>
-		VPAT™ i ACR są zazwyczaj dostarczane albo w&nbsp;formacie PDF, który często jest niedostępny, niespójnie ustrukturyzowany i&nbsp;trudny do przeszukiwania, albo w formatach dokumentów źródłowych Word (DOCX) czy Writer (ODT), które również często nie są dobrze ustrukturyzowane, trudne do automatycznego porównywania wersji czy też porównywania podobnych produktów.
-
-		.
-	</p>
-	<p>
-		Intencją projektu OpenACR jest rozwiązanie tego problemu poprzez opracowanie szablonu, który umożliwia tworzenie dokumentacji nadającej się do odczytu maszynowego - co z&nbsp;kolei umożliwia ciągłe, zautomatyzowane testowanie dostępności. Projekt OpenACR zamierza dostarczyć minimalny produkt gotowy do użycia z&nbsp;możliwością jego rozbudowy i&nbsp;udoskonalenia w miarę upływu czasu.
-
-	</p>
-	<p>
-		OpenACR jest otwartym standardem. Posługuje się językiem YAML, ponieważ jest on bardziej czytelny dla człowieka i pozwala na dołączanie komentarzy. Do zdefiniowania podstawowych struktur danych i katalogu zawierającego listę potrzebnych elementów zostanie wykorzsytany schemat JSON.
-	</p>
-	<p>
-		Większość użytkowników będzie wchodzić w interakcję z ACR jako dostępnymi plikami HyperText Markup Language (HTML, stronami internetowymi). Będą one generowane z plików YAML przez narzędzie JavaScript, które wyodrębnia zawartość do ustrukturyzowanego HTML.
-	</p>
-	<p>
-		Elementy stylu zostaną następnie dodane przez CSS, który sprzedawcy mogą dostosować do brandingu. Repozytoria zostaną zbudowane w oparciu o repozytorium Git, takie jak GitHub, aby uwzględnić kontrolę wersji. Autorzy mogą ręcznie napisać raport zgodności jako pliki YAML lub użyć edytora WYSIWYG.
-
+		Aby tym wyzwaniom sprostać, zamawiający oczekują od oferentów wykazania i udokumentowania, że ich produkty i usługi cyfrowe spełniają wymogi dostępności. A renomowani dostawcy oprogramowania dołączają do swoich produktów i usług oparte na <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">dobrowolnym szablonie dostępności produktu</a> (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>), raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>).
 	</p>
 
 	<p>
-		OpenACR to cyfrowy rdzenny raport zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span> ). Początkowo jego projekt opierał się na wymogach Section 508. Przejście na format nadający się do odczytu maszynowego ma wiele zalet, ale jedną z największych jest to, że umożliwia porównywanie twierdzeń dotyczących dostępności produktów i usług cyfrowych. Przejście na format dokumentu o&nbsp;wysokiej strukturze, z&nbsp;samodzielną walidacją znacznie to ułatwi.
+		VPAT™ i ACR są zazwyczaj dostarczane albo w formatach dokumentów źródłowych Word (DOCX) czy Writer (ODT), albo w&nbsp;formacie PDF, które często są niedostępne, niespójnie ustrukturyzowane, trudne do przeszukiwania, do automatycznego porównywania wersji czy też porównywania podobnych produktów.
 	</p>
-
 
 	<p>
-		....<br>
-		w trakcie pracy 
+		OpenACR narodził się z potrzeby rozwiązania tych problemów przez dostarczenie techniki tworzenia raportów nadających się do odczytu maszynowego, która z kolei umożliwi łatwą aktualizację raportów, uzyskiwanie raportów w dostępnym formacie  HTML, automatyczne porównywania wersji, porównywanie podobnych produktów i twierdzeń dotyczących ich dostępności. Projekt OpenACR zamierza dostarczyć minimalny produkt gotowy do użycia z&nbsp;możliwością jego rozbudowy i&nbsp;udoskonalenia w miarę upływu czasu.
+
 	</p>
+
 	<p>
 		Odpowiedzialne organizacje zarówno weryfikują oświadczenia dostawców dotyczące zgodności, jak i przeprowadzają niezależne testy. Dokumentowanie tych ustaleń w spójnym formacie ułatwi dostawcom przekazywanie informacji zwrotnych. Porównania ułatwią aktualizowanie raportów.
 	</p>
