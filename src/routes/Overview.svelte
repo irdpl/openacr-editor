@@ -28,51 +28,29 @@
 <Header>Przegląd</Header>
 
 <p>
-	W edytorze OpenACR stworzysz raporty zgodności z dostępnością w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank">
-		formacie OpenACR <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span>
-	</a> dowolnego produktu cyfrowego w oparciu o wybrane normy dostępności - WCAG&nbsp;2, EN&nbsp;301&nbsp;549, Section 508. np. strony internetowej, aplikacji mobilnej, oprogramowania nieinternetowego, sprzętu,
-</p>
-
-
-<p>
-	Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
+	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank"></a>. Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
 </p>
 
 <p>Jak korzystać   z OpenACR:</p>
 
 <ul>
 	<li>
-		Edytor działa lokalnie w Twojej przeglądarce internetowej. Informacje przechowuje w pamięci podręcznej przeglądarki (nie na naszych serwerach).
+		Edytor działa lokalnie w Twojej przeglądarce internetowej. Informacje przechowuje w pamięci podręcznej przeglądarki (nie na naszych serwerach). Edytor generuje dokumenty wynikowe <q>w locie</q> w dwóch formatach: <strong>YAML</strong> (uporządkowane dane) oraz <strong>HTML</strong> (strona internetowa). Aby w przyszłości edytować opracowany lub niedokończony raport, niezbędny będzie plik YAML.
 	</li>
 	<li>
-		Aby stworzyć nowy raport, wybierz z bocznego paska Twój raport przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>, a po zaakcpetowaniu ostrzeżenia przycisk <q>Rozpocznij nowy raport</q>. Następnie przejdź na stronę <Link to="openacr">OpenACR</Link>.
-
-	</li>
-	<li>
-		Na stronie <Link to="openacr">OpenACR</Link> wybierz typ raportu i katalog, z&nbsp;którego będziesz korzystać, i&nbsp;skonfiguruj ustawienia raportu, zaczynając od danych ocenianego produktu.
-	</li>
-
-	<li>
-		W kolejnych krokach wypełnij formularze dotyczące poszczególnych zakresów oceny. Zależnie od konfiguracji raportu, mogą one dotyczyć wymagać WCAG na poziomie A, AA i AA, wymagań dotyczących sprzętu, oprogramowania nieinternetowego, itd.
-	</li>
-	<li>
-		W polach formularza możesz dodawać ograniczone formatowanie za pomocą języka <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">
-			Markdown <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span>
-		</a>. Pozwala to na dodawanie list, linków oraz przykładów kodu.
+		Aby stworzyć nowy raport, wybierz z bocznego paska <Link to="about#your-report-lbl"><q>Twój raport</q></a>  przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>. Aby edytować istniejący raport, wybierz przycisk <q>Otwórz</q>.
 
 	</li>
 
 	<li>
-		Efekt pracy możesz podejrzeć w każdym momencie na stronie <Link to="report">Raport</Link>. Znajdziesz tu listy kryteriów sukcesu (wymagań), które zostały sprawdzone i niesprawdzone, z odnotowanymi wynikami oceny w przypadku kryteriów sprawdzonych.
-	</li>
-	<li>
-		Edytor OpenACR generuje dokumenty wynikowe w dwóch formatach. Możesz wyeksportować i zapisać na swoim komputerze raport w&nbsp;<strong>formacie YAML</strong> (uporządkowane dane) oraz jako stronę internetową w formacie <strong>HTML</strong>.
+		W polach formularza możesz dodawać ograniczone formatowanie za pomocą języka <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span></a>. Pozwala to na dodawanie list, linków oraz przykładów kodu.
 
 	</li>
 
 	<li>
-		Aby w przyszłości edytować opracowany lub niedokończony raport, potrzebny będzie plik YAML.
+		Efekt pracy możesz znajdziesz w każdym momencie na stronie <Link to="report">Raport</Link>. Możesz tutaj pobrać dokumenty wynikowe. Możesz przeglądać listy kryteriów sukcesu, które zostały sprawdzone i niesprawdzone, z odnotowanymi wynikami oceny w przypadku kryteriów sprawdzonych.
 	</li>
+
 
 
 </ul>
