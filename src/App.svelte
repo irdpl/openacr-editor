@@ -17,7 +17,7 @@
   import vars from "../config/__buildEnv__.json";
   export let url = "";
 
-  const pagesWithYourReport = ["Przegląd", "O edytorze", "Ocena"];
+  const pagesWithYourReport = ["Przegląd", "OpenACR", "Ocena"];
 
   function needsYourReport(pageName) {
     return pagesWithYourReport.indexOf(pageName) > -1;
@@ -58,7 +58,7 @@
 <Router {url} basepath={vars.pathPrefix}>
   <Nav>
     <NavItem to="/">Przegląd</NavItem>
-    <NavItem to="/about">O edytorze</NavItem>
+    <NavItem to="/about">OpenACR</NavItem>
     {#each catalog.chapters as chapter}
       <NavItem to="chapter/{chapter.id}">
         {chapter.short_label}

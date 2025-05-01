@@ -26,7 +26,7 @@
   let selectedCatalog = $evaluation.catalog;
 
   onMount(() => {
-    currentPage.update(currentPage => "O OpenACR");
+    currentPage.update(currentPage => "OpenACR");
 
     honourFragmentIdLinks($location);
   });
@@ -40,7 +40,7 @@
   }
   spdxLicenses.push({
     value: 'Invalid',
-    label: 'Invalid License'
+    label: 'Niepoprawna licencja'
   });
   spdxLicenses.sort((a, b) => {
     let la = a.label.toLowerCase(),
@@ -118,10 +118,10 @@
 </style>
 
 <svelte:head>
-  <title>O edytorze | Edytor OpenACR | LepszyWeb.pl</title>
+  <title>OpenACR | Edytor OpenACR | LepszyWeb.pl</title>
 </svelte:head>
 
-<Header>O edytorze</Header>
+<Header>OpenACR</Header>
 
 <ChapterHelpText
   chapterId="about"

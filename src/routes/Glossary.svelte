@@ -9,7 +9,7 @@
 	const location = useLocation();
 
 	onMount(() => {
-	currentPage.update(currentPage => "Glossary");
+	currentPage.update(currentPage => "Słownik");
 
 	honourFragmentIdLinks($location);
 	});
@@ -73,10 +73,8 @@
 	<dd>Najcenniejsze jest testowanie z udziałem osób, które same doświadczyły niepełnosprawności.</dd>
 
 
-	<DTWithAnchor id="europejskie-zharmonizowane-normy-dostępnosci-en-301-549">Europejskie zharmonizowane normy dostępności (EN 301 549)</DTWithAnchor>
-	<dd>To ewoluuje, aby stać się globalnym standardem dla polityki rządowej. To ewoluujący standard, który mniej więcej podąża za wytycznymi WCAG i je rozszerza.</dd>
-
-
+	<DTWithAnchor id="europejskie-zharmonizowane-normy-dostępnosci-en-301-549">Europejskie zharmonizowane normy dostępności (ETSI  EN 301 549)</DTWithAnchor>
+	<dd>ETSI  EN 301 549  to opracowana w Europie norma dostępności dla produktów i usług ICT opracowana przez Europejskie Organizacje Normalizacyjne CEN (Europejski Komitet Normalizacyjny), CENELEC (Europejski Komitet Normalizacyjny Elektrotechniki) i ETSI (Europejski Instytut Norm Telekomunikacyjnych). Norma zawiera kryteria dostępności dla produktów i usług ICT oraz uwzględnia standardy WCAG dotyczące dostępności stron internetowych. Norma została pierwotnie opracowana na potrzeby zamówień publicznych w Unii Europejskiej i jest również przywoływana przez jurysdykcje spoza Europy.</dd>
 
 	<DTWithAnchor id="falszywe-wyniki-pozytywne">Fałszywe wyniki pozytywne</DTWithAnchor>
 	<dd>Błąd w raportowaniu danych, w którym wynik testu błędnie wskazuje na istnienie usterki.</dd>
@@ -142,7 +140,9 @@
 	<dd>Sekcja 504 ustawy o rehabilitacji z 1973 r. Ustawa ta ma implikacje dla federalnej pomocy i udogodnień w miejscu pracy. Jeśli organizacja otrzymuje federalne wsparcie jakiegokolwiek rodzaju, nawet jeśli nie jest organizacją federalną ani stanową, musi przestrzegać sekcji 504.</dd>
 
 	<DTWithAnchor id="sekcja-508">Sekcja 508</DTWithAnchor>
-	<dd>Sekcja 508 ustawy o rehabilitacji została uchwalona w celu wyeliminowania barier w technologii informacyjnej, udostępnienia nowych możliwości osobom niepełnosprawnym i zachęcenia do rozwoju technologii, które pomogą osiągnąć te cele. Prawo dotyczy wszystkich agencji federalnych, gdy rozwijają, pozyskują, utrzymują lub używają technologii elektronicznej i informacyjnej. Do czasu odświeżenia sekcji 508 wymóg ten opierał się na najlepszych praktykach z 1998 r.</dd>
+	<dd>
+		Sekcja 508 ustawy o rehabilitacji została uchwalona w celu wyeliminowania barier w technologii informacyjnej, udostępnienia nowych możliwości osobom z&nbsp;niepełnosprawnościami. i zachęcenia do rozwoju technologii, które pomogą osiągnąć te cele. Prawo dotyczy wszystkich agencji federalnych, gdy rozwijają, pozyskują, utrzymują lub używają technologii elektronicznej i informacyjnej. Do czasu odświeżenia sekcji 508 wymóg ten opierał się na najlepszych praktykach z 1998 r.
+	</dd>
 
 	<DTWithAnchor id="semantyka">Semantyka</DTWithAnchor>
 	<dd>Semantyka to idea tworzenia większego znaczenia za pomocą informacji w treści cyfrowej. Ułatwia to urządzeniom zrozumienie, co każdy aspekt kodu oznacza dla użytkownika końcowego. Znaczniki HTML5 zostały zoptymalizowane, aby umożliwić programistom tworzenie bardziej semantycznych znaczników.</dd>
@@ -175,7 +175,19 @@
 	<dd>Zasada, że ​​informacje i aplikacje powinny być nie tylko łatwo dostępne, ale także łatwe w użyciu i zrozumieniu.</dd>
 
 	<DTWithAnchor id="wytyczne-dla-dostępnosci-tresci-internetowych-wcag">Wytyczne dla dostępności treści internetowych (WCAG) 2.0, 2.1, 2.2 i 3.</DTWithAnchor>
-	<dd>WCAG 2.0 koncentruje się na zapewnieniu międzynarodowego standardu technicznego dla treści internetowych. Zawiera 12 wytycznych, które są zorganizowane według czterech zasad: Perceivable (Postrzegalne), Operable (Fukcjonalne), Understandable (Zrozumiałe) i Robust (Solidne). Każda z wytycznych ma testowalne kryteria sukcesu, które są na trzech poziomach: A, AA i AAA. Najnowszym zaleceniem jest 2.1, 2.2 jest prawie opublikowane, a 3.0 jest aktywnie rozwijane.</dd>
+	<dd>
+		<p>Wytyczne dla dostępności treści internetowych ((WCAG, od ang. <spanlang="en">Web Content Accessibility Guidelines),  to przyjęte na całym świecie standardy techniczne dotyczące udostępniania treści internetowych, które są zorganizowane według czterech zasad: Postrzegalne, Fukcjonalne, Zrozumiałe i Solidne. </p>
+		<p>Każda z wytycznych ma testowalne kryteria sukcesu, które są na trzech poziomach: A, AA i AAA. W wielu krajach istnieją przepisy prawne, które zobowiązują instytucje publiczne i niektóre przedsiębiorstwa do spełniania wymogów WCAG na poziomie A i AA.</p>
+		<p>WCAG są opracowywane i utrzymywane przez Worldwide Web Consortium ( W3C ), międzynarodową organizację zajmującą się opracowywaniem standardów internetowych.</p>
+
+		</dd>
+
+
+	<DTWithAnchor id="wytyczne-us-section-508">Wytyczne US Section 508</DTWithAnchor>
+	<dd>
+		Wytyczne <span lang="en">US Section 508</span> zostały opracowane przez <span lang="en">US Access Board</span> do użytku przez agencje federalne w celu wdrożenia sekcji 508 <span lang="en">US Rehabilitation Act</span>. Agencje federalne wykorzystują wytyczne Section 508 do opracowywania, pozyskiwania, utrzymywania i używania dostępnych technologii informacyjno-komunikacyjnych (ICT). Wytyczne zawierają zakres i rozważania techniczne ułatwiające dostępność osobom z niepełnosprawnościami.
+	</dd>
+
 
 	<DTWithAnchor id="widzet">Widżet</DTWithAnchor>
 	<dd> Widget to mała aplikacja zainstalowana i używana na stronach internetowych. Każdy widget ma różną liczbę celów. Przykładem widgetu jest mały formularz zapisu do newslettera e-mail lub funkcja czatu na żywo innej firmy.</dd>
@@ -183,3 +195,7 @@
 	<DTWithAnchor id="zrewidowana-sekcja-508">Zrewidowana Sekcja 508</DTWithAnchor>
 	<dd>Odświeżenie wytycznych dla USA sprawiło, że stały się one zasadniczo takie same jak WCAG 2.0 AA.</dd>
 </dl>
+
+
+
+

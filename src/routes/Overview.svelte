@@ -28,55 +28,111 @@
 <Header>Przegląd</Header>
 
 <p>
-	Ten edytor internetowy pomaga oceniającym tworzyć raporty zgodności zdostępnością w <a href="https://github.com/gsa/openacr" target="_blank">
-		formacie OpenACR <span class="visuallyhidden">(otwiera się w nowym oknie lub karcie)</span></a>.
-	Został zaprojektowany, aby pomóc ekspertom dostępności w tworzeniu dokumentów OpenACR nadających się do odczytu maszynowego. Autorzy zostaną poinstruowani podczas tworzenia dostępnego raportu dla produktu lub usługi cyfrowej, którą dokumentują. Zgodność z każdym wymaganiem można udokumentować zgodnie z wymaganiami w celu wygenerowania raportu z sekcji 508.
+	W edytorze OpenACR stworzysz raporty zgodności z dostępnością w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank">
+		formacie OpenACR <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span>
+	</a> dowolnego produktu cyfrowego w oparciu o wybrane normy dostępności - WCAG&nbsp;2, EN&nbsp;301&nbsp;549, Section 508. np. strony internetowej, aplikacji mobilnej, oprogramowania nieinternetowego, sprzętu,
 </p>
 
-<p>Wskazówki dotyczące korzystania z tego narzędzia:</p>
+
+<p>
+	Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
+</p>
+
+<p>Jak korzystać   z OpenACR:</p>
 
 <ul>
-  <li>
-	  Ten edytor zapisuje informacje, które wprowadzasz lokalnie w przeglądarce (nie na naszych serwerach). Aby zapisać lub udostępnić raport OpenACR, musisz zapisać go na swoim komputerze. Plik YAML będzie potrzebny do przesłania OpenACR i edytowania tego raportu w przyszłości.
-  </li>
-  <li>
-	  Podczas korzystania z edytora na stronie
-	  <Link to="report">Raport</Link>
-	  znajduje się lista kryteriów sukcesu, które zostały sprawdzone i niesprawdzone.
-  </li>
-  <li>
-	   Raport możesz wyeksportować jako YAML (uporządkowane dane), ale także jako HTML (strona internetowa). Uwaga: Nie będzie można edytować raportu w przyszłości bez pliku YAML.
-  </li>
-  <li>
-	  Możesz dodać ograniczone formatowanie do raportu za pomocą języka <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown <span class="visuallyhidden">(otwiera się w nowym oknie lub karcie)</span></a>. Pozwala to na dodawanie list, linków i przykładów kodu.
+	<li>
+		Edytor działa lokalnie w Twojej przeglądarce internetowej. Informacje przechowuje w pamięci podręcznej przeglądarki (nie na naszych serwerach).
+	</li>
+	<li>
+		Aby stworzyć nowy raport, wybierz z bocznego paska Twój raport przycisk <q>Rozpocznij nowy raport</q> lub <q>Nowy raport</q>, a po zaakcpetowaniu ostrzeżenia przycisk <q>Rozpocznij nowy raport</q>. Następnie przejdź na stronę <Link to="openacr">OpenACR</Link>.
 
-  </li>
+	</li>
+	<li>
+		Na stronie <Link to="openacr">OpenACR</Link> wybierz typ raportu i katalog, z&nbsp;którego będziesz korzystać, i&nbsp;skonfiguruj ustawienia raportu, zaczynając od danych ocenianego produktu.
+	</li>
+
+	<li>
+		W kolejnych krokach wypełnij formularze dotyczące poszczególnych zakresów oceny. Zależnie od konfiguracji raportu, mogą one dotyczyć wymagać WCAG na poziomie A, AA i AA, wymagań dotyczących sprzętu, oprogramowania nieinternetowego, itd.
+	</li>
+	<li>
+		W polach formularza możesz dodawać ograniczone formatowanie za pomocą języka <a href="https://en.wikipedia.org/wiki/Markdown" target="_blank">
+			Markdown <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span>
+		</a>. Pozwala to na dodawanie list, linków oraz przykładów kodu.
+
+	</li>
+
+	<li>
+		Efekt pracy możesz podejrzeć w każdym momencie na stronie <Link to="report">Raport</Link>. Znajdziesz tu listy kryteriów sukcesu (wymagań), które zostały sprawdzone i niesprawdzone, z odnotowanymi wynikami oceny w przypadku kryteriów sprawdzonych.
+	</li>
+	<li>
+		Edytor OpenACR generuje dokumenty wynikowe w dwóch formatach. Możesz wyeksportować i zapisać na swoim komputerze raport w&nbsp;<strong>formacie YAML</strong> (uporządkowane dane) oraz jako stronę internetową w formacie <strong>HTML</strong>.
+
+	</li>
+
+	<li>
+		Aby w przyszłości edytować opracowany lub niedokończony raport, potrzebny będzie plik YAML.
+	</li>
+
+
 </ul>
 
 <ExpandCollapseAll />
 
 <details>
-  <summary>
-    <HeaderWithAnchor id="about-openacr" level=2>O OpenACR</HeaderWithAnchor>
-  </summary>
-  <p>
-	  OpenACR to cyfrowy natywny raport zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span> ). Początkowy tworzenie opiera się na wymaganiach sekcji 508. Przejście na format nadający się do odczytu maszynowego ma wiele zalet, ale jedną z największych jest to, że umożliwia porównywanie twierdzeń dotyczących dostępności produktów i usług cyfrowych. Przejście na format dokumentu o wysokiej strukturze, z samodzielną walidacją znacznie to ułatwi.
-  </p>
+	<summary>
+		<HeaderWithAnchor id="about-openacr" level="2">O OpenACR</HeaderWithAnchor>
+	</summary>
 
 	<p>
-		
-		
+		Wiele organizacji <strong>chce</strong> albo <strong>ma prawny obowiązek</strong> zapewnić dostępność swoich produktów i&nbsp;usług cyfrowych (technologii informacyjno-komunikacyjnych) oraz informować odbiorców o&nbsp;poziomie obsługi standardów dostępności, w&nbsp;tym o&nbsp;barierach i&nbsp;możliwościach ich obejścia, jeśli istnieją.
+	</p>
+
+	<p>
+		Renomowani dostawcy oprogramowania dołączają obecnie do swoich ofert raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>) oparte na dobrowolnym szablonie dostępności produktu (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>), opracowanym i utrzymywanym przez <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">Information  Technology Industry Council</a>.
+	</p>
+	<p>
+		VPAT™ i ACR to statyczne dokumenty, które dokumentują zgodność produktów i usług ze standardami, opisują, w jaki sposób oprogramowanie, sprzęt, treść elektroniczna (cyfrowa) i&nbsp;dokumentacja pomocnicza spełniają wymagania dotyczące dostępności. W wielu krajach dokumenty VPAT™ lub ACR są wymagane w zamówieniach publicznych, aby pomóc kupującym zrozumieć, jak dostępny może być produkt i pomóc w odkryciu niedociągnięć.
+	</p>
+
+
+	<p>
+		VPAT™ i ACR są zazwyczaj dostarczane albo w&nbsp;formacie PDF, który często jest niedostępny, niespójnie ustrukturyzowany i&nbsp;trudny do przeszukiwania, albo w formatach dokumentów źródłowych Word (DOCX) czy Writer (ODT), które również często nie są dobrze ustrukturyzowane, trudne do automatycznego porównywania wersji czy też porównywania podobnych produktów.
+
+		.
+	</p>
+	<p>
+		Intencją projektu OpenACR jest rozwiązanie tego problemu poprzez opracowanie szablonu, który umożliwia tworzenie dokumentacji nadającej się do odczytu maszynowego - co z&nbsp;kolei umożliwia ciągłe, zautomatyzowane testowanie dostępności. Projekt OpenACR zamierza dostarczyć minimalny produkt gotowy do użycia z&nbsp;możliwością jego rozbudowy i&nbsp;udoskonalenia w miarę upływu czasu.
 
 	</p>
-  <p>
-	  Wiele organizacji boryka się z wyzwaniami związanymi z dostarczaniem dostępnych usług dla osób z niepełnosprawnościami. Dostawcy oprogramowania obecnie przesyłają rekordy ACR dla swoich ofert. Te ACR dokumentują zgodność tych produktów i usług. Twierdzenia te są zazwyczaj dostarczane w formacie PDF, który jest często niedostępny, niespójnie ustrukturyzowany i trudny do wyszukania. Nowoczesna usługa ACR zostanie zweryfikowana, aby sprawdzić, czy jest zgodna z formatem punktu odniesienia.
-  </p>
-  <p>
-	  Odpowiedzialne organizacje zarówno weryfikują oświadczenia dostawców dotyczące zgodności, jak i przeprowadzają niezależne testy. Dokumentowanie tych ustaleń w spójnym formacie ułatwi przekazywanie informacji zwrotnych dostawcom. Porównania ułatwią aktualizowanie raportów.
-  </p>
-  <p>
-	  Aby uzyskać więcej informacji, zobacz <a href="https://github.com/GSA/openacr" target="_blank">OpenACR <span class="visuallyhidden">(otwiera się w nowym oknie lub karcie)</span></a>.
-  </p>
+	<p>
+		OpenACR jest otwartym standardem. Posługuje się językiem YAML, ponieważ jest on bardziej czytelny dla człowieka i pozwala na dołączanie komentarzy. Do zdefiniowania podstawowych struktur danych i katalogu zawierającego listę potrzebnych elementów zostanie wykorzsytany schemat JSON.
+	</p>
+	<p>
+		Większość użytkowników będzie wchodzić w interakcję z ACR jako dostępnymi plikami HyperText Markup Language (HTML, stronami internetowymi). Będą one generowane z plików YAML przez narzędzie JavaScript, które wyodrębnia zawartość do ustrukturyzowanego HTML.
+	</p>
+	<p>
+		Elementy stylu zostaną następnie dodane przez CSS, który sprzedawcy mogą dostosować do brandingu. Repozytoria zostaną zbudowane w oparciu o repozytorium Git, takie jak GitHub, aby uwzględnić kontrolę wersji. Autorzy mogą ręcznie napisać raport zgodności jako pliki YAML lub użyć edytora WYSIWYG.
+
+	</p>
+
+	<p>
+		OpenACR to cyfrowy rdzenny raport zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span> ). Początkowo jego projekt opierał się na wymogach Section 508. Przejście na format nadający się do odczytu maszynowego ma wiele zalet, ale jedną z największych jest to, że umożliwia porównywanie twierdzeń dotyczących dostępności produktów i usług cyfrowych. Przejście na format dokumentu o&nbsp;wysokiej strukturze, z&nbsp;samodzielną walidacją znacznie to ułatwi.
+	</p>
+
+
+	<p>
+		....<br>
+		w trakcie pracy 
+	</p>
+	<p>
+		Odpowiedzialne organizacje zarówno weryfikują oświadczenia dostawców dotyczące zgodności, jak i przeprowadzają niezależne testy. Dokumentowanie tych ustaleń w spójnym formacie ułatwi dostawcom przekazywanie informacji zwrotnych. Porównania ułatwią aktualizowanie raportów.
+	</p>
+	<p>
+		Aby uzyskać więcej informacji, zobacz <a href="https://github.com/GSA/openacr" target="_blank">
+			OpenACR <span class="visuallyhidden">(Otwiera nowe okno lub kartę)</span>
+		</a>.
+	</p>
 </details>
 
 <details>
@@ -116,5 +172,5 @@
 </details>
 
 <Pager label="Poprzednia/Następna wytyczna">
-  <PagerLink to="/about" direction="następna">O OpenACR</PagerLink>
+  <PagerLink to="/about" direction="następna">OpenACR</PagerLink>
 </Pager>

@@ -80,7 +80,7 @@
 
   <Pager label="Poprzedni/Następny rozdział">
     {#if chapterId === "success_criteria_level_a"}
-      <PagerLink to={'/about'} direction="poprzednia">O OpenACR</PagerLink>
+      <PagerLink to={'/about'} direction="poprzednia">OpenACR</PagerLink>
     {/if}
     {#if currentChapterKey > 0}
       <PagerLink to={`/chapter/${chapters[currentChapterKey - 1].id}`} direction="poprzednia">
