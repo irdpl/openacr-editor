@@ -30,6 +30,7 @@ jobs:
              npx ts-node ./src/librarian.ts -c WCAG21-508
              npx ts-node ./src/librarian.ts -c WCAG22-508
              npx ts-node ./src/librarian.ts -c 508
+             npx ts-node ./src/librarian.ts -c EU
              npx ts-node ./src/librarian.ts -c INT
              npx ts-node ./src/librarian.ts -c WCAG22-EU
              cd ${{ github.workspace }}
