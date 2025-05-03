@@ -73,6 +73,23 @@ if (argv.catalog) {
       outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.lang}.yaml`;
       break;
 
+    case "WCAG-21":
+      console.log(
+        `Warning: This will rebuild the following catalog: ${catalog}.`
+      );
+
+      combined = createCatalog(
+        [wcag21],
+        components,
+        terms,
+        "VPAT® 2.5 WCAG 2.1 Edition",
+        "en"
+      );
+
+      outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.lang}.yaml`;
+      break;
+
+
     case "508":
       console.log(
         `Warning: This will rebuild the following catalog: ${catalog}.`
@@ -137,7 +154,7 @@ if (argv.catalog) {
       outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.standards[1].id}-${combined.standards[2].id}-${combined.lang}.yaml`;
       break;
 
-    case "EU":
+    case "WCAG22-301":
       console.log(
         `Warning: This will rebuild the following catalog: ${catalog}.`
       );
