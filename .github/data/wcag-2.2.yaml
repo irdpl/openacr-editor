@@ -1,8 +1,8 @@
-title: WCAG 2.1
+title: WCAG 2.2
 lang: pl
 standard:
-  - id: wcag-2.1
-    label: "Wytyczne dla dostępności treści internetowych 2.1"
+  - id: wcag-2.2
+    label: "Wytyczne dla dostępności treści internetowych 2.2"
     report_heading: "Raport WCAG 2.1"
     url: https://www.w3.org/Translations/WCAG21-pl/
     chapters:
