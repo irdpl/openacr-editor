@@ -150,7 +150,7 @@ if (argv.catalog) {
         "en"
       );
 
-      outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.standards[1].id}}-${combined.lang}.yaml`;
+      outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.standards[1].id}-${combined.lang}.yaml`;
       break;	
 	
 	

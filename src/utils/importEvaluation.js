@@ -76,7 +76,7 @@ export function importEvaluation(event) {
           if (converted.product.name) {
             alert(`OpenACR "${converted.product.name}" loaded`);
           } else {
-            alert("Załądowano OpenACR");
+            alert("Załadowano OpenACR");
           }
         } else {
           alert("Zaimportowany OpenACR jest niepoprawny. Komunikat: " + valid.message);
