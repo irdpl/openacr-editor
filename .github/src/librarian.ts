@@ -89,6 +89,22 @@ if (argv.catalog) {
       outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.lang}.yaml`;
       break;
 
+    case "WCAG-20":
+      console.log(
+        `Warning: This will rebuild the following catalog: ${catalog}.`
+      );
+
+      combined = createCatalog(
+        [wcag20],
+        components,
+        terms,
+        "VPAT® 2.5 WCAG 2.0 Edition",
+        "en"
+      );
+
+      outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.lang}.yaml`;
+      break;
+	  
 
     case "508":
       console.log(
