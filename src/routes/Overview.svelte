@@ -28,7 +28,10 @@
 <Header>Przegląd</Header>
 
 <p>
-	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank">formacie OpenACR</a>. Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności tworzyć raporty nadające się do odczytu maszynowego i&nbsp;generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
+	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank">formacie OpenACR</a>.</p>
+
+<p>
+	Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności tworzyć raporty zgodności z&nbsp;dostępnością nadające się do odczytu maszynowego i&nbsp;generowania w&nbsp;dostępnym formacie HTML, które można w&nbsp;dowolnym momencie uaktualniać.
 </p>
 
 <p>Jak korzystać z OpenACR:</p>
@@ -68,7 +71,7 @@
 	</p>
 
 	<p>
-		Aby tym wyzwaniom sprostać, zamawiający oczekują od oferentów wykazania i udokumentowania, że ich produkty i usługi cyfrowe spełniają wymogi dostępności. A&nbsp;renomowani dostawcy oprogramowania dołączają do swoich produktów i usług  raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>) oparte na <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">dobrowolnym szablonie dostępności produktu</a> (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>).
+		Aby tym wyzwaniom sprostać, zamawiający oczekują od oferentów wykazania i&nbsp;udokumentowania, że ich produkty i usługi cyfrowe spełniają wymogi dostępności. A&nbsp;renomowani dostawcy oprogramowania dołączają do swoich produktów i usług  raporty zgodności z dostępnością (ACR, od ang. <span lang="en">Accessibility Conformance Report</span>) oparte na <a href="https://www.itic.org/policy/accessibility/vpat" lang="en">dobrowolnym szablonie dostępności produktu</a> (VPAT™, od ang. <span lang="en">Voluntary Product Accessibility Template</span>).
 	</p>
 
 	<p>
