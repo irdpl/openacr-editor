@@ -1,14 +1,14 @@
 import wcag20508catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.0-508-en.yaml";
 import wcag22508catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-508-en.yaml";
 import wcag22catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-en.yaml";
-import wcag22301catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-508-eu-en.yaml";
+import wcag22eucatalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-508-eu-en.yaml";
 import wcag21catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-en.yaml";
 import wcag21508catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-508-en.yaml";
 export const wcag20508catalogName = "2.5-edition-wcag-2.0-508-en";
 const wcag22508catalogName = "2.5-edition-wcag-2.2-508-en";
 const wcag22catalogName = "2.5-edition-wcag-2.2-en";
 const wcag21catalogName = "2.5-edition-wcag-2.1-en";
-const wcag22301catalogName = "2.5-edition-wcag-2.2-508-eu-en";
+const wcag22eucatalogName = "2.5-edition-wcag-2.2-508-eu-en";
 const wcag21508catalogName = "2.5-edition-wcag-2.1-508-en";
 
 
@@ -28,8 +28,8 @@ else if (catalogName == wcag22508catalogName) {
 else if (catalogName == wcag22catalogName) {
     return wcag22catalog;
  } 
-else if (catalogName == wcag22301catalogName) {
-    return wcag22301catalog;
+else if (catalogName == wcag22eucatalogName) {
+    return wcag22eucatalog;
 }
   return wcag20508catalog;
 }
@@ -57,7 +57,7 @@ export function getListOfCatalogs() {
             title: "VPAT® 2.5 WCAG: WCAG 2.1",
         },
        {
-           catalog: wcag22301catalogName,
+           catalog: wcag22eucatalogName,
            title: "VPAT® Rev EU: EN 301 549",
         },
     ];
