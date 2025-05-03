@@ -46,8 +46,11 @@ disabled_chapters:
 catalog:
   intro: "Wybierz katalog, którego chcesz użyć dla tego OpenACR."
   2.5-edition-wcag-2.0-508-en: "Minimalny standard wymagany do zgodności z Section 508 w Stanach Zjednoczonych Ameryki"
-  2.5-edition-wcag-2.1-en: "Standard treści internetowych zgodny z najlepszymi globalnymi praktykami dotyczącymi dostępności stron internetowych."
+  2.5-edition-wcag-2.2-508-en: "WCAG 2.2 plus 508"
+  2.5-edition-wcag-2.2-en: "Najnowszy standard treści internetowych zgodny z najlepszymi globalnymi praktykami dotyczącymi dostępności stron internetowych."
+  2.5-edition-wcag-2.1-en: "tandard treści internetowych zgodny z najlepszymi globalnymi praktykami dotyczącymi dostępności stron internetowych. "
   2.5-edition-wcag-2.1-508-en: "Aktualny standard najlepszych praktyk w Stanach Zjednoczonych Ameryki."
-  2.5-edition-wcag-2.2-en: "Standard treści internetowych zgodny z najlepszymi globalnymi praktykami dotyczącymi dostępności stron internetowych."
-  2.5-edition-eu: "Aktualny standard w Unii Europejskiej"
-  2.5-edition-int: "International standard - ISO"
+
+  2.5-edition-wcag-2.2-508-eu-en: "Aktualny standard w Unii Europejskiej"
+
+  
