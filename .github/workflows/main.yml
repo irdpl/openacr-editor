@@ -27,6 +27,7 @@ jobs:
              cd ./node_modules/@openacr/openacr/
              npx ts-node ./src/librarian.ts -c WCAG
              npx ts-node ./src/librarian.ts -c WCAG21-508
+             npx ts-node ./src/librarian.ts -c WCAG22-508
              npx ts-node ./src/librarian.ts -c 508
              npx ts-node ./src/librarian.ts -c INT
              npx ts-node ./src/librarian.ts -c EU
