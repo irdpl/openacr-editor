@@ -4,6 +4,7 @@ import wcag22catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-en.yaml
 import wcag22eucatalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-eu-en.yaml";
 import wcag21catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-en.yaml";
 import wcag21508catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-508-en.yaml";
+export const wcag20508catalogName = "2.5-edition-wcag-2.0-508-en";
 export const wcag22508catalogName = "2.5-edition-wcag-2.2-508-en";
 export const wcag22catalogName = "2.5-edition-wcag-2.2-en";
 export const wcag21catalogName = "2.5-edition-wcag-2.1-en";
