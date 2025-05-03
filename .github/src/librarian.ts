@@ -138,6 +138,26 @@ if (argv.catalog) {
       break;
 
     case "EU":
+      console.log(
+        `Warning: This will rebuild the following catalog: ${catalog}.`
+      );
+
+      combined = createCatalog(
+        [wcag22, en301549],
+        components,
+        terms,
+        "VPAT® 2.5  ENSI EN 301 549",
+        "en"
+      );
+
+      outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.standards[1].id}}-${combined.lang}.yaml`;
+      break;	
+	
+	
+	
+	
+	
+	
     default:
       console.warn(`${catalog} is currently not supported.`);
       break;

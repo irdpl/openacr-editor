@@ -2,8 +2,8 @@ title: VPAT® 2.4 Poprawione wydanie Section 508
 lang: pl
 standard:
   - id: "508"
-    label: "Poprawione standardy Section 508 opublikowane 18 stycznia 2017 r. i poprawione 22 stycznia 2018 r"
-    report_heading: "Raport na podstawie Popawionych Section 508"
+    label: "Poprawione standardy Section 508 opublikowane 18 stycznia 2017 r. i poprawione 22 stycznia 2018 r."
+    report_heading: "Raport na podstawie Poprawionego Section 508"
     url: https://www.access-board.gov/ict/
     chapters:
       [
@@ -43,11 +43,11 @@ chapters:
         alt_id: "302.6"
         components: [none]
       - id: "302.7"
-        handle: Z ograniczeniami manipulacji
+        handle: Z ograniczenymi możliwościami manualnymi
         alt_id: "302.7"
         components: [none]
       - id: "302.8"
-        handle: Z ograniczeniami zasięgu i siły
+        handle: Z ograniczeniami zasięgu i siły rąk
         alt_id: "302.8"
         components: [none]
       - id: "302.9"
