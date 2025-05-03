@@ -22,10 +22,13 @@ jobs:
         run: |
              npm install
              cp -r ./.github/data/ ./node_modules/@openacr/openacr/catalog/
+              cp -r ./.github/src/ ./node_modules/@openacr/openacr/src/
              cd ./node_modules/@openacr/openacr/
              npx ts-node ./src/librarian.ts -c WCAG
              npx ts-node ./src/librarian.ts -c WCAG21508
              npx ts-node ./src/librarian.ts -c 508
+             npx ts-node ./src/librarian.ts -c INT
+             npx ts-node ./src/librarian.ts -c EU
              cd ${{ github.workspace }}
              export NODE_ENV=ghpages && npm run build
              cd public && ln -s index.html 404.html # symlink for GH pages fallback
