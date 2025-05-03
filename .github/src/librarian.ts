@@ -154,7 +154,7 @@ if (argv.catalog) {
       outputFile = `./catalog/2.5-edition-${combined.standards[0].id}-${combined.standards[1].id}-${combined.standards[2].id}-${combined.lang}.yaml`;
       break;
 
-    case "WCAG22-301":
+    case "EU":
       console.log(
         `Warning: This will rebuild the following catalog: ${catalog}.`
       );
