@@ -1,6 +1,6 @@
 import { evaluation } from "../stores/evaluation.js";
 import { validate } from "../utils/validate.js";
-import { getCatalog, wcag20508catalogName } from "./getCatalogs.js";
+import { getCatalog, wcag20508catalogName, wcag21catalogName, wcag21508catalogName } from "./getCatalogs.js";
 import compareVersions from "compare-versions";
 
 export function updateEvaluation(catalogName, converted) {
