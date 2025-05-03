@@ -84,7 +84,7 @@
 	</p>
 
 	<p>
-		Odpowiedzialne organizacje zarówno weryfikują oświadczenia dostawców dotyczące zgodności, jak i przeprowadzają niezależne testy. Dokumentowanie tych ustaleń w spójnym formacie ułatwi dostawcom przekazywanie informacji zwrotnych. Porównania ułatwią aktualizowanie raportów.
+		Odpowiedzialne organizacje zarówno weryfikują oświadczenia dostawców dotyczące zgodności, jak i przeprowadzają niezależne testy. Dokumentowanie tych ustaleń w&nbsp;spójnym formacie ułatwi dostawcom przekazywanie informacji zwrotnych. Porównania ułatwią aktualizowanie raportów.
 	</p>
 	<p>
 		Aby uzyskać więcej informacji, zobacz <a href="https://github.com/GSA/openacr" target="_blank">
