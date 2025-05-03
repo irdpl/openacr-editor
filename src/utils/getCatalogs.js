@@ -1,12 +1,15 @@
 import wcag20508catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.0-508-en.yaml";
 import wcag21catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-en.yaml";
 import wcag21508catalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-508-eu-en.yaml";
-import wcag22eucatalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.2-eu-en.yaml";
 
+import wcag22eucatalog from "@openacr/openacr/catalog/2.5-edition-wcag-2.1-eu-en.yaml";
 export const wcag20508catalogName = "2.5-edition-wcag-2.0-508-en";
 const wcag21catalogName = "2.5-edition-wcag-2.1-en";
 const wcag21508catalogName = "2.5-edition-wcag-2.1-508-en";
-const wcag22eucatalogName = "2.5-edition-wcag-2.2-eu-en";
+const wcag22eucatalogName = "2.5-edition-wcag-2.1-eu-en";
+
+
+// ./catalog/2.5-edition-wcag-2.1-508-en.yaml
 
 
 export function getCatalog(catalogName) {
