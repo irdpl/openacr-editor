@@ -22,7 +22,7 @@ jobs:
         run: |
              npm install
              cp -r ./.github/data/ ./node_modules/@openacr/openacr/catalog/
-             cp -rv ./.github/src/ ./node_modules/@openacr/openacr/src/
+             cp -rv ./.github/src/ ./node_modules/@openacr/openacr/
              cd ./node_modules/@openacr/openacr/
              npx ts-node ./src/librarian.ts -c WCAG
              npx ts-node ./src/librarian.ts -c WCAG21508
