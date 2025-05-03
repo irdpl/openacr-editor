@@ -28,7 +28,7 @@
 <Header>Przegląd</Header>
 
 <p>
-	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank"></a>. Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i&nbsp;generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
+	W tym edytorze stworzysz raport zgodności z dostępnością dowolnego produktu cyfrowego w&nbsp;<a href="https://github.com/gsa/openacr" target="_blank">formacie OpenACR</a>. Format OpenACR został zaprojektowany tak, aby pomóc ekspertom dostępności w&nbsp;tworzeniu raportów zgodności z&nbsp;dostępnością nadających się do odczytu maszynowego i&nbsp;generowania w dostępnym formacie HTML, które można w dowolnym momencie uaktualniać, w&nbsp;przeciwieństwie do dokumentów statycznych stworzonych w&nbsp;programie Word lub podobnym czy zapisanych w&nbsp;formacie PDF.
 </p>
 
 <p>Jak korzystać   z OpenACR:</p>
