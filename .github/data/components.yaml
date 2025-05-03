@@ -2,12 +2,12 @@ title: Komponenty
 lang: pl
 components:
   - id: web
-    label: Strony internetowe
+    label: Strona internetowa
   - id: "electronic-docs"
-    label: Dokumenty elektroniczne
+    label: Dokument elektroniczny
   - id: software
     label: Oprogramowanie
   - id: "authoring-tool"
-    label: Narzędzia autorskie
+    label: Narzędzie autorskie
   - id: none
     label: ""

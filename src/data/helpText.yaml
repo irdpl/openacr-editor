@@ -9,7 +9,7 @@ author:
   phone: "Numer telefonu agencji dostępności."
   website: "Strona internetowa agencji dostępności."
 vendor:
-  name: "Nazwa kontaktu  lub zespół reprezentujący dostawcę."
+  name: "Nazwa kontaktu lub zespół reprezentujący dostawcę."
   company_name: "Nazwa sprzedawcy, który jest odpowiedzialny za ofertę lub składa ACR."
   address: "Ulica i numer domu dostawcy."
   email: "Dołącz kontaktowy adres e-mail w przypadku pytań lub opinii na temat usługi ACR"
@@ -45,6 +45,6 @@ disabled_chapters:
   support_documentation_and_services: ""
 catalog:
   intro: "Wybierz katalog, którego chcesz użyć dla tego OpenACR."
-  2.4-edition-wcag-2.0-508-en: "Są to minimalne standardy wymagane do zgodności z sekcją 508 w Stanach Zjednoczonych Ameryki"
-  2.4-edition-wcag-2.1-en: "To jest ACR specyficzny dla Internetu, który jest zgodny z najlepszymi globalnymi praktykami dotyczącymi dostępności stron internetowych."
-  2.4-edition-wcag-2.1-508-en: "To jest obecny standard najlepszych praktyk w Stanach Zjednoczonych Ameryki."
+  2.4-edition-wcag-2.0-508-en: "Minimalny standard wymagany do zgodności z Section 508 w Stanach Zjednoczonych Ameryki"
+  2.4-edition-wcag-2.1-en: "Standard treści internetowych zgodny z najlepszymi globalnymi praktykami dotyczącymi dostępności stron internetowych."
+  2.4-edition-wcag-2.1-508-en: "Aktualny standard najlepszych praktyk w Stanach Zjednoczonych Ameryki."
