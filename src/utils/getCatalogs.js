@@ -11,7 +11,7 @@ export const wcag22catalogName = "2.5-edition-wcag-2.2-en";
 export const wcag21catalogName = "2.5-edition-wcag-2.1-en";
 export const wcag22eucatalogName = "2.5-edition-wcag-2.2-eu-en";
 export const wcag21508catalogName = "2.5-edition-wcag-2.1-508-en";
-export const wcagintcatalog = "2.5-edition-wcag-2.2-508-eu-en";
+export const wcagintcatalogName = "2.5-edition-wcag-2.2-508-eu-en";
 
 
 export function getCatalog(catalogName) {
