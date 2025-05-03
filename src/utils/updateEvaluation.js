@@ -4,9 +4,9 @@ import { getCatalog, wcag20508catalogName } from "./getCatalogs.js";
 import compareVersions from "compare-versions";
 
 export function updateEvaluation(catalogName, converted) {
-  converted = initializeMissingChapters(catalogName, converted);
+    converted = initializeMissingChapters(catalogName, converted);
 
-  // Remove WCAG 2.1 items when switching to WCAG 2.0 catalog.
+    // Remove WCAG 2.1 items when switching to WCAG 2.0 catalog.
     if (catalogName === wcag20508catalogName) {
         // A
         removeCriteria("success_criteria_level_a", "2.1.4", converted);
@@ -16,7 +16,7 @@ export function updateEvaluation(catalogName, converted) {
         removeCriteria("success_criteria_level_a", "2.5.4", converted);
 
         removeCriteria("success_criteria_level_a", "3.2.6", converted);
-        removeCriteria("success_criteria_level_a", "3.2.7", converted);
+        removeCriteria("success_criteria_level_a", "3.3.7", converted);
 
         // AA
         removeCriteria("success_criteria_level_aa", "1.3.4", converted);
@@ -38,6 +38,30 @@ export function updateEvaluation(catalogName, converted) {
         removeCriteria("success_criteria_level_aaa", "2.3.3", converted);
         removeCriteria("success_criteria_level_aaa", "2.5.5", converted);
         removeCriteria("success_criteria_level_aaa", "2.5.6", converted);
+
+        removeCriteria("success_criteria_level_aaa", "2.4.12", converted);
+        removeCriteria("success_criteria_level_aaa", "2.4.13", converted);
+        removeCriteria("success_criteria_level_aaa", "3.3.8", converted);
+
+    }
+
+
+    // Remove WCAG 2.2 items when switching to WCAG 2.1 catalog.
+    else if (catalogName == wcag21catalogName || catalogName == wcag21508catalogName)  {
+        // A
+        removeCriteria("success_criteria_level_a", "3.2.6", converted);
+        removeCriteria("success_criteria_level_a", "3.3.7", converted);
+
+        // AA
+ 
+
+
+        removeCriteria("success_criteria_level_aa", "2.4.11", converted);
+        removeCriteria("success_criteria_level_aa", "2.5.7", converted);
+        removeCriteria("success_criteria_level_aa", "2.5.8", converted);
+        removeCriteria("success_criteria_level_aa", "3.3.8", converted);
+        // AAA
+ 
 
         removeCriteria("success_criteria_level_aaa", "2.4.12", converted);
         removeCriteria("success_criteria_level_aaa", "2.4.13", converted);
