@@ -15,7 +15,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '12.x'
+          node-version: '18.x'
           check-latest: true
 
       - name: Prepare site
