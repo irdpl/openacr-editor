@@ -47,7 +47,7 @@ export function updateEvaluation(catalogName, converted) {
 
 
     // Remove WCAG 2.2 items when switching to WCAG 2.1 catalog.
-    else if (catalogName == wcag21catalogName || catalogName == wcag21508catalogName)  {
+    else if (catalogName == wcag21catalogName)  {
         // A
         removeCriteria("success_criteria_level_a", "3.2.6", converted);
         removeCriteria("success_criteria_level_a", "3.3.7", converted);
@@ -69,6 +69,30 @@ export function updateEvaluation(catalogName, converted) {
 
     }
 
+    // Remove WCAG 2.2 items when switching to WCAG 2.1 catalog.
+    else if (catalogName == wcag21508catalogName)  {
+        // A
+        removeCriteria("success_criteria_level_a", "3.2.6", converted);
+        removeCriteria("success_criteria_level_a", "3.3.7", converted);
+
+        // AA
+ 
+
+
+        removeCriteria("success_criteria_level_aa", "2.4.11", converted);
+        removeCriteria("success_criteria_level_aa", "2.5.7", converted);
+        removeCriteria("success_criteria_level_aa", "2.5.8", converted);
+        removeCriteria("success_criteria_level_aa", "3.3.8", converted);
+        // AAA
+ 
+
+        removeCriteria("success_criteria_level_aaa", "2.4.12", converted);
+        removeCriteria("success_criteria_level_aaa", "2.4.13", converted);
+        removeCriteria("success_criteria_level_aaa", "3.3.8", converted);
+
+    }
+
+    
   const valid = validate(converted);
   if (valid.result) {
     evaluation.update((evaluation) => converted);
