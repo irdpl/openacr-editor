@@ -32,6 +32,7 @@ jobs:
              npx ts-node ./src/librarian.ts -c 508
              npx ts-node ./src/librarian.ts -c EU
              npx ts-node ./src/librarian.ts -c INT
+             npx ts-node src/openacr.ts validate -f tests/examples/valid.yaml
              cd ${{ github.workspace }}
              export NODE_ENV=ghpages && npm run build
              cd public && ln -s index.html 404.html # symlink for GH pages fallback
