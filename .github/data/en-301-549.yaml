@@ -17,7 +17,7 @@ standard:
         en_301_549_software,
         en_301_549_documentation_and_support_services,
         en_301_549_ict_providing_relay_or_emergency_service_access,
-      ]
+      ]	  
 chapters:
   - id: en_301_549_functional_performance
     label: "Rozdział 4: Parametry funkcjonalne"
@@ -470,22 +470,22 @@ chapters:
         components:
           - none
       - id: 8.2.1.2
-        handle: Incremental volume control
+        handle: Przyrostowy regulator głośności
         alt_id: incremental-volume-control
         components:
           - none
       - id: 8.2.2.1
-        handle: Fixed-line devices
+        handle: Urządzenia stacjonarne
         alt_id: fixed-line-devices
         components:
           - none
       - id: 8.2.2.2
-        handle: Wireless communication devices
+        handle: Urządzenia komunikacji bezprzewodowej
         alt_id: wireless-communication-devices
         components:
           - none
       - id: "8.3"
-        handle: Stacjonarna ICT
+        handle: Stacjonarna technologia
         alt_id: stationary-ict
         components:
           - none
@@ -530,42 +530,42 @@ chapters:
         components:
           - none
       - id: 8.3.3.1
-        handle: Unobstructed high side reach
+        handle: Nieutrudniony górny zasięg boczny
         alt_id: unobstructed-high-side-reach
         components:
           - none
       - id: 8.3.3.2
-        handle: Unobstructed low side reach
+        handle: Nieutrudniony dolny zasięg boczny
         alt_id: unobstructed-low-side-reach
         components:
           - none
       - id: 8.3.3.3.1
-        handle: Obstructed (≤ 255 mm) side reach
+        handle: Utrudniony (≤ 255 mm) zasięg boczny
         alt_id: obstructed-255-mm-side-reach
         components:
           - none
       - id: 8.3.3.3.2
-        handle: Obstructed (≤ 610 mm) side reach
+        handle: Utrudniony (≤ 610 mm) zasięg boczny
         alt_id: obstructed-610-mm-side-reach
         components:
           - none
       - id: 8.3.4.1
-        handle: Change in level
+        handle: Zmiana w poziomie
         alt_id: change-in-level
         components:
           - none
       - id: 8.3.4.2
-        handle: Clear floor or ground space
+        handle: Wolna przestrzeń na podłodze lub ziemi
         alt_id: clear-floor-or-ground-space
         components:
           - none
       - id: 8.3.4.3.2
-        handle: Forward approach
+        handle: Podejście do przodu
         alt_id: forward-approach
         components:
           - none
       - id: 8.3.4.3.3
-        handle: Parallel approach
+        handle: Podejście równoległe
         alt_id: parallel-approach
         components:
           - none
@@ -590,12 +590,12 @@ chapters:
         components:
           - none
       - id: 8.4.2.1
-        handle: Means of operation of mechanical parts
+        handle: Sposób działania części mechanicznych
         alt_id: means-of-operation-of-mechanical-parts
         components:
           - none
       - id: 8.4.2.2
-        handle: Force of operation of mechanical parts
+        handle: Siła działania części mechanicznych
         alt_id: force-of-operation-of-mechanical-parts
         components:
           - none
@@ -624,7 +624,7 @@ chapters:
         components:
           - none
       - id: "10.5"
-        handle: Pozycja napisów
+        handle: Położenie napisów
         alt_id: caption-positioning
         components:
           - none
@@ -649,7 +649,7 @@ chapters:
         components:
           - none
       - id: 11.5.1
-        handle: Funkcjonalność zamknieta
+        handle: Funkcjonalność zamknięta
         alt_id: closed-functionality
         components:
           - none
@@ -659,47 +659,47 @@ chapters:
         components:
           - none
       - id: 11.5.2.1
-        handle: Platform accessibility service support for software that provides a user interface
+        handle: Obsługa usług dostępności platformy przez oprogramowanie zapewniające interfejs użytkownika
         alt_id: platform-accessibility-service-support-for-software-that-provides-a-user-interface
         components:
           - none
       - id: 11.5.2.2
-        handle: Platform accessibility service support for assistive technologies
+        handle: Obsługa usług dostępności platformy przez technologie wspomagające
         alt_id: platform-accessibility-service-support-for-assistive-technologies
         components:
           - none
       - id: 11.5.2.3
-        handle: Use of accessibility services
+        handle: Korzystanie z usług dostępności
         alt_id: use-of-accessibility-services
         components:
           - none
       - id:  11.5.2.4
-        handle: 11.5.2.4 Assistive technology
+        handle: Technologia wspomagająca 
         alt_id: assistive-technology
         components:
           - none
       - id: 11.5.2.5
-        handle: Object information
+        handle: Informacje o obiekcie
         alt_id: object-information
         components:
           - none
       - id: 11.5.2.6
-        handle: Row, column, and headers
+        handle: Wiersze, kolumny i nagłówki
         alt_id: row-column-and-headers
         components:
           - none
       - id: 11.5.2.7
-        handle: Values
+        handle: Wartości
         alt_id: values
         components:
           - none
       - id: 11.5.2.8
-        handle: Label relationships
+        handle: Relacje etykiet
         alt_id: label-relationships
         components:
           - none
       - id: 11.5.2.9
-        handle: Parent-child relationships
+        handle: Relacje rodzic-dziecko
         alt_id: parent-child-relationships
         components:
           - none
@@ -709,37 +709,37 @@ chapters:
         components:
           - none
       - id: 11.5.2.11
-        handle: List of available actions
+        handle: Lista możliwych działań 
         alt_id: list-of-available-actions
         components:
           - none
       - id: 11.5.2.12
-        handle: Execution of available actions
+        handle: Wykonywanie możliwych działań
         alt_id: execution-of-available-actions
         components:
           - none
       - id: 11.5.2.13
-        handle: Tracking of focus and selection attributes
+        handle: Śledzenie atrybutów fokusu i zaznaczenia
         alt_id: tracking-of-focus-and-selection-attributes
         components:
           - none
       - id: 11.5.2.14
-        handle: Modification of focus and selection attributes
+        handle: Modyfikacja atrybutów fokusu i zaznaczenia
         alt_id: modification-of-focus-and-selection-attributes
         components:
           - none
       - id: 11.5.2.15
-        handle: Change notification
+        handle: Powiadomienie o zmianie
         alt_id: change-notification
         components:
           - none
       - id: 11.5.2.16
-        handle: Modifications of states and properties
+        handle: Modyfikacje stanów i właściwości
         alt_id: modifications-of-states-and-properties
         components:
           - none
       - id: 11.5.2.17
-        handle: Modifications of values and text
+        handle: Modyfikacje wartości i tekstu
         alt_id: modifications-of-values-and-text
         components:
           - none

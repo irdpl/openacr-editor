@@ -140,7 +140,7 @@ chapters:
         alt_id: "407.6"
         components: [none]
       - id: "407.7"
-        handle: Bilety, karty wstępu i karty dostępu
+        handle: Bilety, karty taryfowe i karty dostępu
         alt_id: "407.7"
         components: [none]
       - id: "407.8.1"
@@ -160,7 +160,7 @@ chapters:
         alt_id: "407.8.2"
         components: [none]
       - id: "407.8.2.1"
-        handle: Nieograniczony zasięg boczny
+        handle: Nieutrudniony zasięg boczny
         alt_id: "407.8.2.1"
         components: [none]
       - id: "407.8.2.2"
@@ -172,7 +172,7 @@ chapters:
         alt_id: "407.8.3"
         components: [none]
       - id: "407.8.3.1"
-        handle: Nieograniczony zasięg do przodu
+        handle: Nieutrudniony zasięg do przodu
         alt_id: "407.8.3.1"
         components: [none]
       - id: "407.8.3.2"
@@ -317,7 +317,7 @@ chapters:
         alt_id: "502.3.6"
         components: [none]
       - id: "502.3.7"
-        handle: Relacje hierarchiczne
+        handle: Relacje rodzic-dziecko
         alt_id: "502.3.7"
         components: [none]
       - id: "502.3.8"
@@ -373,7 +373,7 @@ chapters:
         alt_id: "504.2"
         components: [none]
       - id: "504.2.1"
-        handle: Zachowanie informacji dostarczonych w celu zapewnienia dostępności podczas konwersji formatu
+        handle: Zachowanie informacji o dostępności podczas transformacji
         alt_id: "504.2.1"
         components: [none]
       - id: "504.2.2"
