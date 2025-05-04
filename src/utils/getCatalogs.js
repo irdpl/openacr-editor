@@ -73,5 +73,5 @@ export function getListOfCatalogs() {
 }
 
 export function getDefaultCatalogName() {
-  return wcag21508catalogName;
+    return wcag22508catalogName;
 }
